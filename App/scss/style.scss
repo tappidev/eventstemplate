@@ -10,6 +10,7 @@
     STYLESHEET IMPORTS
 */
 
+@import "variables"; 
 @import "buttons";
 @import "cards";
 @import "collections";
@@ -20,7 +21,7 @@
 @import "responsive";
 @import "tables";
 @import "type"; 
-@import "variables";
+@import "nav"; 
 
 /* 
     GLOBAL STYLES

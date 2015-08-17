@@ -1,0 +1,23 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+
+    <header>
+        <div class="col hero">
+            @{
+                if (CurrentPage.HasValue("heroImage"))
+                {
+                    var dynamicMediaItem = Umbraco.Media(CurrentPage.heroImage);
+                    <style>
+                        .hero {
+                            background: url(@dynamicMediaItem.umbracoFile) no-repeat;
+                        }
+                    </style>
+                }
+            }
+
+            <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
+        </div>
+    </header>

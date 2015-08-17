@@ -1,1 +1,57 @@
-﻿
+﻿// TAPPI Grid
+//
+// Using Susy, 12 columns with inside gutters 1/4 the size of the column
+
+// Grid config
+
+$susy: (
+    columns: 12,
+    gutters: 1/4,
+    math: fluid,
+    output: isolate,
+    gutter-position: inside,
+    global-box-sizing: border-box    
+);
+
+@include border-box-sizing;
+
+.container {
+    @include container(1140px);
+}
+
+.hero {
+    @include span(12);
+    height: 360px;
+    color: #fff;
+
+    .heroText {
+        margin-top: 2em;
+        text-align: center;
+    }
+}
+
+.row {
+    @include span(12);
+    padding: 1em;
+
+    .one-col {
+        @include span(12);
+    }
+
+    .two-col-even {
+        @include span(6);
+    }
+
+    .one-third-col {
+        @include span(4);
+    }
+
+    .two-third-col {
+        @include span(8);
+    }
+
+    .four-col {
+        @include span(3);
+    }
+
+} // .row

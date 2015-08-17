@@ -8,12 +8,12 @@ var sourcemaps = require('gulp-sourcemaps');
 // sass task
 
 gulp.task('sass', function () {
-    gulp.src('scss/**/*.scss')
-        .pipe(sourcemaps.init())
+    gulp.src('scss/style.scss')
+        //.pipe(sourcemaps.init())
         .pipe(sass({
             errLogToConsole: true
         }))
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.write())
         .pipe(concat('style.css'))
         .pipe(gulp.dest('../css/'));
 });

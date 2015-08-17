@@ -1,1 +1,24 @@
-﻿
+﻿/*******************
+    VARIABLES
+********************/
+
+// Color Scheme
+$base-color: #02995C; // ** ONLY CHANGE THIS TO CHANGE COLOR SCHEME ** //
+$complimentary-base-color: #b21d00;
+
+$primary-color: $base-color;
+$primary-color-light: lighten( $base-color, 10% );
+$primary-color-dark: darken( $base-color, 10% ); 
+
+$complimentary-color: $complimentary-base-color;
+$complimentary-color-light: lighten( $complimentary-base-color, 10% );
+$complimentary-color-darken: darken( $complimentary-base-color, 10% );
+
+// Fonts
+
+$font-color: #333;
+
+// links
+
+$links: $primary-color-dark;
+$links-hover: $primary-color-light;

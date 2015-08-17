@@ -1,0 +1,39 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Home of TAPPI Event.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TAPPI Event</title>
+
+        <!-- Styles & Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/style.css">
+        <link rel="stylesheet" href="~/css/normalize.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <h1 class="logo"></h1>
+            </div>
+            <nav class="col">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About <i class="material-icons">keyboard_arrow_down</i></a></li>
+                    <li><a href="/">Program</a></li>
+                    <li><a href="/">Attendees</a></li>
+                    <li><a href="/">Exhibitors</a></li>
+                    <li><a href="/">Hotel and Travel</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+            @RenderBody()
+        </div>
+    </body>
+</html>

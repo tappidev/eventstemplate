@@ -1,1 +1,21 @@
-﻿
+﻿// Vendor Prefixes
+
+
+// - Box Shadows
+// - Text shadow
+// - border-radius
+// - gradient
+// - transition
+
+
+// Box shadows
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+
+
+
+
