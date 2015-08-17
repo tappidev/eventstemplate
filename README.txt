@@ -16,6 +16,7 @@ npm install gulp --save-dev
 GULP-SASS
 npm install gulp-sass --save-dev
 npm install gulp-sourcemaps --save-dev
+npm install gulp-concat --save-dev
 
 SUSY (css grid)
 bower install susy --save

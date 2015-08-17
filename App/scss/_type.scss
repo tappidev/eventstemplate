@@ -1,1 +1,57 @@
 ﻿
+/**********************
+    Google Fonts   
+***********************/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Quattrocento+Sans:400,400italic,700,700italic);
+    /*
+        Montserrat: Normal 400, Bold 700
+        Quattrocento Sans: Normal 400, Normal 400 italic, Bold 700, Bold 700 Italic
+    */
+
+
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+p {
+    margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.414em 0 0.5em;
+    font-family: Montserrat, sans-serif;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998em;
+}
+
+h2 {
+    font-size: 2.827em;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+h4 {
+    font-size: 1.414em;
+}
+
+h5 {
+    font-size: 1.212em;
+}
+
+h6 {
+    font-size: 1.099em;
+}
