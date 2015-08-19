@@ -8,6 +8,55 @@
     VARIABLES
 ********************/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Quattrocento+Sans:400,400italic,700,700italic);
+.btn,
+button {
+  text-decoration: none;
+  color: #fff;
+  background: #02995C;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  display: inline-block;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s; }
+
+.btn:hover, .btn:focus,
+button:hover, button:focus {
+  color: #fff;
+  background: #03cb7a; }
+
+.btn-raised {
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3); }
+
+.btn-raised:hover, .btn-raised:focus {
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); }
+
+.btn-action {
+  background: #b21d00; }
+
+.btn-action:hover, .btn-action:focus {
+  background: #e52500; }
+
+.btn-lg {
+  width: 100%;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.btn-disable {
+  background: #d1d1d1 !important;
+  cursor: default; }
+
 .card-wrapper {
   width: 91.52542%;
   float: left;
@@ -21,18 +70,61 @@
   margin-left: 0;
   margin-right: 0;
   margin: 0 auto;
-  border-radius: 6px;
-  padding: 1.5em 1em;
+  border-radius: 4px;
+  padding: 0;
   background: #02995C;
-  color: #fff; }
+  color: #fff;
+  position: relative;
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16); }
   .card a {
-    color: #03cb7a; }
+    color: #03cb7a;
+    margin-right: 1em; }
   .card a:hover {
-    color: #38fcad; }
+    color: #01673e; }
   .card h4 {
     margin: 0; }
   .card p {
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    opacity: 0.7; }
+  .card .card-title {
+    padding: 1em 1em 0 1em; }
+  .card .card-text,
+  .card .card-action {
+    padding: 1em; }
+    .card .card-text p,
+    .card .card-action p {
+      margin: 0; }
+  .card .card-title-image {
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    background: #fff; }
+    .card .card-title-image img {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      padding: 2px; }
+
+.card-with-image .card-text {
+  background: #fff;
+  color: #333; }
+
+.card-with-image .card-action {
+  background: #fafbfc;
+  border-top: 1px solid #e8e9e3; }
+
+.card-header {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1em; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -89,6 +181,30 @@
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
 
+.colored {
+  background: #e5e5e5; }
+
+footer {
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  background: #353433;
+  font-size: 0.9rem;
+  border-top: 4px solid #222222; }
+  footer .footer-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 1em;
+    color: #fff; }
+    footer .footer-container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    footer .footer-container span {
+      vertical-align: middle; }
+
 a, i {
   vertical-align: middle; }
 
@@ -97,7 +213,7 @@ i {
   margin: 0; }
 
 img {
-  border-radius: 6px; }
+  border-radius: 4px; }
 
 #location {
   width: 100%;
@@ -208,8 +324,9 @@ blockquote {
   background: #e5e5e5;
   position: fixed;
   height: 25em;
-  top: -24em;
-  font-size: 0.8rem; }
+  top: -24.5em;
+  font-size: 0.8rem;
+  z-index: 9999; }
 
 .tappi-menu ul {
   list-style: none; }
@@ -278,6 +395,23 @@ blockquote {
 /*.show {
       display: block !important;
   }*/
+.main-nav-sticky {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 999; }
+
+footer ul {
+  list-style: none;
+  padding: 1em 0;
+  margin: 0; }
+
+footer li {
+  display: inline;
+  margin: 0.5em 0 0.5em 0.5em; }
+
 /* 
     GLOBAL STYLES
 */
+body {
+  background: #fdfcf6; }

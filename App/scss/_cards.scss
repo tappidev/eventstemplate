@@ -11,16 +11,19 @@
 .card {
     @include span(12 of 12);
     margin: 0 auto;
-    border-radius: 6px;
-    padding: 1.5em 1em;
+    border-radius: 4px;
+    padding: 0;
     background: $primary-color;
     color: #fff;
+    position: relative;
+    @include box-shadow(0px,1px,7px,0px, rgba(0, 0, 0, 0.16));
 
     a {
         color: $primary-color-light;
+        margin-right: 1em;
     }
     a:hover {
-        color: $primary-color-light1;
+        color: $primary-color-dark; 
     }
 
     h4 {
@@ -28,5 +31,57 @@
     }
     p {
         font-size: 0.9rem;
+        opacity: 0.7;
     }
+
+    .card-title {
+        padding: 1em 1em 0 1em;;
+    }
+
+    .card-text,
+    .card-action {
+        padding: 1em;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .card-title-image {
+        height: 125px;
+        position: relative;
+        overflow: hidden;
+        background: #fff;
+
+
+        img {
+            @include span(12 of 12);
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            padding: 2px;
+        }
+
+    } // .card-title-image
+
+} // .card
+
+.card-with-image {
+    .card-text {
+        background: #fff;
+        color: $font-color;
+    }
+
+    .card-action {
+        background: #fafbfc;
+        border-top: 1px solid #e8e9e3;
+    }
+}
+
+.card-header {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
 }

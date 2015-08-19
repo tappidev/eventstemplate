@@ -4,8 +4,11 @@
 
 // - TAPPI Global Navigation widget
 // - Main Navigation
-//    - Parent Navigation
-//      - Sub-menu
+//    + Parent Navigation
+//      > Sub-menu
+//  - Sticky Navigation
+//  - Mobile Navigation
+//  - Footer
 
 
 // TAPPI Global Navigation Widget
@@ -31,8 +34,9 @@
     background: #e5e5e5;
     position: fixed;
     height: 25em;
-    top: -24em;
+    top: -24.5em;
     font-size: 0.8rem;
+    z-index: 9999;
 }
 
 .tappi-menu {
@@ -46,7 +50,7 @@
 // Main Navigation
 
 .main-nav {
-    @include span(12);
+    @include span(12 of 12);
 
     a {
         color: $font-color;
@@ -115,4 +119,34 @@
 
  /*.show {
       display: block !important;
-  }*/ 
+  }*/
+
+
+
+ // Sticky Navigation
+
+ .main-nav-sticky {
+     position: fixed;
+     top: 0;
+     background: #fff;
+     z-index: 999;
+ }
+
+
+
+
+
+
+ // Footer 
+
+ footer {
+     ul {
+         list-style: none;
+         padding: 1em 0;
+         margin: 0;
+     }
+     li {
+         display: inline;
+         margin: 0.5em 0 0.5em 0.5em;
+     }
+ }

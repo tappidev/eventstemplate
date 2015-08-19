@@ -51,3 +51,29 @@ $susy: (
     }
 
 } // .row
+
+// row styles
+    .colored {
+        background: #e5e5e5;
+    }
+
+
+
+// Footer
+
+footer {
+    @include span(12);
+    background: #353433;
+    font-size: 0.9rem;
+    border-top: 4px solid #222222;
+
+    .footer-container {
+        @include container(1140px);
+        padding: 1.5em 1em;
+        color: #fff;
+
+        span {
+            vertical-align: middle;
+        }
+    }
+}

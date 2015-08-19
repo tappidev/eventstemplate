@@ -11,13 +11,13 @@
 */
 
 @import "variables"; 
+@import "prefixes";
 @import "buttons";
 @import "cards";
 @import "collections";
 @import "grid";
 @import "helpers";
 @import "media";
-@import "prefixes";
 @import "responsive";
 @import "tables";
 @import "type"; 
@@ -26,3 +26,7 @@
 /* 
     GLOBAL STYLES
 */
+
+body {
+    background: $body-bg;
+}

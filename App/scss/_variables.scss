@@ -3,8 +3,10 @@
 ********************/
 
 // Color Scheme
+
 $base-color: #02995C; // ** ONLY CHANGE THIS TO CHANGE COLOR SCHEME ** //
 $complimentary-base-color: #b21d00;
+$body-bg: #fdfcf6;
 
 $primary-color: $base-color;
 $primary-color-light: lighten( $base-color, 10% );
@@ -24,3 +26,12 @@ $font-color: #333;
 
 $links: $primary-color-dark;
 $links-hover: $primary-color-light;
+
+// Image Cards
+
+$image-card-text-bg: #fff;
+$image-card-action-bg: #f3f4ef;
+
+
+// Object drop shadow
+$drop-shadow-default: rgba(0, 0, 0, 0.16);

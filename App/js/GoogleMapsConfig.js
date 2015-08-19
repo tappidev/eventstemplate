@@ -35,5 +35,6 @@ function initMap() {
 
     map.mapTypes.set(customMapTypeId, customMapType);
     map.setMapTypeId(customMapTypeId);
+    map.setOptions({ 'scrollwheel': false });
 }
 
