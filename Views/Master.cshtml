@@ -18,16 +18,72 @@
         <link rel="stylesheet" href="~/css/normalize.css">
     </head>
     <body>
+
+        <!-- TAPPI global menu -->
+
+        <div class="tappi-menu-wrapper">
+            <div class="container">
+                <nav class="tappi-menu row">
+                    <ul class="one-third-col">
+                        <li><img src="~/App/img/speaker1.jpg" width="75%" /></li>
+                        <li><p>Visit TAPPI for more information on how you can benefit from our services. TAPPI is known for one-of-a-kind service and a vibrant community keen on learning more.</p></li>
+                        <li><a href="http://www.tappi.org/" target="_blank">Visit TAPPI >></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    <ul class="one-third-col">
+                        <li><h4>TAPPI Divisions</h4></li>
+                        <li><a href="#">Nanotechnology</a></li>
+                        <li><a href="#">Corrugated</a></li>
+                        <li><a href="#">Pulp and Paper</a></li>
+                        <li><a href="#">TAPPISAFE</a></li>
+                        <li><a href="#">TAPPI Trees</a></li>
+                    </ul>
+                    <ul class="one-third-col">
+                        <li><h4>TAPPI Events</h4></li>
+                        <li><a href="#">PaperCon</a></li>
+                        <li><a href="#">Nanotechnology</a></li>
+                        <li><a href="#">PEERS/IBBC</a></li>
+                        <li><a href="#">CorrExpo</a></li>
+                        <li><a href="#">SuperCorrExpo</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tab-container">
+                <div class="tappi-menu-tab">
+                    <img src="~/App/img/TAPPI_logo.png" width="100" /> <i class="material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            
+        </div>
+
+        <!----------------------->
+
         <div class="container">
             <div class="col">
-                <h1 class="logo"></h1>
+                <h1 class="logo"><img src="~/App/img/TAPPI_logo.png" width="250" /></h1>
             </div>
-            <nav class="col">
+            <nav class="col main-nav">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About <i class="material-icons">keyboard_arrow_down</i></a></li>
+                    <li>
+                        <a href="/">About <i class="material-icons">keyboard_arrow_down</i></a>
+                        <ul>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/">Program</a></li>
-                    <li><a href="/">Attendees</a></li>
+                    <li>
+                        <a href="/">Attendees <i class="material-icons">close</i></a>
+                        <ul class="show">
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/">Exhibitors</a></li>
                     <li><a href="/">Hotel and Travel</a></li>
                     <li><a href="/">Contact</a></li>
@@ -35,5 +91,11 @@
             </nav>
             @RenderBody()
         </div>
+
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"
+                async defer></script>
+        <script src="~/App/js/GoogleMapsConfig.js"></script> 
     </body>
 </html>

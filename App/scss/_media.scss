@@ -3,8 +3,26 @@
 //
 
 
-// - icons
+// Icons
 
 a, i {
     vertical-align: middle;
+}
+
+i {
+    padding: 0;
+    margin: 0;
+}
+
+// Images
+
+img {
+    border-radius: 6px;
+}
+
+// Google Map
+
+#location {
+    @include span(12);
+    height: 250px;
 }

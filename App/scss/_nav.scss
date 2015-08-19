@@ -2,28 +2,117 @@
 // 
 // Site-wide navigation
 
-// Main navigation
+// - TAPPI Global Navigation widget
+// - Main Navigation
+//    - Parent Navigation
+//      - Sub-menu
 
-nav {
+
+// TAPPI Global Navigation Widget
+
+.tab-container {
+    @include container(1140px);
+    height: 0;
+    padding:0;
+}
+
+.tappi-menu-tab {
+    padding: 0;
+    text-align: center;
+    padding: 1em 0.5em 0.5em;
+    float: right;
+    background: #e5e5e5;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tappi-menu-wrapper {
+    @include span(12);
+    background: #e5e5e5;
+    position: fixed;
+    height: 25em;
+    top: -24em;
+    font-size: 0.8rem;
+}
+
+.tappi-menu {
+    
+    ul {
+        list-style: none;
+    }
+}
+
+
+// Main Navigation
+
+.main-nav {
     @include span(12);
 
-    ul {
+    a {
+        color: $font-color;
+    }
+}
+
+
+// Parent Navigation
+
+  .main-nav > ul {
         margin: 0;
         padding: 0;
+        float: left;
+        list-style: none;
     }
 
-    ul > li {
-        display: inline-block;
-        padding: 0;
+  .main-nav > ul > li {
+      display: inline;
+      float: left;
+      padding: 1em 0.2em;
+      @include transition(background 0.2s);
+  }
+  .main-nav > ul > li:hover {
+      //background: #e5e5e5;
 
-        a {
-            padding: 1em;
-            text-decoration: none;
-            display: block;
-            color: $font-color;
-        }
-        a:hover {
-            color: $primary-color-dark;
-        }
-    } // ul > li
-}
+      a {
+          color: $primary-color;
+      }
+
+      ul > li > a {
+          color: $font-color;
+      } 
+
+      ul > li > a:hover {
+          @include transition(color 0.2s); 
+          color: $primary-color;
+      }
+  }
+
+    .main-nav > ul > li > a {
+      padding: 1em 1em 1em;
+      color: $font-color;
+      @include transition(color 0.2s); 
+  }
+
+  .main-nav > ul > li > ul {
+      margin: 0;
+      margin-left: -2px;
+      padding: 1em 5em 1em 2em;
+      position: absolute;
+      list-style: none;
+      display: none;
+      margin-top: 10px;
+      background: #e5e5e5;
+
+      li {
+          margin-bottom: 0.5em;
+      }
+  }
+
+  .main-nav .material-icons {
+      font-size: 18px;
+      line-height: 0;
+      font-weight: bold;
+  }
+
+ /*.show {
+      display: block !important;
+  }*/ 

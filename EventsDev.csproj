@@ -206,6 +206,7 @@
     <Content Include="App\bower_components\susy\eyeglass-exports.js" />
     <Content Include="App\bower_components\susy\LICENSE.txt" />
     <Content Include="App\gulpfile.js" />
+    <Content Include="App\js\GoogleMapsConfig.js" />
     <Content Include="App\node_modules\gulp-sass\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\lib\buffer.js" />
@@ -4445,7 +4446,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\js\" />
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\NuGetBackup\20150812-135819\bin\" />
     <Folder Include="App_Data\packages\created\" />
@@ -4453,6 +4453,7 @@
     <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="App_Plugins\" />
     <Folder Include="media\" />
+    <Folder Include="scripts\" />
     <Folder Include="Views\MacroPartials\" />
   </ItemGroup>
   <PropertyGroup>

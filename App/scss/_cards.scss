@@ -1,1 +1,32 @@
-﻿
+﻿// TAPPI Cards
+
+// Global card properties
+
+.card-wrapper {
+    @include span(11 of 12);
+    float: right;
+    margin: 1em;
+}
+
+.card {
+    @include span(12 of 12);
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 1.5em 1em;
+    background: $primary-color;
+    color: #fff;
+
+    a {
+        color: $primary-color-light;
+    }
+    a:hover {
+        color: $primary-color-light1;
+    }
+
+    h4 {
+        margin: 0;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}

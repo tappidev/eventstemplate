@@ -23,11 +23,7 @@ $susy: (
     @include span(12);
     height: 360px;
     color: #fff;
-
-    .heroText {
-        margin-top: 2em;
-        text-align: center;
-    }
+    border-radius: 6px;
 }
 
 .row {
