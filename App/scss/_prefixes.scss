@@ -8,21 +8,27 @@
 // - transition
 
 
-// Box shadows
+// BOX SHADOW
 
-@mixin box-shadow($top, $left, $blur, $size, $color, $inset: false) {
+@mixin box-shadow($top: 0px, $left:0px, $blur:5px, $size:1px, $color: rgba(0,0,0,.3), $inset: false) {
     @if $inset {
-        -webkit-box-shadow:inset $top $left $blur $size $color;
+        -webkit-box-shadow:inset, $top, $left, $blur, $size, $color;
         -moz-box-shadow:inset $top $left $blur $size $color;
-        box-shadow:inset $top $left $blur $size $color;
+        box-shadow:inset, $top, $left, $blur, $size, $color;
     } @else {
-        -webkit-box-shadow: $top $left $blur $size $color;
-        -moz-box-shadow: $top $left $blur $size $color;
+      
         box-shadow: $top $left $blur $size $color;
     }
 }
 
-// Transition
+// TEXT SHADOW
+
+@mixin text-shadow($x: 1px, $y: 1px, $blur: 1px, $color: rgba(0,0,0,.7)) {
+    text-shadow: $x $y $blur $color;
+}
+
+
+// TRANSITION
 
 @mixin transition($transition...) {
     -moz-transition:    $transition;

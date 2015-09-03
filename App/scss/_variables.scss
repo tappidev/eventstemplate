@@ -6,7 +6,8 @@
 
 $base-color: #02995C; // ** ONLY CHANGE THIS TO CHANGE COLOR SCHEME ** //
 $complimentary-base-color: #b21d00;
-$body-bg: #fdfcf6;
+//$body-bg: #fdfcf6;
+$body-bg: #fdfdfd;
 
 $primary-color: $base-color;
 $primary-color-light: lighten( $base-color, 10% );

@@ -16,19 +16,33 @@ $susy: (
 @include border-box-sizing;
 
 .container {
-    @include container(1140px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 0 !important;
+    overflow: hidden;
 }
 
 .hero {
-    @include span(12);
+    width: 100%;
     height: 360px;
     color: #fff;
     border-radius: 6px;
+    overflow: hidden;
+    @include text-shadow();
+}
+
+div.banner {
+    margin-top: 0;
 }
 
 .row {
-    @include span(12);
-    padding: 1em;
+    @include container(1140px);
+    margin-bottom: 1.414em;
+    margin-top: 1.414em;
 
     .one-col {
         @include span(12);
@@ -52,12 +66,62 @@ $susy: (
 
 } // .row
 
-// row styles
-    .colored {
-        background: #e5e5e5;
+  .logo-row {
+      margin-bottom: 0;
+  }
+
+// FULL WIDTH ROW
+    .full-width-row {
+        background: #ededed;
+        padding: 1.414em 0;
+    }
+    .bg {
+        background: #f9f9ef;
+        text-align: center;
+        padding: 0.2em;
+    }
+    .no-bg { 
+        background-color: transparent;
+        text-align: center;
     }
 
+// ADS
 
+    // 960x150
+
+    // 150x300
+    .ad-style-right {
+        float: right;
+        margin: 1em 0 1em 2em;
+        padding: 0.5em;
+    }
+
+    .ad-style-reg {
+        text-align: center;
+        margin: 1em;
+        margin-top: 3em;
+    }
+
+    // 150x120
+
+
+// CHILD STYLES
+
+.child-body {
+    background: #fff;
+    
+
+    .content {
+        padding: 2em 2em;
+        margin-top: 0em;
+        @include box-shadow();
+        margin-top: -6em; 
+    }
+}
+
+.page-head {
+    margin: 3em 0 8em;
+}
 
 // Footer
 

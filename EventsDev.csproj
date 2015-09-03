@@ -206,7 +206,11 @@
     <Content Include="App\bower_components\susy\eyeglass-exports.js" />
     <Content Include="App\bower_components\susy\LICENSE.txt" />
     <Content Include="App\gulpfile.js" />
+    <Content Include="App\img\hero.jpg" />
+    <Content Include="App\img\speaker1.jpg" />
+    <Content Include="App\img\TAPPI_logo.png" />
     <Content Include="App\js\GoogleMapsConfig.js" />
+    <Content Include="App\js\navigation.js" />
     <Content Include="App\node_modules\gulp-sass\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\lib\buffer.js" />
@@ -2247,6 +2251,9 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
+    <None Include="scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="scripts\jquery-2.1.4.js" />
+    <Content Include="scripts\jquery-2.1.4.min.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -4429,6 +4436,8 @@
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\HomeTemplate.cshtml" />
     <Content Include="App\scss\_nav.scss" />
+    <Content Include="Views\ChildTemplate.cshtml" />
+    <Content Include="scripts\jquery-2.1.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4453,7 +4462,6 @@
     <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="App_Plugins\" />
     <Folder Include="media\" />
-    <Folder Include="scripts\" />
     <Folder Include="Views\MacroPartials\" />
   </ItemGroup>
   <PropertyGroup>

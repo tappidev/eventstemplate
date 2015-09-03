@@ -17,30 +17,34 @@
     @include container(1140px);
     height: 0;
     padding:0;
+    position: relative;
+    border-bottom: 5px solid #e5e5e5;
 }
 
 .tappi-menu-tab {
-    padding: 0;
+    width: 160px;
     text-align: center;
     padding: 1em 0.5em 0.5em;
-    float: right;
     background: #e5e5e5;
     border-radius: 6px;
     cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: 0;
 }
 
 .tappi-menu-wrapper {
     @include span(12);
     background: #e5e5e5;
-    position: fixed;
-    height: 25em;
-    top: -24.5em;
+    position: absolute;
+    top: 0;
     font-size: 0.8rem;
     z-index: 9999;
+    @include box-shadow();
 }
 
 .tappi-menu {
-    
+    overflow: hidden;
     ul {
         list-style: none;
     }
@@ -50,10 +54,14 @@
 // Main Navigation
 
 .main-nav {
-    @include span(12 of 12);
+    @include container(1140px);
+    margin: 0 auto;
 
     a {
         color: $font-color;
+    }
+    a:hover {
+        text-decoration: none;
     }
 }
 
@@ -73,41 +81,37 @@
       padding: 1em 0.2em;
       @include transition(background 0.2s);
   }
-  .main-nav > ul > li:hover {
+  .main-nav > ul > li > a:hover {
       //background: #e5e5e5;
-
-      a {
-          color: $primary-color;
-      }
-
-      ul > li > a {
-          color: $font-color;
-      } 
-
-      ul > li > a:hover {
-          @include transition(color 0.2s); 
-          color: $primary-color;
-      }
+        color: $primary-color;
+        @include transition(color 0.2s); 
   }
 
     .main-nav > ul > li > a {
-      padding: 1em 1em 1em;
-      color: $font-color;
+      width: 100%;
+      padding: 1em 2.5em 1em 0;
       @include transition(color 0.2s); 
+      cursor: pointer;
   }
 
-  .main-nav > ul > li > ul {
+  .submenu {
       margin: 0;
-      margin-left: -2px;
+      margin-left: -2em;
       padding: 1em 5em 1em 2em;
       position: absolute;
       list-style: none;
-      display: none;
-      margin-top: 10px;
-      background: #e5e5e5;
+      margin-top: 14px;
+      background: #f4f4f4;
+      border-top: 2px solid $primary-color;
+      @include transition(opacity .4s 0s, visibility 0s 0s);
+      z-index: 1;
 
       li {
           margin-bottom: 0.5em;
+      }
+
+      a:hover {
+          color: $primary-color;
       }
   }
 
@@ -117,10 +121,29 @@
       font-weight: bold;
   }
 
- /*.show {
-      display: block !important;
-  }*/
+  a.selected {
+       color: $primary-color;
+  }
 
+
+
+  // Navigation Dropdown
+
+  .submenu-is-active {
+      visibility: visible;
+      opacity: 1;
+      background: #e5e5e5;
+      @include transition(opacity .3s 0s, visibility 0s 0s);
+  }
+
+  .is-hidden {
+      visibility: hidden;
+      opacity: 0;
+  }
+
+  .global-nav-is-hidden {
+      display: none;
+  }
 
 
  // Sticky Navigation

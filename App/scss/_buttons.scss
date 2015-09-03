@@ -31,6 +31,7 @@ button {
 button:hover, button:focus {
     color: #fff;
     background: $primary-color-light;
+    text-decoration: none;
 }
 
 // Raised button

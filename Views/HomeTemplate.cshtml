@@ -4,116 +4,160 @@
 }
 
 
-    <header>
-        <div class="col hero">
-            @{
-                if (CurrentPage.HasValue("heroImage"))
-                {
-                    var dynamicMediaItem = Umbraco.Media(CurrentPage.heroImage);
-                    <style>
+<div class="row banner" role="banner">
+    <div class="hero">
+        @{
+            if (CurrentPage.HasValue("heroImage"))
+            {
+                var dynamicMediaItem = Umbraco.Media(CurrentPage.heroImage);
+                <style>
                         .hero {
                             background: url(@dynamicMediaItem.umbracoFile) no-repeat;
                         }
-                    </style>
-                }
+                </style>
             }
+        }
 
-            <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
-            <h3 class="subHeroText">@Umbraco.Field("heroImageTagline")</h3>
-        </div>
-    </header>
+        <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
+        <h3 class="subHeroText">@Umbraco.Field("heroImageTagline")</h3>
+    </div>
+</div>
 
 <main class="row">
     <div class="two-third-col">
-        <h4>@Umbraco.Field("introHeader")</h4>
+        <h3>@Umbraco.Field("introHeader")</h3>
+        <h5 class="subtitle">We're making this year the best ever. Join more than 2,000 industry professionals and move forward in your career.</h5>
         <p>@Umbraco.Field("mainIntroContent")</p>
     </div>
 
     <aside class="one-third-col">
         <a class="btn btn-action btn-lg">Register Now!</a>
+        <div class="ad-style-reg">
+            <img src="~/App/img/ad150x120.jpg" />
+            <img src="~/App/img/ad150x120.jpg" />
+        </div>
     </aside>
 </main>
 
-<div class="row">
-    <div class="one-third-col">
-        <article class="card card-with-image">
-            <div class="card-inner">
-                <div class="card-title-image">
-                    <img src="~/App/img/speaker1.jpg" />
-                    <h4 class="card-header">Robert Klass</h4>
+       <!-- <div class="full-width-row">-->
+            <div class="row">
+                <div class="one-third-col">
+                    <article class="card card-with-image">
+                        <div class="card-inner">
+                            <div class="card-title-image">
+                                <img src="~/App/img/speaker1.jpg" />
+                                <h4 class="card-header">Robert Klass</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>This is a simple card for tidbits of information. Important links or a quick line is all you need. Limit to the size of a tweet.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#"><i class="material-icons">account_circle</i> Speaker Bio</a>
+                                <a href="#"><i class="material-icons">picture_as_pdf</i> Download Session</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                <div class="card-text">
-                    <p>This is a simple card for tidbits of information. Important links or a quick line is all you need. Limit to the size of a tweet.</p>
+                <div class="one-third-col">
+                    <article class="card card-with-image">
+                        <div class="card-inner">
+                            <div class="card-title-image">
+                                <img src="~/App/img/timeline.jpg" />
+                                <h4 class="card-header">PaperCon Program</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>View the updated PaperCon 2016 conference program. The schedule is updated often. Thank you Amanda Thomas.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#"><i class="material-icons">schedule</i> Program</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                <div class="card-action">
-                    <a href="#"><i class="material-icons">account_circle</i> Speaker Bio</a>
-                    <a href="#"><i class="material-icons">picture_as_pdf</i> Download Session</a>
+                <div class="one-third-col">
+                    <article class="card card-with-image">
+                        <div class="card-inner">
+                            <div class="card-title-image">
+                                <img src="/media/1003/jim_hannan_1.jpg" />
+                                <h4 class="card-header">Jim Hannan</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Careful consideration of image specs need to be though out before submitting webtasks. Image shouldn't be huge.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#"><i class="material-icons">account_circle</i> Speaker Bio</a>
+                                <a href="#"><i class="material-icons">picture_as_pdf</i> Download Session</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </article>
-    </div>
-    <div class="one-third-col">
-        <article class="card card-with-image">
-            <div class="card-inner">
-                <div class="card-title-image">
-                    <img src="/media/1004/sde_card_back_4x6_final.jpg" />
-                    <h4 class="card-header"></h4>
-                </div>
-                <div class="card-text">
-                    <p>View the updated PaperCon 2016 conference program. The schedule is updated often. Thank you Amanda Thomas.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#"><i class="material-icons">schedule</i> Program</a>
-                </div>
-            </div>
-        </article>
-    </div>
-    <div class="one-third-col">
-        <article class="card card-with-image">
-            <div class="card-inner">
-                <div class="card-title-image">
-                    <img src="/media/1003/jim_hannan_1.jpg" />
-                    <h4 class="card-header">Jim Hannan</h4>
-                </div>
-                <div class="card-text">
-                    <p>Careful consideration of image specs need to be though out before submitting webtasks. Image shouldn't be huge.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#"><i class="material-icons">account_circle</i> Speaker Bio</a>
-                    <a href="#"><i class="material-icons">picture_as_pdf</i> Download Session</a>
-                </div>
-            </div>
-        </article>
+      <!--  </div>-->
+
+<div class="full-width-row bg">
+    <div class="row">
+        <img src="~/App/img/ad960x150.jpg" alt="ad space">
     </div>
 </div>
 
-<!-- Simple Card Example
-    <article class="card">
-            <div class="card-inner">
-                <div class="card-title">
-                    <h4>Card Title</h4>
-                </div>
-                <div class="card-text">
-                    <p>This is a simple card for tidbits of information. Important links or a quick line is all you need. Limit to the size of a tweet.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">Card Link</a>
+        <!-- Simple Card Example
+            <article class="card">
+                    <div class="card-inner">
+                        <div class="card-title">
+                            <h4>Card Title</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>This is a simple card for tidbits of information. Important links or a quick line is all you need. Limit to the size of a tweet.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Card Link</a>
+                        </div>
+                    </div>
+                </article>
+        -->
+
+        <div class="row">
+            <div class="headline"><h4>Location</h4></div>
+            <div class="one-col" id="location">
+
+            </div>
+            <div class="two-col-even">
+                <h5>Hyatt Regency</h5>
+                <p>Curabitur viverra gravida risus, et pellentesque nisi porttitor a. Fusce erat ligula, tincidunt quis dolor ut, vehicula dapibus tellus. Aenean et tellus vel libero tristique scelerisque. Donec cursus pretium nunc, eget accumsan sem feugiat eu. </p>
+                <ul>
+                    <li>4321 Addington Place</li>
+                    <li>Cincinnati, OH</li>
+                    <li>Follow these instructions</li>
+                </ul>
+                <a class="btn" href="#">Book Room</a>
+
+                <div class="ad-style-reg">
+                    <img src="~/App/img/ad480x120.jpg" />
                 </div>
             </div>
-        </article>
--->
+            <div class="two-col-even">
+                <h5>Hyatt Regency</h5>
+                <p>Curabitur viverra gravida risus, et pellentesque nisi porttitor a. Fusce erat ligula, tincidunt quis dolor ut, vehicula dapibus tellus. Aenean et tellus vel libero tristique scelerisque. Donec cursus pretium nunc, eget accumsan sem feugiat eu. </p>
+                <ul>
+                    <li>4321 Addington Place</li>
+                    <li>Cincinnati, OH</li>
+                    <li>Follow these instructions</li>
+                </ul>
+                <a class="btn" href="#">Book Room</a>
 
-<div class="row">
-    <h4>Location</h4>
-    <div class="one-col" id="location">
-        
-    </div>
-</div>
+                <div class="ad-style-reg">
+                    <img src="~/App/img/ad480x120.jpg" />
+                </div>
+            </div>
+        </div>
 
-<div class="row">
-    <h4>Sponsors</h4>
-    <div class="sponsors">
 
-    </div>
-</div>
+
+        <div class="row">
+            <div class="headline"><h4>Sponsors</h4></div>
+            <h5>The folks that make it all happen.</h5>
+            <div class="sponsors">
+
+            </div>
+        </div>
 
