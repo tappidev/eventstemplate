@@ -8,6 +8,15 @@
     VARIABLES
 ********************/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Quattrocento+Sans:400,400italic,700,700italic);
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #0f6d6a; }
+
+::selection {
+  color: #fff;
+  background: #0f6d6a; }
+
 .btn,
 button {
   text-decoration: none;
@@ -213,12 +222,28 @@ div.banner {
 
 .full-width-row {
   background: #ededed;
-  padding: 1.414em 0; }
+  padding: 1.414em 0;
+  position: relative; }
 
 .bg {
   background: #f9f9ef;
   text-align: center;
   padding: 0.2em; }
+
+.child-bg {
+  background: rgba(14, 30, 53, 0.7);
+  color: #fff;
+  height: 100%;
+  position: relative; }
+
+.child-bg:before {
+  content: "";
+  background: rgba(14, 30, 53, 0.6);
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1; }
 
 .no-bg {
   background-color: transparent;
@@ -234,13 +259,13 @@ div.banner {
   margin: 1em;
   margin-top: 3em; }
 
-.child-body {
+.child-body .content {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  margin-top: -6em;
   background: #fff; }
-  .child-body .content {
-    padding: 2em 2em;
-    margin-top: 0em;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-    margin-top: -6em; }
+  .child-body .content .row {
+    padding: 1em 2em;
+    margin: 0; }
 
 .page-head {
   margin: 3em 0 8em; }
@@ -278,6 +303,46 @@ img {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
   height: 250px; }
+
+.event-program {
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  padding: 0;
+  color: #333;
+  background: #fff;
+  margin: 1.5em 0; }
+  .event-program h6 {
+    margin: 0; }
+  .event-program ol.sessions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .event-program ol.sessions:not(:first-of-type) {
+      border-top: 3px solid rgba(14, 30, 53, 0.8); }
+    .event-program ol.sessions .single-session {
+      overflow: hidden;
+      padding: 1em;
+      border-bottom: 1px solid #d7d7d7; }
+      .event-program ol.sessions .single-session:nth-child(even) {
+        background: #f1f1f1; }
+    .event-program ol.sessions time {
+      width: 25%;
+      float: left;
+      padding-left: 0.83333%;
+      padding-right: 0.83333%;
+      display: inline-block; }
+    .event-program ol.sessions .day time {
+      font-size: 1.3rem;
+      font-weight: 700; }
+    .event-program ol.sessions .session-description {
+      width: 75%;
+      float: left;
+      padding-left: 0.83333%;
+      padding-right: 0.83333%;
+      display: inline-block; }
 
 /**********************
     Google Fonts   
@@ -329,15 +394,6 @@ h1 {
 .subHeroText {
   margin-top: 0;
   text-align: center; }
-
-.headline {
-  display: block;
-  border-bottom: 1px dotted #ebebeb;
-  margin-bottom: 1em; }
-  .headline h1, .headline h2, .headline h3, .headline h4, .headline h5, .headline h6 {
-    display: inline-block;
-    margin-bottom: 0;
-    border-bottom: 2px solid #02995C; }
 
 h2 {
   font-size: 2.4em; }

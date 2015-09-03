@@ -3,6 +3,7 @@
 /// - Global TAPPI Navigation
 /// - Main Navigation
 
+/// <reference path="~/scripts/jquery-2.1.4.intellisense.js" />
 
 
    $(document).ready(function () {
@@ -43,7 +44,7 @@
             if($('.submenu').is(":visible")) {
                 $('.submenu').addClass('is-hidden'); //make all inactive
                 $('.has-children').children('a').removeClass('selected');
-            } 
+            }
         }
     });
     

@@ -11,17 +11,30 @@ $body-bg: #fdfdfd;
 
 $primary-color: $base-color;
 $primary-color-light: lighten( $base-color, 10% );
-$primary-color-light1: lighten( $base-color, 30% );
+$primary-color-light-more: lighten( $base-color, 30% );
 $primary-color-dark: darken( $base-color, 10% ); 
 
 $complimentary-color: $complimentary-base-color;
 $complimentary-color-light: lighten( $complimentary-base-color, 10% );
+$complimentary-color-light-more: lighten( $complimentary-base-color, 40% );
 $complimentary-color-darken: darken( $complimentary-base-color, 10% );
-$complimentary-color-light2: lighten( $complimentary-base-color, 40% );
+
+
+$font-highlight-color: #0f6d6a;
 
 // Fonts
 
 $font-color: #333;
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: $font-highlight-color;
+}
+
+::selection {
+    color: #fff;
+    background: $font-highlight-color;
+}
 
 // links
 

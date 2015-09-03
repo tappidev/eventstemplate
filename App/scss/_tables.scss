@@ -1,1 +1,57 @@
-﻿
+﻿// Tables
+
+// Program schedule
+
+// PROGRAM SCHEDULE
+
+.event-program {
+    @include span(12 of 12);
+    padding:0;
+    color: $font-color;
+    background: #fff;
+    margin: 1.5em 0;
+
+    h6 {
+        margin:0;
+    }
+
+    ol.sessions {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        &:not(:first-of-type) {
+           border-top: 3px solid rgba(14,30,53, 0.8)
+        }
+
+        .single-session {
+            overflow: hidden;
+            padding: 1em;
+            border-bottom: 1px solid #d7d7d7;
+
+            &:nth-child(even) {
+                background: #f1f1f1;
+            }
+        }
+
+        time {
+            @include span(3 of 12);
+            display: inline-block;
+        }
+
+        .day time {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .session-description {
+            @include span(9 of 12);
+            display: inline-block;
+        }
+    }
+
+    .session {
+        
+    }
+}
