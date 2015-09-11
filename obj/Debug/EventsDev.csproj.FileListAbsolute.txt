@@ -1,4 +1,3 @@
-C:\Sites\EventsDev\EventsDev\bin\EventsDev.dll.config
 C:\Sites\EventsDev\EventsDev\bin\EventsDev.dll
 C:\Sites\EventsDev\EventsDev\bin\EventsDev.pdb
 C:\Sites\EventsDev\EventsDev\bin\AutoMapper.dll
@@ -79,3 +78,5 @@ C:\Sites\EventsDev\EventsDev\bin\Umbraco.Web.UI.xml
 C:\Sites\EventsDev\EventsDev\bin\UmbracoExamine.xml
 C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.dll
 C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.pdb
+C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.csprojResolveAssemblyReference.cache
+C:\Sites\EventsDev\EventsDev\bin\EventsDev.dll.config

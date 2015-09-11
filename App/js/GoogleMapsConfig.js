@@ -5,20 +5,8 @@
 function initMap() {
     var customMapType = new google.maps.StyledMapType([
         {
-            stylers: [
-              { hue: '#02995C' },
-              { visibility: 'simplified' },
-              { gamma: 0.5 },
-              { weight: 0.5 }
-            ]
-        },
-        {
             elementType: 'labels',
             stylers: [{ visibility: 'on' }]
-        },
-        {
-            featureType: 'water',
-            stylers: [{ color: '#02995C' }]
         }
     ], {
         name: 'Custom Style'

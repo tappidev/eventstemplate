@@ -7,6 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 // sass task
 
+
 gulp.task('sass', function () {
     gulp.src('scss/style.scss')
         //.pipe(sourcemaps.init())
@@ -18,7 +19,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('../css/'));
 });
 
-// watch task
+// watch tasks
 
 gulp.task('watch', function () {
     gulp.watch('scss/**/*.scss', ['sass'])

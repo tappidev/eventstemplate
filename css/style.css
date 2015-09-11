@@ -21,7 +21,7 @@
 button {
   text-decoration: none;
   color: #fff;
-  background: #02995C;
+  background: #0a77b9;
   text-align: center;
   vertical-align: middle;
   border: none;
@@ -38,7 +38,7 @@ button {
 .btn:hover, .btn:focus,
 button:hover, button:focus {
   color: #fff;
-  background: #03cb7a;
+  background: #0d96e9;
   text-decoration: none; }
 
 .btn-raised {
@@ -48,10 +48,10 @@ button:hover, button:focus {
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); }
 
 .btn-action {
-  background: #b21d00; }
+  background: #ad2826; }
 
 .btn-action:hover, .btn-action:focus {
-  background: #e52500; }
+  background: #d23634; }
 
 .btn-lg {
   width: 100%;
@@ -61,7 +61,7 @@ button:hover, button:focus {
 
 .btn-disable {
   background: #d1d1d1 !important;
-  cursor: default; }
+  cursor: default !important; }
 
 .card-wrapper {
   width: 91.52542%;
@@ -78,19 +78,23 @@ button:hover, button:focus {
   margin: 0 auto;
   border-radius: 4px;
   padding: 0;
-  background: #02995C;
+  background: #0a77b9;
   color: #fff;
   position: relative;
   box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
   margin-bottom: 1em; }
   .card a {
     margin-right: 1em;
-    color: #fff; }
+    color: #fff;
+    padding: 0.5em;
+    font-size: 0.9rem; }
   .card a:hover {
     color: #fff; }
   .card h4 {
     margin: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
+  .card p {
+    font-size: 0.95rem; }
   .card .card-title {
     padding: 1em 1em 0 1em;
     position: relative; }
@@ -115,6 +119,10 @@ button:hover, button:focus {
       right: 0;
       top: 0;
       padding: 0; }
+  .card i {
+    padding-right: 0.3em;
+    max-width: 1.1em;
+    height: 1em; }
 
 .card-header {
   position: absolute;
@@ -364,7 +372,7 @@ p {
   margin-bottom: 1.3em; }
 
 a {
-  color: #02995C;
+  color: #0a77b9;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   -webkit-transition: color 0.2s;
@@ -401,6 +409,10 @@ h2 {
 h3 {
   font-size: 1.999em; }
 
+.headline {
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1; }
+
 h4 {
   font-size: 1.414em; }
 
@@ -408,7 +420,7 @@ h5 {
   font-size: 1.212em; }
 
 .subtitle {
-  color: #01673e; }
+  color: #075889; }
 
 h6 {
   font-size: 1.099em; }
@@ -419,7 +431,7 @@ h6 {
 blockquote {
   margin: 1em 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #03cb7a; }
+  border-left: 5px solid #0d96e9; }
 
 .tab-container {
   max-width: 1140px;
@@ -476,6 +488,10 @@ blockquote {
   .main-nav a:hover {
     text-decoration: none; }
 
+.nav-fixed {
+  position: fixed !important;
+  top: 0; }
+
 .main-nav > ul {
   margin: 0;
   padding: 0;
@@ -490,9 +506,23 @@ blockquote {
   -o-transition: background 0.2s;
   -webkit-transition: background 0.2s;
   transition: background 0.2s; }
+  .main-nav > ul > li:last-of-type {
+    text-align: center; }
+    .main-nav > ul > li:last-of-type a {
+      background: #ad2826;
+      color: white;
+      padding: 1em 2em;
+      -moz-transition: box-shadow 0.2s;
+      -o-transition: box-shadow 0.2s;
+      -webkit-transition: box-shadow 0.2s;
+      transition: box-shadow 0.2s;
+      border-radius: 5px; }
+    .main-nav > ul > li:last-of-type a:hover {
+      color: white;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3); }
 
 .main-nav > ul > li > a:hover {
-  color: #02995C;
+  color: #0a77b9;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   -webkit-transition: color 0.2s;
@@ -515,16 +545,17 @@ blockquote {
   list-style: none;
   margin-top: 14px;
   background: #f4f4f4;
-  border-top: 2px solid #02995C;
+  border-top: 2px solid #0a77b9;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0s;
   -o-transition: opacity 0.4s 0s, visibility 0s 0s;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0s;
   transition: opacity 0.4s 0s, visibility 0s 0s;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
   z-index: 1; }
   .submenu li {
     margin-bottom: 0.5em; }
   .submenu a:hover {
-    color: #02995C; }
+    color: #0a77b9; }
 
 .main-nav .material-icons {
   font-size: 18px;
@@ -532,7 +563,7 @@ blockquote {
   font-weight: bold; }
 
 a.selected {
-  color: #02995C; }
+  color: #0a77b9; }
 
 .submenu-is-active {
   visibility: visible;

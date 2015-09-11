@@ -211,6 +211,7 @@
     <Content Include="App\img\TAPPI_logo.png" />
     <Content Include="App\js\GoogleMapsConfig.js" />
     <Content Include="App\js\navigation.js" />
+    <None Include="App\js\_references.js" />
     <Content Include="App\node_modules\gulp-sass\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\index.js" />
     <Content Include="App\node_modules\gulp-sass\node_modules\gulp-util\lib\buffer.js" />
@@ -2254,6 +2255,7 @@
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
+    <None Include="scripts\_references.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -2264,9 +2266,13 @@
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Config\UrlRewriting.config" />
-    <Content Include="Config\umbracoSettings.config" />
+    <Content Include="Config\umbracoSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Config\trees.config" />
-    <Content Include="Config\tinyMceConfig.config" />
+    <Content Include="Config\tinyMceConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Config\scripting.config" />
     <Content Include="Config\metablogConfig.config" />
     <Content Include="Config\log4net.config" />
@@ -4438,6 +4444,8 @@
     <Content Include="App\scss\_nav.scss" />
     <Content Include="Views\ChildTemplate.cshtml" />
     <Content Include="scripts\jquery-2.1.4.min.map" />
+    <Content Include="Views\MacroPartials\UiCardMacro.cshtml" />
+    <Content Include="Views\Partials\Grid\Bootstrap3bak.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4462,7 +4470,6 @@
     <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="App_Plugins\" />
     <Folder Include="media\" />
-    <Folder Include="Views\MacroPartials\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -3,8 +3,6 @@
 /// - Global TAPPI Navigation
 /// - Main Navigation
 
-/// <reference path="~/scripts/jquery-2.1.4.intellisense.js" />
-
 
    $(document).ready(function () {
 
@@ -15,7 +13,7 @@
             var menu = $('.tappi-container');
             menu.slideToggle(300); 
     });
-
+      
     $(document).click(function (e) {
         if (!$(e.target).closest('.global-nav-is-hidden').length) {
             if ($('.global-nav-is-hidden').is(":visible")) {
@@ -24,7 +22,10 @@
         }
     });
 
-    //open/close regular submenu
+
+
+
+    //open-close  submenu
 
     $('.has-children').children('a').on('click', function (e) {
         e.stopPropagation(); // stop the document click function below
@@ -37,7 +38,6 @@
             selected.removeClass('selected').next('ul').addClass('is-hidden').end();
         }
     });
-    
     // add is-hidden class to submenu when you click out the submenu
     $(document).click(function (e) {
         if (!$(e.target).closest('.submenu').length) {
@@ -47,5 +47,11 @@
             }
         }
     });
+
+     
+
+       // make fixed if not visible
+
     
-}); // document
+    
+   }); // document

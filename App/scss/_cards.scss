@@ -22,6 +22,8 @@
     a {
         margin-right: 1em;
         color: #fff;
+        padding: 0.5em;
+        font-size: 0.9rem;
     }
     a:hover {
         color: #fff;
@@ -32,7 +34,7 @@
         @include text-shadow();
     }
     p {
-        //font-size: 0.9rem;
+        font-size: 0.95rem;
     }
 
     .card-title {
@@ -66,6 +68,12 @@
         }
 
     } // .card-title-image
+
+    i {
+        padding-right: 0.3em;
+        max-width: 1.1em;
+        height: 1em;
+    }
 
 } // .card
 

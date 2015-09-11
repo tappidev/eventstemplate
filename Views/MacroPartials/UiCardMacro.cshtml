@@ -1,0 +1,63 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+@{
+    // VARIABLES
+    var cardTitle = Model.MacroParameters["cardTitle"].ToString();
+    var cardContent = Model.MacroParameters["cardContent"].ToString();
+    var linkOne = Model.MacroParameters["linkOne"].ToString();
+    var linkOneTitle = Model.MacroParameters["linkOneTitle"].ToString();
+    var linkOneIcon = Model.MacroParameters["linkOneIcon"].ToString();
+    var linkTwo = Model.MacroParameters["linkTwo"].ToString();
+    var cardImage = @Umbraco.Media(Model.MacroParameters["cardImage"]).Url;
+}
+
+@{
+    if (cardImage != "")
+    {
+        <article class="card card-with-image">
+            <div class="card-inner">
+                <div class="card-title-image">
+                    <img src="@cardImage" alt="" />
+                    <h4 class="card-header">@cardTitle</h4>
+                </div>
+                <div class="card-text">
+                    <p>@cardContent</p>
+                    
+                </div>
+                @if (linkOne != null)
+                {
+                    <div class="card-action">
+                        <a href="@linkOne"><i class="material-icons">@linkOneIcon</i>@linkOneTitle</a>
+                        <a href="@linkTwo"></a>
+                    </div>
+                }
+            </div>
+        </article>
+    }
+    else
+    {
+        <article class="card">
+            <div class="card-inner">
+                <div class="card-title">
+                    <h4>@cardTitle</h4>
+                </div>
+                <div class="card-text">
+                    <p>@cardContent</p>
+                </div>
+                @if (linkOne != null)
+                {
+                    <div class="card-action">
+                        <a href="@linkOne"><i class="material-icons">@linkOneIcon</i>Link 1</a>
+                    </div>
+                }
+
+            </div>
+        </article>
+    }
+}
+
+
+   
+        
+
