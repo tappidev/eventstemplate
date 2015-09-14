@@ -1,0 +1,7 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{ 
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    var logo = Umbraco.Media(rootNode.logo);
+}
+<h1 class="logo"><img src="@logo.Url" width="150" /></h1>

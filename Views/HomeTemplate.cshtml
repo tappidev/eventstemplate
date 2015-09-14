@@ -1,6 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    Layout = "MasterCorrExpo.cshtml";
+    Layout = "Master.cshtml";
 }
 
 
@@ -9,10 +9,10 @@
         @{
             if (CurrentPage.HasValue("heroImage"))
             {
-                var dynamicMediaItem = Umbraco.Media(CurrentPage.heroImage);
+                var hero = Umbraco.Media(CurrentPage.heroImage);
                 <style>
                         .hero {
-                            background: url(@dynamicMediaItem.umbracoFile) no-repeat;
+                            background: url(@hero.umbracoFile) no-repeat;
                             background-size: 100%;
                         }
                 </style>
@@ -57,7 +57,7 @@
 
       <!--  </div>-->
 
-        <div class="row child-bg">
+        <div class="row home-bg">
     <div class="headline"><h3>Location</h3></div>
     <div class="one-col" id="location">
     </div>

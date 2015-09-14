@@ -100,6 +100,21 @@ div.banner {
         background-color: transparent;
         text-align: center;
     }
+    .home-bg {
+        color: #fff;
+        height: 100%;
+        position: relative;
+        padding: 1em 0;
+    }
+    .home-bg:before {
+        content: ""; 
+        background: rgba(14,30,53, 0.7);
+        position:absolute;
+        height: 100%;
+        width: 4000px;
+        left: -2000px;
+        z-index: -1;
+    }
 
 // ADS
 
@@ -108,8 +123,9 @@ div.banner {
     // 150x300
     .ad-style-right {
         float: right;
-        margin: 1em 0 1em 2em;
+        margin: 0 0 0em 2em;
         padding: 0.5em;
+        clear: both;
     }
 
     .ad-style-reg {

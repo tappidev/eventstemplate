@@ -4439,13 +4439,15 @@
     <Content Include="App\scss\_cards.scss" />
     <Content Include="App\scss\_collections.scss" />
     <Content Include="App\package.json" />
-    <Content Include="Views\Master.cshtml" />
     <Content Include="Views\HomeTemplate.cshtml" />
     <Content Include="App\scss\_nav.scss" />
     <Content Include="Views\ChildTemplate.cshtml" />
     <Content Include="scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\MacroPartials\UiCardMacro.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3bak.cshtml" />
+    <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\MacroPartials\TappiTab.cshtml" />
+    <Content Include="Views\MacroPartials\Logo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

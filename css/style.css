@@ -257,10 +257,26 @@ div.banner {
   background-color: transparent;
   text-align: center; }
 
+.home-bg {
+  color: #fff;
+  height: 100%;
+  position: relative;
+  padding: 1em 0; }
+
+.home-bg:before {
+  content: "";
+  background: rgba(14, 30, 53, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1; }
+
 .ad-style-right {
   float: right;
-  margin: 1em 0 1em 2em;
-  padding: 0.5em; }
+  margin: 0 0 0em 2em;
+  padding: 0.5em;
+  clear: both; }
 
 .ad-style-reg {
   text-align: center;
@@ -496,7 +512,11 @@ blockquote {
   margin: 0;
   padding: 0;
   float: left;
-  list-style: none; }
+  list-style: none;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
 
 .main-nav > ul > li {
   display: inline;
@@ -507,11 +527,12 @@ blockquote {
   -webkit-transition: background 0.2s;
   transition: background 0.2s; }
   .main-nav > ul > li:last-of-type {
-    text-align: center; }
+    text-align: center;
+    float: right; }
     .main-nav > ul > li:last-of-type a {
       background: #ad2826;
       color: white;
-      padding: 1em 2em;
+      padding: 0.5em 2em;
       -moz-transition: box-shadow 0.2s;
       -o-transition: box-shadow 0.2s;
       -webkit-transition: box-shadow 0.2s;
@@ -600,4 +621,5 @@ footer li {
     GLOBAL STYLES
 */
 body {
-  background: #fdfdfd; }
+  background: #fdfdfd;
+  overflow-x: hidden; }

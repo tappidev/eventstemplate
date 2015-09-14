@@ -18,56 +18,20 @@
         <link rel="stylesheet" href="~/css/normalize.css">
     </head>
     <body>
-
-        <!-- TAPPI global menu -->
-
-            <div class="tappi-menu-wrapper">
-                <div class="tappi-container global-nav-is-hidden">
-                    <nav class="tappi-menu row">
-                        <ul class="one-third-col">
-                            <li><h4>TAPPI News</h4></li>
-                            <li><img src="~/App/img/speaker1.jpg" width="75%" /></li>
-                            <li><p>Visit TAPPI for more information on how you can benefit from our services. TAPPI is known for one-of-a-kind service and a vibrant community keen on learning more.</p></li>
-                            <li><a class="btn" href="http://www.tappi.org/" target="_blank">Visit TAPPI</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                        <ul class="one-third-col">
-                            <li><h4>TAPPI Divisions</h4></li>
-                            <li><a href="#">Nanotechnology</a></li>
-                            <li><a href="#">Corrugated</a></li>
-                            <li><a href="#">Pulp and Paper</a></li>
-                            <li><a href="#">TAPPISAFE</a></li>
-                            <li><a href="#">TAPPI Trees</a></li>
-                        </ul>
-                        <ul class="one-third-col">
-                            <li><h4>TAPPI Events</h4></li>
-                            <li><a href="#">PaperCon</a></li>
-                            <li><a href="#">Nanotechnology</a></li>
-                            <li><a href="#">PEERS/IBBC</a></li>
-                            <li><a href="#">CorrExpo</a></li>
-                            <li><a href="#">SuperCorrExpo</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="tab-container">
-                    <div class="tappi-menu-tab">
-                        <img src="~/App/img/TAPPI_logo.png" width="100" /> <i class="material-icons">keyboard_arrow_down</i>
-                    </div>
-                </div>
-
-            </div>
  
-        
-
+        @Umbraco.RenderMacro("TappiTab")
         <!----------------------->
             <div class="container">
                 <header>
                     <div class="row logo-row">
-                        <h1 class="logo"><img src="~/App/img/TAPPI_logo.png" width="250" /></h1>
+						@Umbraco.RenderMacro("Logo", new {image="1082"})
                     </div>
                     <nav class="main-nav">
                         <ul>
-                            <li><a href="/">Home</a></li>
+                            @{
+                                var rootNode = CurrentPage.AncestorOrSelf(1);
+                            }
+                            <li><a href="@rootNode.Url">Home</a></li>
                             <li class="has-children">
                                 <a>About <i class="material-icons">keyboard_arrow_down</i></a>
                                 <ul class="submenu is-hidden">
@@ -110,6 +74,7 @@
                             <li><a>Exhibitors <i class="material-icons">keyboard_arrow_down</i></a></li>
                             <li><a>Hotel and Travel <i class="material-icons">keyboard_arrow_down</i></a></li>
                             <li><a>Contact <i class="material-icons">keyboard_arrow_down</i></a></li>
+                            <li><a class="#">Register</a></li>
                         </ul>
                     </nav>
                 </header>

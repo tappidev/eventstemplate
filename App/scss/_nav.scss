@@ -78,6 +78,7 @@
         padding: 0;
         float: left;
         list-style: none;
+        @include span(12 of 12);
     }
 
   .main-nav > ul > li {
@@ -88,11 +89,12 @@
 
       &:last-of-type {
           text-align: center;
+          float: right;
 
           a {
               background: $complimentary-color;
               color: white;
-              padding: 1em 2em;
+              padding: 0.5em 2em;
               @include transition(box-shadow 0.2s);
               border-radius: 5px;
           }
