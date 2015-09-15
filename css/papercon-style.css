@@ -1,0 +1,12 @@
+/*
+    Papercon styles
+*/
+.logo {
+  margin-top: 0 !important; }
+  .logo .papercon-circle {
+    width: 350px;
+    position: absolute;
+    left: 5%;
+    z-index: -2; }
+  .logo .papercon-logo {
+    margin-top: 1em; }

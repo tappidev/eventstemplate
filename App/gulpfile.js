@@ -19,12 +19,29 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('../css/'));
 });
 
+gulp.task('papercon-sass', function () {
+    gulp.src('scss/papercon.scss')
+        //.pipe(sourcemaps.init())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
+        //.pipe(sourcemaps.write())
+        .pipe(concat('papercon-style.css'))
+        .pipe(gulp.dest('../css/'));
+});
+
 // watch tasks
 
 gulp.task('watch', function () {
     gulp.watch('scss/**/*.scss', ['sass'])
 });
 
+// papercon watch task
+gulp.task('papercon-watch', function () {
+    gulp.watch('scss/papercon.scss', ['papercon-sass'])
+});
+
 // create default task
 
 gulp.task('default', ['sass', 'watch']);
+gulp.task('papercon', ['papercon-sass', 'papercon-watch']);
