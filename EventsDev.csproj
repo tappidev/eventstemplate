@@ -2250,8 +2250,10 @@
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="css\normalize.css" />
+    <Content Include="css\papercon-style.css" />
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
+    <Content Include="App\scss\papercon.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
@@ -4459,7 +4461,9 @@
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
