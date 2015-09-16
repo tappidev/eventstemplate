@@ -30,6 +30,17 @@ gulp.task('papercon-sass', function () {
         .pipe(gulp.dest('../css/'));
 });
 
+gulp.task('supercorr-sass', function () {
+    gulp.src('scss/supercorr.scss')
+        //.pipe(sourcemaps.init())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
+        //.pipe(sourcemaps.write())
+        .pipe(concat('supercorrexpo-style.css'))
+        .pipe(gulp.dest('../css/'));
+});
+
 // watch tasks
 
 gulp.task('watch', function () {
@@ -38,10 +49,16 @@ gulp.task('watch', function () {
 
 // papercon watch task
 gulp.task('papercon-watch', function () {
-    gulp.watch('scss/papercon.scss', ['papercon-sass'])
+    gulp.watch('scss/**/*.scss', ['papercon-sass'])
+});
+
+// papercon watch task
+gulp.task('supercorr-watch', function () {
+    gulp.watch('scss/**/*.scss', ['supercorr-sass'])
 });
 
 // create default task
 
 gulp.task('default', ['sass', 'watch']);
 gulp.task('papercon', ['papercon-sass', 'papercon-watch']);
+gulp.task('supercorr', ['supercorr-sass', 'supercorr-watch']);

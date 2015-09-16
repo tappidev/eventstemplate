@@ -4,17 +4,51 @@
 
 // Logo
 
-.logo {
+.logo-row {
     margin-top: 0 !important;
     
-    .papercon-circle {
-        width: 350px;
+    img:first-of-type {
         position: absolute;
-        left: 5%;
-        z-index: -2;
+        z-index: -5;
+        left: -1%;
+        top: 4em;
     }
 
-    .papercon-logo {
-        margin-top: 1em;
+    img:nth-of-type(2) {
+        width: 350px;
     }
+}
+
+/*
+    DEPENDENCY IMPORTS
+*/
+
+@import "../bower_components/susy/sass/susy"; // Susy grid
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"; // Breakpoints
+
+
+/*
+    STYLESHEET IMPORTS
+*/
+
+@import "variables/_papercon.scss"; 
+@import "prefixes";
+@import "buttons";
+@import "cards";
+@import "collections";
+@import "grid";
+@import "helpers";
+@import "media";
+@import "responsive";
+@import "tables";
+@import "type"; 
+@import "nav"; 
+
+/* 
+    GLOBAL STYLES
+*/
+
+body {
+    background: $body-bg;
+    overflow-x: hidden;
 }

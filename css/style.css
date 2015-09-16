@@ -133,7 +133,9 @@ button:hover, button:focus {
 .collection {
   width: 100%;
   border: 1px solid #dbdbdb;
-  padding: 0; }
+  padding: 0;
+  background: #fff;
+  color: #333; }
   .collection li {
     padding: 1em 2em;
     list-style-type: none;
@@ -144,6 +146,8 @@ button:hover, button:focus {
       border-bottom: 1px solid #dbdbdb; }
   .collection h5 {
     margin: 0; }
+  .collection .collection-item {
+    padding: 0.5em; }
 
 .media-collection li {
   padding: 0;
@@ -239,14 +243,15 @@ div.banner {
   padding: 0.2em; }
 
 .child-bg {
-  background: rgba(14, 30, 53, 0.7);
+  background: #ad2826;
   color: #fff;
   height: 100%;
   position: relative; }
 
 .child-bg:before {
   content: "";
-  background: rgba(14, 30, 53, 0.6);
+  background: #ad2826;
+  opacity: 0.6;
   position: absolute;
   height: 100%;
   width: 4000px;
@@ -265,7 +270,7 @@ div.banner {
 
 .home-bg:before {
   content: "";
-  background: rgba(14, 30, 53, 0.7);
+  background: #075889;
   position: absolute;
   height: 100%;
   width: 4000px;
@@ -307,7 +312,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em 1em;
-    color: #fff; }
+    color: #b7b7b7;
+    font-size: 0.8rem; }
     footer .footer-container:after {
       content: " ";
       display: block;
@@ -327,6 +333,37 @@ img {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
   height: 250px; }
+
+.sponsors {
+  position: relative;
+  text-align: center; }
+  .sponsors img {
+    width: 200px !important;
+    height: auto !important;
+    margin: 1em;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.6;
+    -moz-transition: filter 0.2s;
+    -o-transition: filter 0.2s;
+    -webkit-transition: filter 0.2s;
+    transition: filter 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s; }
+  .sponsors img:hover,
+  .sponsors img:focus {
+    opacity: 1;
+    -webkit-filter: grayscale(20%);
+    filter: grayscale(20%); }
+
+.tappi-logo-section {
+  position: absolute;
+  left: -7em;
+  top: 75%;
+  z-index: -5;
+  width: 300px !important; }
 
 .event-program {
   width: 100%;
@@ -381,8 +418,7 @@ html {
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 400;
-  line-height: 1.45;
-  color: #333; }
+  line-height: 1.45; }
 
 p {
   margin-bottom: 1.3em; }
@@ -528,7 +564,8 @@ blockquote {
   transition: background 0.2s; }
   .main-nav > ul > li:last-of-type {
     text-align: center;
-    float: right; }
+    float: right;
+    padding: 0; }
     .main-nav > ul > li:last-of-type a {
       background: #ad2826;
       color: white;

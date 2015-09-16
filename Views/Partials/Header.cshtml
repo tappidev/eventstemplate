@@ -8,18 +8,21 @@
 
 <header>
     <div class="row logo-row">
+        <h1 class="logo">
+            <a href="@rootNode.Url">
+                @{
+                    char[] splitChar = { ',' };
+                    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
 
-        @{
-            char[] splitChar = { ',' };
-            string[] ids = CurrentPage.logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+                    foreach (string id in ids)
+                    {
+                        var dynamicMediaItem = Umbraco.Media(id);
+                        <img src="@dynamicMediaItem.umbracoFile" alt="@rootNode.Name" />
+                    }
 
-            foreach (string id in ids)
-            {
-                var dynamicMediaItem = Umbraco.Media(id);
-                <img src="@dynamicMediaItem.umbracoFile" alt="@rootNode.Name" />
-            }
-            
-         }
+                }
+            </a>
+        </h1>
 
 
     </div>

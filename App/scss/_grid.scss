@@ -82,14 +82,15 @@ div.banner {
         padding: 0.2em;
     }
     .child-bg {
-        background: rgba(14,30,53, 0.7);
+        background: $complimentary-color;
         color: #fff;
         height: 100%;
         position: relative;
     }
     .child-bg:before {
         content: ""; 
-        background: rgba(14,30,53, 0.6);
+        background: $complimentary-color;
+        opacity: 0.6;
         position:absolute;
         height: 100%;
         width: 4000px;
@@ -108,7 +109,7 @@ div.banner {
     }
     .home-bg:before {
         content: ""; 
-        background: rgba(14,30,53, 0.7);
+        background: $primary-color-dark;
         position:absolute;
         height: 100%;
         width: 4000px;
@@ -167,7 +168,8 @@ footer {
     .footer-container {
         @include container(1140px);
         padding: 1.5em 1em;
-        color: #fff;
+        color: #b7b7b7;
+        font-size: 0.8rem;
 
         span {
             vertical-align: middle;

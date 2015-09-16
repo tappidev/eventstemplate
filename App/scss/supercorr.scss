@@ -1,0 +1,39 @@
+﻿/*
+    SuperCorrExpo Styles
+*/
+
+// Logo
+
+/*
+    DEPENDENCY IMPORTS
+*/
+
+@import "../bower_components/susy/sass/susy"; // Susy grid
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"; // Breakpoints
+
+
+/*
+    STYLESHEET IMPORTS
+*/
+
+@import "variables/_supercorr.scss"; 
+@import "prefixes";
+@import "buttons";
+@import "cards";
+@import "collections";
+@import "grid";
+@import "helpers";
+@import "media";
+@import "responsive";
+@import "tables";
+@import "type"; 
+@import "nav"; 
+
+/* 
+    GLOBAL STYLES
+*/
+
+body {
+    background: $body-bg;
+    overflow-x: hidden;
+}

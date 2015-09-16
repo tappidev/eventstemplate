@@ -26,3 +26,35 @@ img {
     @include span(12);
     height: 250px;
 }
+
+// Sponsors
+
+.sponsors {
+    position: relative;
+    text-align: center;
+    
+    img {
+        width: 200px !important;
+        height: auto !important;
+        margin: 1em;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        opacity: 0.6;
+        @include transition(filter 0.2s);
+        @include transition(opacity 0.2s);
+    }
+    img:hover,
+    img:focus {
+        opacity: 1;
+        -webkit-filter: grayscale(20%);
+        filter: grayscale(20%);
+    }
+}
+
+.tappi-logo-section {
+  position: absolute;
+  left: -7em;
+  top: 75%;
+  z-index: -5;
+  width: 300px !important;
+}
