@@ -3,11 +3,8 @@
 @{
     var rootNode = CurrentPage.AncestorOrSelf(1);
     var logo = Umbraco.Media(rootNode.logo);
-    var compLogo = Umbraco.Media(rootNode.logoCompliment);
     
 }
 <h1 class="logo">
     <img src="@logo.Url" width="150" alt="@rootNode.Name " />
-    <img src="@compLogo.Url" width="350" />
-    
 </h1>

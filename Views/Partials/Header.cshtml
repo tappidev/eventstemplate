@@ -1,0 +1,74 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    //var logo = Umbraco.Media(rootNode.logo);
+}
+
+<header>
+    <div class="row logo-row">
+
+        @{
+            char[] splitChar = { ',' };
+            string[] ids = CurrentPage.logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string id in ids)
+            {
+                var dynamicMediaItem = Umbraco.Media(id);
+                <img src="@dynamicMediaItem.umbracoFile" alt="@rootNode.Name" />
+            }
+            
+         }
+
+
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="@rootNode.Url">Home</a></li>
+            <li class="has-children">
+                <a>About <i class="material-icons">keyboard_arrow_down</i></a>
+                <ul class="submenu is-hidden">
+                    <li><a href="/about/">Test page 1</a></li>
+                    <li><a href="#">Test page</a></li>
+                    <li><a href="#">Test page</a></li>
+                    <li><a href="#">Test page</a></li>
+                </ul>
+            </li>
+            <li><a>Program <i class="material-icons">keyboard_arrow_down</i></a></li>
+            <li class="has-children">
+                <a>Attendees <i class="material-icons">keyboard_arrow_down</i></a>
+                <ul class="submenu is-hidden">
+                    <div class="row">
+                        <div class="one-third-col">
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                        </div>
+                        <div class="one-third-col">
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                        </div>
+                        <div class="one-third-col">
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                            <li><a href="#">Test page</a></li>
+                        </div>
+                    </div>
+
+                    <div class="row ad-style-right">
+                        <img src="~/App/img/ad480x120.jpg" />
+                    </div>
+                </ul>
+            </li>
+            <li><a>Exhibitors <i class="material-icons">keyboard_arrow_down</i></a></li>
+            <li><a>Hotel and Travel <i class="material-icons">keyboard_arrow_down</i></a></li>
+            <li><a>Contact <i class="material-icons">keyboard_arrow_down</i></a></li>
+            <li><a class="btn btn-action">Register</a></li>
+        </ul>
+    </nav>
+</header>
