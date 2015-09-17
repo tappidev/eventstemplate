@@ -1975,3 +1975,203 @@ System.Web.HttpCompileException (0x80004005): c:\Sites\EventsDev\EventsDev\Views
 2015-09-17 13:09:17,680 [8] INFO  Umbraco.Core.PluginManager - [P10680/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
 2015-09-17 13:09:17,692 [8] INFO  Umbraco.Core.PluginManager - [P10680/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
 2015-09-17 13:09:17,692 [8] INFO  Umbraco.Core.PluginManager - [P10680/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-17 14:20:01,703 [8] INFO  Umbraco.Core.CoreBootManager - [P9844/T1/D2] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-17 14:20:01,737 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Determining hash of code files on disk
+2015-09-17 14:20:01,742 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Hash determined (took 4ms)
+2015-09-17 14:20:01,748 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 14:20:01,897 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 148ms)
+2015-09-17 14:20:01,948 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 14:20:01,952 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2015-09-17 14:20:01,953 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 14:20:01,957 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 4ms)
+2015-09-17 14:20:01,966 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 14:20:01,970 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2015-09-17 14:20:01,970 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 14:20:01,974 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 4ms)
+2015-09-17 14:20:01,994 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 14:20:01,999 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2015-09-17 14:20:01,999 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 14:20:02,004 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2015-09-17 14:20:02,405 [8] INFO  Umbraco.Core.DatabaseContext - [P9844/T1/D2] CanConnect = True
+2015-09-17 14:20:02,411 [8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P9844/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 14:20:02,421 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P9844/T1/D2] Initializing Examine and binding to business logic events
+2015-09-17 14:20:02,451 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P9844/T1/D2] Adding examine event handlers for index providers: 3
+2015-09-17 14:20:02,457 [8] INFO  Umbraco.Core.CoreBootManager - [P9844/T1/D2] Umbraco application startup complete (took 741ms)
+2015-09-17 14:20:02,620 [8] INFO  Umbraco.Core.ApplicationContext - [P9844/T1/D2] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-17 14:20:02,658 [8] INFO  umbraco.content - [P9844/T1/D2] Load Xml from file...
+2015-09-17 14:20:02,659 [8] INFO  umbraco.content - [P9844/T1/D2] Loaded Xml from file.
+2015-09-17 14:20:02,740 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 14:20:02,745 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 5ms)
+2015-09-17 14:20:03,052 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 14:20:03,060 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 7ms)
+2015-09-17 14:20:04,712 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 14:20:04,712 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 14:20:04,724 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-17 14:20:04,729 [8] INFO  Umbraco.Core.PluginManager - [P9844/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2015-09-17 14:21:53,250 [8] INFO  Umbraco.Core.CoreBootManager - [P2504/T1/D2] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-17 14:21:53,284 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Determining hash of code files on disk
+2015-09-17 14:21:53,289 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Hash determined (took 4ms)
+2015-09-17 14:21:53,293 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 14:21:53,302 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 8ms)
+2015-09-17 14:21:53,352 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 14:21:53,352 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-17 14:21:53,353 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 14:21:53,353 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-17 14:21:53,362 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 14:21:53,363 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-17 14:21:53,363 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 14:21:53,365 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-17 14:21:53,385 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 14:21:53,385 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-17 14:21:53,385 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 14:21:53,386 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-17 14:21:53,871 [8] INFO  Umbraco.Core.DatabaseContext - [P2504/T1/D2] CanConnect = True
+2015-09-17 14:21:53,883 [8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P2504/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 14:21:53,895 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P2504/T1/D2] Initializing Examine and binding to business logic events
+2015-09-17 14:21:53,927 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P2504/T1/D2] Adding examine event handlers for index providers: 3
+2015-09-17 14:21:53,935 [8] INFO  Umbraco.Core.CoreBootManager - [P2504/T1/D2] Umbraco application startup complete (took 670ms)
+2015-09-17 14:21:54,189 [8] INFO  Umbraco.Core.ApplicationContext - [P2504/T1/D2] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-17 14:21:54,227 [8] INFO  umbraco.content - [P2504/T1/D2] Load Xml from file...
+2015-09-17 14:21:54,228 [8] INFO  umbraco.content - [P2504/T1/D2] Loaded Xml from file.
+2015-09-17 14:21:54,332 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 14:21:54,332 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-17 14:21:54,631 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 14:21:54,632 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 14:21:55,076 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 14:21:55,076 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 14:21:55,088 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-17 14:21:55,089 [8] INFO  Umbraco.Core.PluginManager - [P2504/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-17 14:22:55,220 [8] INFO  umbraco.BusinessLogic.Log - [P2504/T1/D2] Log scrubbed.  Removed all items older than 2015-07-19 14:22:55
+2015-09-17 14:26:42,622 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledTasks] Terminating
+2015-09-17 14:26:42,622 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-09-17 14:26:42,622 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [LogScrubber] Terminating
+2015-09-17 14:26:42,622 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [LogScrubber] Waiting for tasks to complete
+2015-09-17 14:26:42,623 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2015-09-17 14:26:42,624 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [KeepAlive] Terminating
+2015-09-17 14:26:42,624 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [KeepAlive] Waiting for tasks to complete
+2015-09-17 14:26:42,624 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [LogScrubber] Tasks completed, terminated
+2015-09-17 14:26:42,624 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [KeepAlive] Tasks completed, terminated
+2015-09-17 14:26:44,192 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledPublishing] Terminating
+2015-09-17 14:26:44,192 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-17 14:26:44,193 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P2504/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-09-17 14:27:14,220 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [P2504/T1/D2] Application shutdown. Reason: ConfigurationChange
+2015-09-17 14:31:46,989 [46] INFO  Umbraco.Core.CoreBootManager - [P2504/T1/D3] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-17 14:31:47,014 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Determining hash of code files on disk
+2015-09-17 14:31:47,019 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Hash determined (took 4ms)
+2015-09-17 14:31:47,022 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 14:31:47,031 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 8ms)
+2015-09-17 14:31:47,081 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 14:31:47,082 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-17 14:31:47,082 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 14:31:47,082 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-17 14:31:47,091 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 14:31:47,091 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-17 14:31:47,091 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 14:31:47,093 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-17 14:31:47,111 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 14:31:47,111 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-17 14:31:47,111 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 14:31:47,112 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-17 14:31:47,497 [46] INFO  Umbraco.Core.DatabaseContext - [P2504/T1/D3] CanConnect = True
+2015-09-17 14:31:47,505 [46] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P2504/T1/D3] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 14:31:47,517 [46] INFO  Umbraco.Web.Search.ExamineEvents - [P2504/T1/D3] Initializing Examine and binding to business logic events
+2015-09-17 14:31:47,548 [46] INFO  Umbraco.Web.Search.ExamineEvents - [P2504/T1/D3] Adding examine event handlers for index providers: 3
+2015-09-17 14:31:47,554 [46] INFO  Umbraco.Core.CoreBootManager - [P2504/T1/D3] Umbraco application startup complete (took 554ms)
+2015-09-17 14:31:47,804 [46] INFO  Umbraco.Core.ApplicationContext - [P2504/T1/D3] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-17 14:31:47,836 [46] INFO  umbraco.content - [P2504/T1/D3] Load Xml from file...
+2015-09-17 14:31:47,837 [46] INFO  umbraco.content - [P2504/T1/D3] Loaded Xml from file.
+2015-09-17 14:31:47,913 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 14:31:47,914 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-17 14:31:48,181 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 14:31:48,182 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 14:31:48,536 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-17 14:31:48,536 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-17 14:32:02,290 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 14:32:02,298 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 8ms)
+2015-09-17 14:32:02,323 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.interfaces.ITree
+2015-09-17 14:32:02,330 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 6ms)
+2015-09-17 14:32:02,336 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 14:32:02,336 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-09-17 14:32:02,338 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.interfaces.ITree
+2015-09-17 14:32:02,344 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 6ms)
+2015-09-17 14:32:02,353 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.interfaces.IApplication
+2015-09-17 14:32:02,360 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2015-09-17 14:32:13,188 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 14:32:13,237 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-09-17 14:32:13,245 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 7ms)
+2015-09-17 14:32:17,314 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 14:32:17,319 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 14:32:48,617 [46] INFO  umbraco.BusinessLogic.Log - [P2504/T1/D3] Log scrubbed.  Removed all items older than 2015-07-19 14:32:48
+2015-09-17 15:06:20,583 [46] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P2504/T1/D3] Login attempt succeeded for username cmcfadden@tappi.org from IP address ::1
+2015-09-17 15:06:20,595 [46] INFO  Umbraco.Web.Security.WebSecurity - [P2504/T1/D3] User Id: 0 logged in
+2015-09-17 15:07:00,268 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 15:07:00,268 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-09-17 15:07:02,514 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 15:07:02,514 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-09-17 15:07:48,940 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:07:52,975 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:07:52,998 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:10:31,709 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:10:35,736 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:10:35,743 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:15:18,721 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:15:22,743 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:15:22,752 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:16:00,369 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:16:04,401 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:16:04,418 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:18:13,309 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 15:18:13,309 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 15:20:24,228 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:20:28,265 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:20:28,270 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:20:47,396 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:20:51,423 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:20:51,442 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:24:51,138 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:24:55,168 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:24:55,186 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:25:07,557 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:25:11,592 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:25:11,597 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:25:26,767 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:25:30,794 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:25:30,798 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:27:45,377 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:27:49,399 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:27:49,414 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:29:11,805 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:29:15,830 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:29:15,837 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:30:14,479 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:30:18,513 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:30:18,538 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:32:47,441 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 15:32:47,441 [46] INFO  Umbraco.Core.PluginManager - [P2504/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-09-17 15:35:31,174 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:35:35,209 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:35:35,214 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:39:22,512 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:39:26,543 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:39:26,547 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:43:02,785 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:43:06,818 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:43:06,839 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:43:08,870 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:43:12,902 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:43:12,922 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:45:41,629 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:45:45,665 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:45:45,686 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:47:10,003 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:47:14,034 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:47:14,054 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:48:37,330 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'Nanotechnology' with Id '1112' has been published.
+2015-09-17 15:48:41,360 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:48:41,366 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:51:13,030 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'About' with Id '0' has been published.
+2015-09-17 15:51:17,069 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:51:17,083 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.
+2015-09-17 15:51:57,629 [46] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P2504/T1/D3] Content 'About' with Id '1119' has been published.
+2015-09-17 15:52:01,653 [46] INFO  umbraco.content - [P2504/T1/D3] Save Xml to file...
+2015-09-17 15:52:01,663 [46] INFO  umbraco.content - [P2504/T1/D3] Saved Xml to file.

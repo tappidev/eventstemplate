@@ -343,6 +343,7 @@ img {
   .sponsors img {
     width: 200px !important;
     height: auto !important;
+    vertical-align: middle;
     margin: 1em;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);

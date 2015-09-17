@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>cf528924</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2249,6 +2250,7 @@
     <Content Include="App_Data\NuGetBackup\20150812-135819\Config\grid.editors.config.js" />
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
+    <Content Include="css\nanotechnology-style.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\papercon-style.css" />
     <Content Include="css\style.css" />
@@ -2258,6 +2260,8 @@
     <Content Include="App\scss\variables\_papercon.scss" />
     <Content Include="App\scss\supercorr.scss" />
     <Content Include="App\scss\variables\_supercorr.scss" />
+    <Content Include="App\scss\variables\_nano.scss" />
+    <Content Include="App\scss\nano.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
