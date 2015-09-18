@@ -14,23 +14,26 @@
 // TAPPI Global Navigation Widget
 
 .tab-container {
-    @include container(1140px);
+    @include span(12);
     height: 0;
     padding:0;
-    position: relative;
     border-bottom: 5px solid #e5e5e5;
 }
 
 .tappi-menu-tab {
-    width: 160px;
+    @include span(12 of 12);
     text-align: center;
-    padding: 1em 0.5em 0.5em;
+    padding: 0;
     background: #e5e5e5;
-    border-radius: 6px;
+    border-radius: 0;
     cursor: pointer;
-    position: absolute;
-    top: -5px;
-    right: 0;
+
+    .tab-target {
+        position: absolute;
+        right: 15%;
+        background: #e5e5e5;
+        padding: 1em;
+    }
 }
 
 .tappi-menu-wrapper {
@@ -41,12 +44,36 @@
     font-size: 0.8rem;
     z-index: 9999;
     @include box-shadow();
+    position: fixed;
 }
 
 .tappi-menu {
     overflow: hidden;
     ul {
         list-style: none;
+    }
+}
+
+.mobile-target {
+    padding: 1.5em;
+    background: $primary-color;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+    z-index: 999;
+    position: fixed;
+    right:0;
+    top: 65px;
+    display: none;
+
+    .material-icons {
+        font-size: 2em;
+        vertical-align: middle;
+    }
+
+    span {
+        vertical-align: middle;
     }
 }
 
@@ -120,8 +147,9 @@
 
   .submenu {
       margin: 0;
+      width: auto;
       margin-left: -2em;
-      padding: 1em 5em 1em 2em;
+      padding: 1em 2em 1em 2em;
       position: absolute;
       list-style: none;
       margin-top: 14px;
@@ -137,6 +165,16 @@
 
       a:hover {
           color: $primary-color;
+      }
+
+      .row {
+          width: 100%;
+          margin: 0.5em 0;
+      }
+
+      .one-third-col {
+          width: auto;
+          padding-right: 4em;
       }
   }
 

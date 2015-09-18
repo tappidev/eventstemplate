@@ -3,6 +3,8 @@
 // Using Susy, 12 columns with inside gutters 1/4 the size of the column
 
 // Grid config
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
 
 $susy: (
     columns: 12,

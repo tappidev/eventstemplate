@@ -1,19 +1,80 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
 
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    //var logo = Umbraco.Media(rootNode.logo);
+}
 
 @*
-    This snippet displays a list of links of the pages immediately under the top-most page in the content tree.
-    This is the home page for a standard website.
-    It also highlights the current active page/section in the navigation with the css class "current".
+        This snippet displays a list of links of the pages immediately under the top-most page in the content tree.
+        This is the home page for a standard website.
+        It also highlights the current active page/section in the navigation with the css class "current".
+
+        <ul>
+        @foreach (var item in selection)
+        {
+            <li class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
+                <a href="@item.Url">@item.Name</a>
+            </li>
+        }
+    </ul>
 *@
 
 @{ var selection = CurrentPage.Site().Children.Where("Visible"); }
 
-<ul>
+
+<nav class="main-nav">
+    <ul>
+    <li><a href="@rootNode.Url">Home</a></li>
     @foreach (var item in selection)
     {
-        <li class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
-            <a href="@item.Url">@item.Name</a>
+        <li @(item.Children.Where("Visible").Any() ? "class=has-children" : "")>
+            <a @(item.Children.Where("Visible").Any() ? "" : "href=" + item.Url + "")>
+                @item.Name @if (item.Children.Where("Visible").Any())
+                {
+                    <i class="material-icons">keyboard_arrow_down</i>
+                }
+            </a>
+            @if(item.Children.Where("Visible").Any())
+            {
+                <ul class="submenu is-hidden">
+                    <div class="row">
+                        @if (item.Children.Where("Visible").Count() > 4)
+                        { 
+
+                           foreach (var navGroup in item.Children.InGroupsOf(4))
+                           {
+                                <div class="one-third-col">
+                                    @foreach (var child in navGroup)
+                                    {
+                                        <li><a href="@child.Url">@child.Name</a></li>
+                                    }
+                                </div>
+                           }
+
+
+
+
+                           @* if(renderColumn == true)
+    {
+        @Html.Raw("<div class=one-third-col>")
+    }
+        foreach (var child in item.Children.Where("Visible"))
+        {
+            <li><a href="@child.Url">@child.Name</a></li>
+        }
+
+    if (renderColumn == true)
+    {
+        @Html.Raw("</div>")
+    }*@
+                        }
+                       </div> <!-- row -->
+
+            </ul>
+            }
         </li>
     }
-</ul>
+    </ul>
+</nav>

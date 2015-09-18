@@ -32,6 +32,7 @@
 */
 
 @import "variables/_papercon.scss"; 
+@import "responsive";
 @import "prefixes";
 @import "buttons";
 @import "cards";
@@ -39,7 +40,6 @@
 @import "grid";
 @import "helpers";
 @import "media";
-@import "responsive";
 @import "tables";
 @import "type"; 
 @import "nav"; 

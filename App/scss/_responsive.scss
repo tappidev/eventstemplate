@@ -5,3 +5,75 @@
 // - Grid Behavior
 // - Font/Text Behavior
 
+$break: 790px 1140px;
+$break2: 0px 1140px;
+$break3: 0px 480px;
+$threecol: 0px 789px;
+
+html {
+    @include breakpoint($break) {
+        font-size: 0.938em !important;
+    }
+    @include breakpoint($threecol) {
+        font-size: 0.875em !important;
+    }
+    @include breakpoint($break3) {
+        font-size: 0.813em !important;
+    }
+}
+
+.one-third-col,
+.two-third-col {
+    @include breakpoint($threecol) {
+        width: 100% !important;
+
+        .card-title-image {
+            height: 65px !important;
+
+            img {
+                display: none !important;
+            }
+    }
+}
+}
+
+header {
+    @include breakpoint($break2) {
+        display: none !important;
+    }
+}
+
+.hero {
+
+    @include breakpoint($break2) {
+        background-size: cover !important;
+        border-radius: 0;
+    }
+}
+
+.card-title-image {
+    @include breakpoint($break2) {
+        img {
+            width: 100%;
+            min-height: 1px;
+        }
+    }
+}
+
+.one-third-col {
+    @include breakpoint($threecol) {
+        @include span(12);
+    }
+}
+
+.tab-target {
+    @include breakpoint($break2) {
+        right: 0 !important;
+    }
+}
+
+.mobile-target {
+    @include breakpoint($break2) {
+        display: block !important;
+    }
+}
