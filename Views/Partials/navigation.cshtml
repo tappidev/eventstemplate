@@ -51,28 +51,23 @@
                                         <li><a href="@child.Url">@child.Name</a></li>
                                     }
                                 </div>
-                           }
+						   } 
 
 
-
-
-                           @* if(renderColumn == true)
-    {
-        @Html.Raw("<div class=one-third-col>")
-    }
-        foreach (var child in item.Children.Where("Visible"))
-        {
-            <li><a href="@child.Url">@child.Name</a></li>
-        }
-
-    if (renderColumn == true)
-    {
-        @Html.Raw("</div>")
-    }*@
-                        }
+						
+						} else {
+							   
+							   <div class="one-third-col">
+                                    @foreach (var children in item.Children.Where("Visible"))
+                                    {
+                                        <li><a href="@children.Url">@children.Name</a></li>
+                                    }
+                                </div>
+							   
+						   }
                        </div> <!-- row -->
 
-            </ul>
+            </ul> 
             }
         </li>
     }

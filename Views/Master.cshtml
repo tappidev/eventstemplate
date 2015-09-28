@@ -5,6 +5,7 @@
 
 @{
     var rootNode = CurrentPage.AncestorOrSelf(1);
+    var newString = "Hello World";
 }
 
 <!doctype html>
@@ -14,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="@Umbraco.Field("introHeader")">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@rootNode.Name</title>
+    <title>@rootNode.Name - @CurrentPage.Name</title>
 
     <!-- Styles & Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,6 +30,7 @@
     <div class="container">
         @Html.Partial("Header")
         @RenderBody()
+        Test.
     </div>
 
     @Html.Partial("Footer")
