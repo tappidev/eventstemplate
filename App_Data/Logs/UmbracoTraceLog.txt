@@ -32,3 +32,4 @@
 2015-09-29 10:24:08,766 [8] INFO  Umbraco.Core.PluginManager - [P9064/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
 2015-09-29 10:24:08,766 [8] INFO  Umbraco.Core.PluginManager - [P9064/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
 2015-09-29 10:25:09,093 [8] INFO  umbraco.BusinessLogic.Log - [P9064/T1/D2] Log scrubbed.  Removed all items older than 2015-07-31 10:25:09
+2015-09-29 14:25:09,144 [8] INFO  umbraco.BusinessLogic.Log - [P9064/T1/D2] Log scrubbed.  Removed all items older than 2015-07-31 14:25:09

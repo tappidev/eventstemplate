@@ -104,14 +104,14 @@ div.banner {
         text-align: center;
     }
     .home-bg {
-        color: #fff;
+        color: #45484b;
         height: 100%;
         position: relative;
         padding: 1em 0;
     }
     .home-bg:before {
         content: ""; 
-        background: $primary-color-dark;
+        background: #f0eee1;
         position:absolute;
         height: 100%;
         width: 4000px;
