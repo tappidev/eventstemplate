@@ -10,21 +10,25 @@ $break2: 0px 1140px;
 $break3: 0px 480px;
 $threecol: 0px 789px;
 
+$desktop: max-width 1140px;
+$tablet: max-width 790px;
+$mobile: max-width 480px;
+
 html {
-    @include breakpoint($break) {
+    @include breakpoint($desktop) {
         font-size: 0.938em !important;
     }
-    @include breakpoint($threecol) {
+    @include breakpoint($tablet) {
         font-size: 0.875em !important;
     }
-    @include breakpoint($break3) {
+    @include breakpoint($mobile) {
         font-size: 0.813em !important;
     }
 }
 
 .one-third-col,
 .two-third-col {
-    @include breakpoint($threecol) {
+    @include breakpoint($tablet) {
         width: 100% !important;
 
         .card-title-image {
@@ -38,21 +42,22 @@ html {
 }
 
 header {
-    @include breakpoint($break2) {
+    @include breakpoint($desktop) {
         display: none !important;
     }
 }
 
 .hero {
 
-    @include breakpoint($break2) {
+    @include breakpoint($desktop) {
         background-size: cover !important;
-        border-radius: 0;
+        border-radius: 0 !important;
+        position: relative !important;
     }
 }
 
 .card-title-image {
-    @include breakpoint($break2) {
+    @include breakpoint($desktop) {
         img {
             width: 100%;
             min-height: 1px;
@@ -61,19 +66,37 @@ header {
 }
 
 .one-third-col {
-    @include breakpoint($threecol) {
+    @include breakpoint($tablet) {
         @include span(12);
     }
 }
 
 .tab-target {
+    @include breakpoint($desktop) {
+        right: 0 !important;
+        padding: 0.5em !important;
+        top: 0;
+        width: 100% !important;
+
+        img {
+            width: 70px !important;
+        }
+    }
+}
+
+.tappi-menu-wrapper {
     @include breakpoint($break2) {
         right: 0 !important;
+        @include span(12);
+        float: right;
+        position: relative !important;
+
     }
 }
 
 .mobile-target {
     @include breakpoint($break2) {
         display: block !important;
+        width: 100% !important;
     }
 }

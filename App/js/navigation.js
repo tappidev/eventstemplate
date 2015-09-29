@@ -20,10 +20,26 @@
                 $('.tappi-container').slideToggle(300); 
             }
         }
+
+            if ($('#mobile-nav').is(":visible")) {
+                $('#mobile-nav').slideToggle(300);
+            }
+
     });
 
+        var mobileSubMenu = $('#mobile-nav .submenu');
+        var nav = document.getElementById("main-nav");
+        var mobileNav = document.getElementById("mobile-nav");
+        mobileNav.innerHTML = nav.innerHTML;
 
+        $('.mobile-target').on('click', function (e) {
+            e.stopPropagation();
+            var menu = $('#mobile-nav');
+            menu.slideToggle(300);
+        });
 
+       //mobileSubMenu.removeClass('is-hidden');
+           // $('.submenu').removeClass('is-hidden');
 
     //open-close  submenu
 
@@ -55,3 +71,18 @@
     
     
    }); // document
+
+   var constructMobileNav = function() {
+       var w = $(window).width();
+
+       if (w < 1141) {
+            var nav = document.getElementById("main-nav");
+            var mobileNav = document.getElementById("mobile-nav");
+
+            mobileNav.innerHTML = nav.innerHTML;
+            mobileNav.child('.submenu').removeClass('is-hidden');
+       }
+       
+       
+
+   };

@@ -372,19 +372,19 @@ img {
   z-index: -5;
   width: 300px !important; }
 
-@media (min-width: 790px) and (max-width: 1140px) {
+@media (max-width: 1140px) {
   html {
     font-size: 0.938em !important; } }
 
-@media (min-width: 0px) and (max-width: 789px) {
+@media (max-width: 790px) {
   html {
     font-size: 0.875em !important; } }
 
-@media (min-width: 0px) and (max-width: 480px) {
+@media (max-width: 480px) {
   html {
     font-size: 0.813em !important; } }
 
-@media (min-width: 0px) and (max-width: 789px) {
+@media (max-width: 790px) {
   .one-third-col,
   .two-third-col {
     width: 100% !important; }
@@ -395,34 +395,51 @@ img {
       .two-third-col .card-title-image img {
         display: none !important; } }
 
-@media (min-width: 0px) and (max-width: 1140px) {
+@media (max-width: 1140px) {
   header {
     display: none !important; } }
 
-@media (min-width: 0px) and (max-width: 1140px) {
+@media (max-width: 1140px) {
   .hero {
     background-size: cover !important;
-    border-radius: 0; } }
+    border-radius: 0 !important;
+    position: relative !important; } }
 
-@media (min-width: 0px) and (max-width: 1140px) {
+@media (max-width: 1140px) {
   .card-title-image img {
     width: 100%;
     min-height: 1px; } }
 
-@media (min-width: 0px) and (max-width: 789px) {
+@media (max-width: 790px) {
   .one-third-col {
     width: 100%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; } }
 
-@media (min-width: 0px) and (max-width: 1140px) {
+@media (max-width: 1140px) {
   .tab-target {
-    right: 0 !important; } }
+    right: 0 !important;
+    padding: 0.5em !important;
+    top: 0;
+    width: 100% !important; }
+    .tab-target img {
+      width: 70px !important; } }
+
+@media (min-width: 0px) and (max-width: 1140px) {
+  .tappi-menu-wrapper {
+    right: 0 !important;
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    float: right;
+    position: relative !important; } }
 
 @media (min-width: 0px) and (max-width: 1140px) {
   .mobile-target {
-    display: block !important; } }
+    display: block !important;
+    width: 100% !important; } }
 
 .event-program {
   width: 100%;
@@ -565,9 +582,16 @@ blockquote {
   cursor: pointer; }
   .tappi-menu-tab .tab-target {
     position: absolute;
+    top: 0;
     right: 15%;
     background: #e5e5e5;
     padding: 1em; }
+    .tappi-menu-tab .tab-target img {
+      vertical-align: middle; }
+    .tappi-menu-tab .tab-target i {
+      padding-top: 10px; }
+  .tappi-menu-tab .tab-target:hover i, .tappi-menu-tab tab-target:focus i {
+    color: #0272bb; }
 
 .tappi-menu-wrapper {
   width: 100%;
@@ -590,20 +614,73 @@ blockquote {
 .mobile-target {
   padding: 1.5em;
   background: #0272bb;
-  border: 1px solid #fff;
   color: #fff;
   text-align: right;
   cursor: pointer;
   z-index: 999;
-  position: fixed;
+  position: relative;
+  top: 35px;
   right: 0;
-  top: 65px;
   display: none; }
   .mobile-target .material-icons {
-    font-size: 2em;
-    vertical-align: middle; }
+    font-size: 2em; }
   .mobile-target span {
     vertical-align: middle; }
+
+.mobile-nav-wrapper {
+  position: relative; }
+
+.mobile-nav {
+  width: 100%;
+  position: relative;
+  right: 0;
+  top: 35.1875px;
+  z-index: 9999;
+  background: #2c3136;
+  display: none; }
+  .mobile-nav a, .mobile-nav a:hover, .mobile-nav a:focus {
+    color: #fff;
+    cursor: pointer;
+    padding: 0 20em 0 0; }
+  .mobile-nav i {
+    float: right;
+    padding: 0 1em; }
+  .mobile-nav ul {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: block;
+    position: relative; }
+    .mobile-nav ul li {
+      clear: both;
+      padding: 1em 2em; }
+    .mobile-nav ul .has-children {
+      padding: 1em 0; }
+      .mobile-nav ul .has-children a {
+        padding: 0 2em; }
+  .mobile-nav .submenu {
+    width: 100%;
+    background: #1c1f22;
+    margin-top: 1em;
+    border: none;
+    padding-bottom: 1em; }
+    .mobile-nav .submenu li {
+      padding: 0;
+      margin: 0;
+      padding-top: 1em; }
+  .mobile-nav .is-hidden {
+    display: none; }
+
+#mobile-nav .row {
+  margin: 0; }
+  #mobile-nav .row .one-third-col {
+    padding-right: 0;
+    width: 100%; }
+
+#mobile-nav .selected {
+  width: 100%;
+  color: #fff; }
 
 .main-nav {
   max-width: 1140px;
