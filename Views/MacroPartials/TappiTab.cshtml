@@ -38,6 +38,13 @@
 </div>
 <div class="mobile-nav-wrapper">
     <div class="mobile-target">
+        @{
+
+            var rootNode = CurrentPage.AncestorOrSelf(1);
+            var logo = Umbraco.Media(rootNode.logo);
+            <img src="@logo.Url" alt="" />
+
+        }
         <i class="material-icons">menu</i>
         <span>MENU</span>
     </div>

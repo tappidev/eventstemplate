@@ -5,7 +5,6 @@
 
 @{
     var rootNode = CurrentPage.AncestorOrSelf(1);
-    var newString = "Hello World";
 }
 
 <!doctype html>
@@ -15,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="@Umbraco.Field("introHeader")">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@rootNode.Name - @CurrentPage.Name</title>
+    <title>@rootNode.Name @((@CurrentPage.Name.ToString() != @rootNode.Name.ToString()) ? "-" + @CurrentPage.Name : "" )</title>
 
     <!-- Styles & Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,13 +23,11 @@
     <link rel="stylesheet" href="~/css/normalize.css">
 </head>
 <body class="@rootNode.Name-scheme">
-
-    @Umbraco.RenderMacro("TappiTab")
     <!----------------------->
     <div class="container">
+        @Umbraco.RenderMacro("TappiTab")
         @Html.Partial("Header")
         @RenderBody()
-        Test.
     </div>
 
     @Html.Partial("Footer")
@@ -38,7 +35,7 @@
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap" async defer></script>
-    <script src="~/scripts/GoogleMapsConfig.js"></script>
+    <script src="~/scripts/@rootNode.Name-GoogleMapsConfig.js"></script>
     <script src="~/scripts/navigation.js"></script>
 </body>
 </html>

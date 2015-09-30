@@ -57,6 +57,14 @@ header {
     }
 }
 
+@include breakpoint($desktop) {
+        .container {
+            position: relative;
+            //top: 2em;
+        }
+
+    }
+
 .card-title-image {
     @include breakpoint($desktop) {
         img {

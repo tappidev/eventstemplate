@@ -21,11 +21,23 @@
             }
         }
 
+        if (!$(e.target).closest('#mobile-nav').length) {
             if ($('#mobile-nav').is(":visible")) {
                 $('#mobile-nav').slideToggle(300);
             }
+        }
 
     });
+
+    $(window).resize(function () {
+        if ($(window).width() > 1140) {
+            $('#mobile-nav').hide();
+        }
+    });
+
+    if($(window).width() > 1140) {
+        $('#mobile-nav').hide();
+     }
 
         var mobileSubMenu = $('#mobile-nav .submenu');
         var nav = document.getElementById("main-nav");

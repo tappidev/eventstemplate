@@ -67,6 +67,10 @@
     position: relative !important; } }
 
 @media (max-width: 1140px) {
+  .container {
+    position: relative; } }
+
+@media (max-width: 1140px) {
   .card-title-image img {
     width: 100%;
     min-height: 1px; } }
@@ -644,7 +648,6 @@ blockquote {
 
 .mobile-nav {
   width: 100%;
-  position: relative;
   right: 0;
   z-index: 9999;
   background: #2c3136;
