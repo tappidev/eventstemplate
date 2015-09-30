@@ -2,6 +2,10 @@
 //
 // Using Susy, 12 columns with inside gutters 1/4 the size of the column
 
+body, html {
+    overflow-x: hidden;
+}
+
 // Grid config
 $gutter-width: 1em;
 $grid-padding: $gutter-width;

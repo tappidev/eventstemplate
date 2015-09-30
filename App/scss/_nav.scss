@@ -70,13 +70,14 @@
 
 .mobile-target {
     padding: 1.5em;
+    height: 70px;
     background: $primary-color;
     color: #fff;
     text-align: right;
     cursor: pointer;
     z-index: 999;
     position: relative;
-    top: 35px;
+    top: 46px;
     right:0;
     display: none;
 
@@ -97,7 +98,6 @@
     width: 100%;
     position: relative;
     right: 0;
-    top: 35.1875px;
     z-index: 9999;
     background: #2c3136;
     display: none;

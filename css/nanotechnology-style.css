@@ -176,6 +176,9 @@ button:hover, button:focus {
 .media-collection li:nth-of-type(odd) {
   background: #fcfcfc; }
 
+body, html {
+  overflow-x: hidden; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -388,13 +391,16 @@ img {
 
 @media (max-width: 790px) {
   .one-third-col,
-  .two-third-col {
+  .two-third-col,
+  .two-col-even {
     width: 100% !important; }
     .one-third-col .card-title-image,
-    .two-third-col .card-title-image {
+    .two-third-col .card-title-image,
+    .two-col-even .card-title-image {
       height: 65px !important; }
       .one-third-col .card-title-image img,
-      .two-third-col .card-title-image img {
+      .two-third-col .card-title-image img,
+      .two-col-even .card-title-image img {
         display: none !important; } }
 
 @media (max-width: 1140px) {
@@ -615,13 +621,14 @@ blockquote {
 
 .mobile-target {
   padding: 1.5em;
+  height: 70px;
   background: #009344;
   color: #fff;
   text-align: right;
   cursor: pointer;
   z-index: 999;
   position: relative;
-  top: 35px;
+  top: 46px;
   right: 0;
   display: none; }
   .mobile-target .material-icons {
@@ -636,7 +643,6 @@ blockquote {
   width: 100%;
   position: relative;
   right: 0;
-  top: 35.1875px;
   z-index: 9999;
   background: #2c3136;
   display: none; }

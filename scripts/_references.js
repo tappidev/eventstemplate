@@ -1,3 +1,3 @@
-﻿/// <reference path="~\scripts\jquery-2.4.1.js" /> 
-/// <reference path="~\scripts\jquery-2.4.1.min.js" /> 
-/// <reference path="~\scripts\jquery-2.4.1.intellisense.js" /> 
+﻿/// <reference path="~\scripts\jquery-2.1.4.js" /> 
+/// <reference path="~\scripts\jquery-2.1.4.min.js" /> 
+/// <reference path="~\scripts\jquery-2.1.4.intellisense.js" /> 

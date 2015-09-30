@@ -27,7 +27,8 @@ html {
 }
 
 .one-third-col,
-.two-third-col {
+.two-third-col,
+.two-col-even {
     @include breakpoint($tablet) {
         width: 100% !important;
 
