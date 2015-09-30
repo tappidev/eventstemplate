@@ -639,6 +639,8 @@ blockquote {
     font-size: 2em; }
   .mobile-target span {
     vertical-align: middle; }
+  .mobile-target img {
+    width: 20px; }
 
 .mobile-nav-wrapper {
   position: relative; }
