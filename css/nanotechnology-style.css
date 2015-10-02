@@ -243,9 +243,11 @@ main {
 .content-block {
   background: #fff;
   box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
-  padding: 1em; }
+  padding: 1em;
+  text-align: center; }
   .content-block h4 {
-    margin: 0 0 0.7em 1em; }
+    margin: 0 0 0.7em 1em;
+    color: #009344; }
 
 .logo-row {
   margin-bottom: 0; }
