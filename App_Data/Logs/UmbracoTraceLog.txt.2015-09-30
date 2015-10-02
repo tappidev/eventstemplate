@@ -1,0 +1,330 @@
+﻿2015-09-30 09:20:34,209 [8] INFO  Umbraco.Core.CoreBootManager - [P6008/T1/D2] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-30 09:20:34,268 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Determining hash of code files on disk
+2015-09-30 09:20:34,279 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Hash determined (took 10ms)
+2015-09-30 09:20:34,284 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-30 09:20:34,297 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 11ms)
+2015-09-30 09:20:34,359 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-30 09:20:34,360 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-30 09:20:34,360 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-30 09:20:34,361 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-30 09:20:34,370 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-30 09:20:34,371 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-30 09:20:34,371 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-30 09:20:34,373 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-30 09:20:34,395 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-30 09:20:34,396 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-30 09:20:34,396 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-30 09:20:34,396 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-30 09:20:34,987 [8] INFO  Umbraco.Core.DatabaseContext - [P6008/T1/D2] CanConnect = True
+2015-09-30 09:20:34,996 [8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6008/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-30 09:20:35,008 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P6008/T1/D2] Initializing Examine and binding to business logic events
+2015-09-30 09:20:35,049 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P6008/T1/D2] Adding examine event handlers for index providers: 3
+2015-09-30 09:20:35,057 [8] INFO  Umbraco.Core.CoreBootManager - [P6008/T1/D2] Umbraco application startup complete (took 833ms)
+2015-09-30 09:20:35,720 [8] INFO  Umbraco.Core.ApplicationContext - [P6008/T1/D2] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-30 09:20:35,796 [8] INFO  umbraco.content - [P6008/T1/D2] Load Xml from file...
+2015-09-30 09:20:35,801 [8] INFO  umbraco.content - [P6008/T1/D2] Loaded Xml from file.
+2015-09-30 09:20:35,932 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-30 09:20:35,933 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-30 09:20:36,265 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 09:20:36,266 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 09:20:36,895 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 09:20:36,896 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 09:20:36,912 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-30 09:20:36,913 [8] INFO  Umbraco.Core.PluginManager - [P6008/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-30 09:21:37,269 [8] INFO  umbraco.BusinessLogic.Log - [P6008/T1/D2] Log scrubbed.  Removed all items older than 2015-08-01 09:21:37
+2015-09-30 15:46:09,063 [8] INFO  Umbraco.Core.CoreBootManager - [P6496/T1/D2] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-30 15:46:09,107 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Determining hash of code files on disk
+2015-09-30 15:46:09,116 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Hash determined (took 8ms)
+2015-09-30 15:46:09,120 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-30 15:46:09,130 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 8ms)
+2015-09-30 15:46:09,189 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-30 15:46:09,190 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-30 15:46:09,190 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-30 15:46:09,191 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-30 15:46:09,202 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-30 15:46:09,202 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-30 15:46:09,202 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-30 15:46:09,204 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-30 15:46:09,227 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-30 15:46:09,228 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-30 15:46:09,228 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-30 15:46:09,228 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-30 15:46:09,871 [8] INFO  Umbraco.Core.DatabaseContext - [P6496/T1/D2] CanConnect = True
+2015-09-30 15:46:09,879 [8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6496/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-30 15:46:09,897 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T1/D2] Initializing Examine and binding to business logic events
+2015-09-30 15:46:09,938 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T1/D2] Adding examine event handlers for index providers: 3
+2015-09-30 15:46:09,950 [8] INFO  Umbraco.Core.CoreBootManager - [P6496/T1/D2] Umbraco application startup complete (took 870ms)
+2015-09-30 15:46:10,344 [8] INFO  Umbraco.Core.ApplicationContext - [P6496/T1/D2] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-30 15:46:10,440 [8] INFO  umbraco.content - [P6496/T1/D2] Load Xml from file...
+2015-09-30 15:46:10,445 [8] INFO  umbraco.content - [P6496/T1/D2] Loaded Xml from file.
+2015-09-30 15:46:10,553 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-30 15:46:10,554 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-30 15:46:10,894 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 15:46:10,894 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 15:46:11,437 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 15:46:11,437 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 15:46:11,452 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-30 15:46:11,452 [8] INFO  Umbraco.Core.PluginManager - [P6496/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-30 15:47:11,858 [8] INFO  umbraco.BusinessLogic.Log - [P6496/T1/D2] Log scrubbed.  Removed all items older than 2015-08-01 15:47:11
+2015-09-30 15:48:37,348 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledTasks] Terminating
+2015-09-30 15:48:37,348 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-09-30 15:48:37,349 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledPublishing] Terminating
+2015-09-30 15:48:37,349 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-30 15:48:37,350 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-09-30 15:48:37,350 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2015-09-30 15:48:37,350 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [LogScrubber] Terminating
+2015-09-30 15:48:37,350 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [LogScrubber] Waiting for tasks to complete
+2015-09-30 15:48:37,350 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [LogScrubber] Tasks completed, terminated
+2015-09-30 15:48:38,912 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [KeepAlive] Terminating
+2015-09-30 15:48:38,912 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [KeepAlive] Waiting for tasks to complete
+2015-09-30 15:48:38,912 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D2] [KeepAlive] Tasks completed, terminated
+2015-09-30 15:49:08,923 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [P6496/T1/D2] Application shutdown. Reason: ConfigurationChange
+2015-09-30 15:49:14,171 [21] INFO  Umbraco.Core.CoreBootManager - [P6496/T1/D3] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-30 15:49:14,197 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Determining hash of code files on disk
+2015-09-30 15:49:14,202 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Hash determined (took 4ms)
+2015-09-30 15:49:14,206 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-30 15:49:14,215 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 8ms)
+2015-09-30 15:49:14,268 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-30 15:49:14,269 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-30 15:49:14,269 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-30 15:49:14,270 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-30 15:49:14,279 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-30 15:49:14,280 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-30 15:49:14,280 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-30 15:49:14,282 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-30 15:49:14,301 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-30 15:49:14,302 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-30 15:49:14,302 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-30 15:49:14,302 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-30 15:49:14,725 [21] INFO  Umbraco.Core.DatabaseContext - [P6496/T1/D3] CanConnect = True
+2015-09-30 15:49:14,733 [21] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6496/T1/D3] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-30 15:49:14,746 [21] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T1/D3] Initializing Examine and binding to business logic events
+2015-09-30 15:49:14,780 [21] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T1/D3] Adding examine event handlers for index providers: 3
+2015-09-30 15:49:14,787 [21] INFO  Umbraco.Core.CoreBootManager - [P6496/T1/D3] Umbraco application startup complete (took 605ms)
+2015-09-30 15:49:15,032 [21] INFO  Umbraco.Core.ApplicationContext - [P6496/T1/D3] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-30 15:49:15,064 [21] INFO  umbraco.content - [P6496/T1/D3] Load Xml from file...
+2015-09-30 15:49:15,065 [21] INFO  umbraco.content - [P6496/T1/D3] Loaded Xml from file.
+2015-09-30 15:49:15,151 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-30 15:49:15,152 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-30 15:49:15,455 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 15:49:15,455 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 15:49:15,944 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 15:49:15,944 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 15:49:15,956 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-30 15:49:15,956 [21] INFO  Umbraco.Core.PluginManager - [P6496/T1/D3] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-30 15:50:16,277 [21] INFO  umbraco.BusinessLogic.Log - [P6496/T1/D3] Log scrubbed.  Removed all items older than 2015-08-01 15:50:16
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [LogScrubber] Terminating
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [LogScrubber] Waiting for tasks to complete
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledTasks] Terminating
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledTasks] Waiting for tasks to complete
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledPublishing] Terminating
+2015-09-30 16:30:59,161 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-30 16:30:59,162 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [LogScrubber] Tasks completed, terminated
+2015-09-30 16:30:59,162 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledTasks] Tasks completed, terminated
+2015-09-30 16:30:59,162 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [ScheduledPublishing] Tasks completed, terminated
+2015-09-30 16:31:00,711 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [KeepAlive] Terminating
+2015-09-30 16:31:00,711 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [KeepAlive] Waiting for tasks to complete
+2015-09-30 16:31:00,711 [21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6496/T1/D3] [KeepAlive] Tasks completed, terminated
+2015-09-30 16:31:30,735 [21] INFO  Umbraco.Core.UmbracoApplicationBase - [P6496/T1/D3] Application shutdown. Reason: ConfigurationChange
+2015-09-30 16:35:06,092 [181] INFO  Umbraco.Core.CoreBootManager - [P6496/T180/D4] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-09-30 16:35:06,119 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Determining hash of code files on disk
+2015-09-30 16:35:06,125 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Hash determined (took 4ms)
+2015-09-30 16:35:06,128 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-30 16:35:06,138 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 9ms)
+2015-09-30 16:35:06,193 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-30 16:35:06,193 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-09-30 16:35:06,194 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-30 16:35:06,194 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2015-09-30 16:35:06,203 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-30 16:35:06,204 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-30 16:35:06,204 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-30 16:35:06,205 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2015-09-30 16:35:06,225 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-30 16:35:06,226 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-30 16:35:06,226 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-30 16:35:06,226 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-30 16:35:06,634 [181] INFO  Umbraco.Core.DatabaseContext - [P6496/T180/D4] CanConnect = True
+2015-09-30 16:35:06,642 [181] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6496/T180/D4] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-30 16:35:06,656 [181] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T180/D4] Initializing Examine and binding to business logic events
+2015-09-30 16:35:06,688 [181] INFO  Umbraco.Web.Search.ExamineEvents - [P6496/T180/D4] Adding examine event handlers for index providers: 3
+2015-09-30 16:35:06,695 [181] INFO  Umbraco.Core.CoreBootManager - [P6496/T180/D4] Umbraco application startup complete (took 591ms)
+2015-09-30 16:35:06,900 [181] INFO  Umbraco.Core.ApplicationContext - [P6496/T180/D4] ApplicationUrl: http://localhost:58448/umbraco (UmbracoModule request)
+2015-09-30 16:35:06,931 [181] INFO  umbraco.content - [P6496/T180/D4] Load Xml from file...
+2015-09-30 16:35:06,932 [181] INFO  umbraco.content - [P6496/T180/D4] Loaded Xml from file.
+2015-09-30 16:35:07,012 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-30 16:35:07,013 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-09-30 16:35:07,288 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 16:35:07,288 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 16:35:07,703 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-30 16:35:07,703 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-30 16:35:07,716 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-30 16:35:07,717 [181] INFO  Umbraco.Core.PluginManager - [P6496/T180/D4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-09-30 16:36:08,646 [181] INFO  umbraco.BusinessLogic.Log - [P6496/T180/D4] Log scrubbed.  Removed all items older than 2015-08-01 16:36:08
+2015-09-30 16:41:15,101 [181] ERROR Umbraco.Core.UmbracoApplicationBase - [P6496/T180/D4] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Encountered end tag "title" with no matching start tag.  Are your start/end tags properly balanced?
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-09-30 16:42:00,417 [181] ERROR Umbraco.Core.UmbracoApplicationBase - [P6496/T180/D4] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): The explicit expression block is missing a closing ")" character.  Make sure you have a matching ")" character for all the "(" characters within this block, and that none of the ")" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-09-30 17:30:02,912 [181] WARN  umbraco.macro - [P6496/T180/D4] Error loading partial view macro (View: ~/Views/MacroPartials/TappiTab.cshtml). Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'string' does not contain a definition for 'logo'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_MacroPartials_TappiTab_cshtml.Execute() in c:\Sites\EventsDev\EventsDev\Views\MacroPartials\TappiTab.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-09-30 17:30:02,913 [181] WARN  umbraco.macro - [P6496/T180/D4] Error loading Partial View (file: ~/Views/MacroPartials/TappiTab.cshtml). Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'string' does not contain a definition for 'logo'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_MacroPartials_TappiTab_cshtml.Execute() in c:\Sites\EventsDev\EventsDev\Views\MacroPartials\TappiTab.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-09-30 17:30:17,248 [181] WARN  umbraco.macro - [P6496/T180/D4] Error loading partial view macro (View: ~/Views/MacroPartials/TappiTab.cshtml). Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'string' does not contain a definition for 'logo'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_MacroPartials_TappiTab_cshtml.Execute() in c:\Sites\EventsDev\EventsDev\Views\MacroPartials\TappiTab.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-09-30 17:30:17,248 [181] WARN  umbraco.macro - [P6496/T180/D4] Error loading Partial View (file: ~/Views/MacroPartials/TappiTab.cshtml). Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'string' does not contain a definition for 'logo'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_MacroPartials_TappiTab_cshtml.Execute() in c:\Sites\EventsDev\EventsDev\Views\MacroPartials\TappiTab.cshtml:line 44
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)

@@ -59,3 +59,20 @@ img {
   z-index: -5;
   width: 300px !important;
 }
+
+// Forms
+
+.form-group {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input {
+    padding: 12px;
+        border: 1px solid #ccc;
+}
+
+form {
+    border-top: 1px solid #ccc;
+    padding-top: 1em;
+}

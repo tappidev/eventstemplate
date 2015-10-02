@@ -33,12 +33,11 @@ html {
         width: 100% !important;
 
         .card-title-image {
-            height: 65px !important;
-
-            img {
-                display: none !important;
-            }
+            height: 0 !important;
+            border-top: 2px solid $complimentary-color;
     }
+
+    
 }
 }
 

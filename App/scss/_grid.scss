@@ -36,19 +36,18 @@ header {
     width: 100%;
     height: 360px;
     color: #fff;
-    border-radius: 6px;
+    //border-radius: 6px;
     overflow: hidden;
     @include text-shadow();
 }
 
 div.banner {
     margin-top: 0;
+    width: 100%;
 }
 
 .row {
     @include container(1140px);
-    margin-bottom: 1.414em;
-    margin-top: 1.414em;
 
     .one-col {
         @include span(12);
@@ -71,6 +70,20 @@ div.banner {
     }
 
 } // .row
+
+  main {
+      margin: 1em;
+      padding: 1em;
+  }
+  .content-block {
+      background: #fff;
+      @include box-shadow(0px,1px,7px,0px, rgba(0, 0, 0, 0.16));
+      padding: 1em;
+
+      h4 {
+          margin: 0 0 0.7em 1em;
+      }
+  }
 
   .logo-row {
       margin-bottom: 0;
@@ -108,19 +121,41 @@ div.banner {
         text-align: center;
     }
     .home-bg {
-        color: #45484b;
+        color: #fff;
         height: 100%;
         position: relative;
-        padding: 1em 0;
     }
     .home-bg:before {
         content: ""; 
-        background: #f0eee1;
+        background: $primary-color-light;
         position:absolute;
         height: 100%;
         width: 4000px;
         left: -2000px;
         z-index: -1;
+        border-top: 2px solid $primary-color;
+    }
+    .home-bg-white {
+        height: 100%;
+        position: relative;
+    }
+    .home-bg-white:before {
+        content: ""; 
+        background: #fff;
+        position:absolute;
+        height: 100%;
+        width: 4000px;
+        left: -2000px;
+        z-index: -1;
+        border-top: 2px solid $primary-color;
+    }
+
+    .home-bg,
+    .home-bg-white {
+        h3 {
+            padding-top: 1em;
+            margin-top: 0;
+        }
     }
 
 // ADS

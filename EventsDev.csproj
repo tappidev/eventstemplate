@@ -2263,8 +2263,12 @@
     <Content Include="App\scss\variables\_nano.scss" />
     <Content Include="App\scss\nano.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
+    <Content Include="scripts\SuperCorrExpo-GoogleMapsConfig.js" />
+    <Content Include="scripts\PaperCon-GoogleMapsConfig.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
+    <Content Include="scripts\navigation.js" />
     <None Include="scripts\_references.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -2291,7 +2295,9 @@
     <Content Include="Config\ExamineSettings.config" />
     <Content Include="Config\ExamineIndex.config" />
     <Content Include="Config\EmbeddedMedia.config" />
-    <Content Include="Config\Dashboard.config" />
+    <Content Include="Config\Dashboard.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Config\ClientDependency.config" />
     <Content Include="Config\BaseRestExtensions.config" />
     <Content Include="Config\applications.config" />

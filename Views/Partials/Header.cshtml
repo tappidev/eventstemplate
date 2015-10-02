@@ -6,6 +6,21 @@
     //var logo = Umbraco.Media(rootNode.logo);
 }
 
+<div class="mobile-nav-wrapper">
+    <div class="mobile-target">
+        @{
+            var logo = Umbraco.Media(rootNode.logo);
+            <img src="@logo.Url" alt="" />
+
+        }
+        <i class="material-icons">menu</i>
+        <span>MENU</span>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+
+    </div>
+</div>
+
 <header>
     <div class="row logo-row">
         <h1 class="logo">

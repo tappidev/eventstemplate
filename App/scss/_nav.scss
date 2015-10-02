@@ -213,21 +213,12 @@
       padding: 1em 0.2em;
       @include transition(background 0.2s);
 
-      &:last-of-type {
-          text-align: center;
-          float: right;
-          padding: 0;
+      &:first-of-type {
+          background: #fff;
+          margin-right: 1em;
 
           a {
-              background: $complimentary-color;
-              color: white;
-              padding: 0.5em 2em;
-              @include transition(box-shadow 0.2s);
-              border-radius: 5px;
-          }
-          a:hover {
-              color: white;
-              @include box-shadow();
+              padding: 1em;
           }
       }
   }
@@ -243,6 +234,10 @@
       @include transition(color 0.2s); 
       cursor: pointer;
   }
+
+    .submenu:first-of-type {
+        margin-left: 0;
+    }
 
   .submenu {
       margin: 0;

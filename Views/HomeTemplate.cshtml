@@ -7,7 +7,7 @@
     var rootNode = CurrentPage.AncestorOrSelf(1);
 }
 
-<div class="row banner" role="banner">
+<div class="banner" role="banner">
     <div class="hero">
         @{
             if (CurrentPage.HasValue("heroImage"))
@@ -28,13 +28,32 @@
 </div>
 
 <main class="row">
+  @{ // <div class="two-third-col">
+       // <h3>@Umbraco.Field("introHeader")</h3>
+       // <h5 class="subtitle">@Umbraco.Field("introSubheader")</h5>
+       // <p>@Umbraco.Field("mainIntroContent")</p>
+    //</div>
+      }
+
     <div class="two-third-col">
-        <h3>@Umbraco.Field("introHeader")</h3>
-        <h5 class="subtitle">@Umbraco.Field("introSubheader")</h5>
-        <p>@Umbraco.Field("mainIntroContent")</p>
+        <div class="content-block">
+            <h4>Sign up for updates</h4>
+            <form>
+                <div class="form-group">
+                    @*<label for="fullName">Full Name</label>*@
+                    <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
+                </div>
+                <div class="form-group">
+                    @*<label for="validEmail">Email</label>*@
+                    <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
+                </div>
+                <button type="submit" class="btn">Send It!</button>
+            </form>
+        </div>
     </div>
 
-    <aside class="one-third-col">
+    <div class="one-third-col">
+
         @if (Model.Content.GetProperty("registerButton").HasValue)
         {
             <a class="btn btn-action btn-lg" href="@Umbraco.Field("registerButton")" target="_blank">Register Now!</a>
@@ -44,8 +63,7 @@
             <a class="btn btn-disable btn-lg">Registration Opening Soon</a>
         }
 
-    </aside>
-
+    </div>
 </main>
 
 @Model.Content.GetGridHtml("UICards")
@@ -64,7 +82,7 @@
 
 
 
-<div class="row">
+<div class="row home-bg-white">
     <div class="headline"><h3>Sponsors</h3></div>
     <div class="sponsors">
         @Umbraco.Field("sponsorsField")

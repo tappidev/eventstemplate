@@ -23,10 +23,8 @@
 
 @{ var selection = CurrentPage.Site().Children.Where("Visible"); }
 
-
 <nav class="main-nav" id="main-nav">
     <ul>
-    <li><a href="@rootNode.Url">Home</a></li>
     @foreach (var item in selection)
     {
         <li @(item.Children.Where("Visible").Any() ? "class=has-children" : "")>
