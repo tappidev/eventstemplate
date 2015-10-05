@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    //var logo = Umbraco.Media(rootNode.logo);
+    char[] splitChar = { ',' };
+    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+}
+
+<div class="content-block news"> 
+   <div class="title-wrap"><span class="news-title">Quick News</span> </div> 
+
+    @{ 
+        if (CurrentPage.HasValue("homeLinkScroller") && CurrentPage.homeLinkScroller.ToString().Length > 0)
+        {
+            foreach (var item in CurrentPage.homeLinkScroller)
+            {
+                var newsUrl = (bool)item.isInternal ? Umbraco.NiceUrl(item.Value<int>("internal")) : item.link;
+                var linkTarget = (bool)item.newWindow ? "_blank" : null;
+                <a class="news-item" href="@newsUrl" target="@linkTarget">@item.caption</a>
+            }
+        }
+    }
+
+</div>

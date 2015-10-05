@@ -14,12 +14,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="@Umbraco.Field("introHeader")">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@rootNode.Name @((@CurrentPage.Name.ToString() != @rootNode.Name.ToString()) ? "-" + @CurrentPage.Name : "" )</title>
+    <title>@rootNode.Name @((@CurrentPage.Name.ToString() != @rootNode.Name.ToString()) ? "- " + @CurrentPage.Name : "" )</title>
 
     <!-- Styles & Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="~/css/@rootNode.Name-style.css" />
-    <!--<link rel="stylesheet" href="~/css/style.css">-->
+    @*<link rel="stylesheet" href="https://s3.amazonaws.com/sandboxroot/css/papercon-style.css" />*@
+    <link rel="stylesheet" href="~/css/@rootNode.Name.ToString()-style.css">
     <link rel="stylesheet" href="~/css/normalize.css">
 </head>
 <body class="@rootNode.Name-scheme">

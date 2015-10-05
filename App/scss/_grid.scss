@@ -29,7 +29,6 @@ $susy: (
 
 header {
     margin-top: 0 !important;
-    overflow: hidden;
 }
 
 .hero {
@@ -79,12 +78,27 @@ div.banner {
       background: #fff;
       @include box-shadow(0px,1px,7px,0px, rgba(0, 0, 0, 0.16));
       padding: 1em;
-      text-align: center;
+      margin-bottom: 1em;
 
       h4 {
           margin: 0 0 0.7em 1em;
           color: $primary-color;
       }
+
+      .news-title {
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #514f52;
+          opacity: 0.5;
+      }
+      .news-item {
+          margin-left: 2em;
+      }
+  }
+
+
+  .sign-up {
+      text-align: center;
   }
 
   .logo-row {
@@ -217,5 +231,22 @@ footer {
         span {
             vertical-align: middle;
         }
+
+        a {
+            color: #fff;
+        }
     }
+}
+
+.news {
+    a {
+        display: none;
+    }
+
+    .title-wrap {
+        float: left;
+    }
+     
+    height: 56px;
+    
 }

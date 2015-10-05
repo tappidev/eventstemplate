@@ -36,20 +36,7 @@
       }
 
     <div class="two-third-col">
-        <div class="content-block">
-            <h4>Sign up for updates</h4>
-            <form>
-                <div class="form-group">
-                    @*<label for="fullName">Full Name</label>*@
-                    <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
-                </div>
-                <div class="form-group">
-                    @*<label for="validEmail">Email</label>*@
-                    <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
-                </div>
-                <button type="submit" class="btn">Send It!</button>
-            </form>
-        </div>
+        @Html.Partial("news")
     </div>
 
     <div class="one-third-col">
@@ -68,6 +55,22 @@
 
 @Model.Content.GetGridHtml("UICards")
 
+<div class="row">
+    <div class="content-block sign-up">
+        <h4>Sign up for important updates</h4>
+        <form>
+            <div class="form-group">
+                @*<label for="fullName">Full Name</label>*@
+                <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
+            </div>
+            <div class="form-group">
+                @*<label for="validEmail">Email</label>*@
+                <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
+            </div>
+            <button type="submit" class="btn">Send It!</button>
+        </form>
+    </div>
+</div>
 @*<div class="row">
     <div class="one-col">
         <h3>@Umbraco.Field("introHeader")</h3>

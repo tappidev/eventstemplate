@@ -8,7 +8,7 @@
     position: absolute;
     z-index: -5;
     left: -1%;
-    top: 4em; }
+    top: 10em; }
   .logo-row img:nth-of-type(2) {
     width: 350px; }
 
@@ -100,6 +100,14 @@
   .mobile-target {
     display: block !important;
     width: 100% !important; } }
+
+@media (max-width: 1140px) {
+  div.news {
+    height: 82px;
+    text-align: center; }
+  .title-wrap {
+    width: 100% !important;
+    float: none; } }
 
 .btn,
 button {
@@ -264,8 +272,7 @@ body, html {
   padding: 0; }
 
 header {
-  margin-top: 0 !important;
-  overflow: hidden; }
+  margin-top: 0 !important; }
 
 .hero {
   width: 100%;
@@ -320,10 +327,20 @@ main {
   background: #fff;
   box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
   padding: 1em;
-  text-align: center; }
+  margin-bottom: 1em; }
   .content-block h4 {
     margin: 0 0 0.7em 1em;
     color: #075889; }
+  .content-block .news-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #514f52;
+    opacity: 0.5; }
+  .content-block .news-item {
+    margin-left: 2em; }
+
+.sign-up {
+  text-align: center; }
 
 .logo-row {
   margin-bottom: 0; }
@@ -435,6 +452,15 @@ footer {
       clear: both; }
     footer .footer-container span {
       vertical-align: middle; }
+    footer .footer-container a {
+      color: #fff; }
+
+.news {
+  height: 56px; }
+  .news a {
+    display: none; }
+  .news .title-wrap {
+    float: left; }
 
 a, i {
   vertical-align: middle; }
@@ -659,7 +685,8 @@ blockquote {
   position: fixed; }
 
 .tappi-menu {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 1em; }
   .tappi-menu ul {
     list-style: none; }
 
@@ -668,7 +695,7 @@ blockquote {
   height: 70px;
   background: #075889;
   color: #fff;
-  text-align: right;
+  text-align: center;
   cursor: pointer;
   z-index: 999;
   position: relative;
@@ -678,16 +705,22 @@ blockquote {
   .mobile-target .material-icons {
     font-size: 2em; }
   .mobile-target span {
-    vertical-align: middle; }
+    vertical-align: middle;
+    float: right; }
   .mobile-target img {
-    width: 20px; }
+    width: 50px;
+    float: left;
+    position: relative;
+    top: -12px; }
 
 .mobile-nav-wrapper {
   position: relative; }
 
 .mobile-nav {
   width: 100%;
+  position: relative;
   right: 0;
+  top: 45px;
   z-index: 9999;
   background: #2c3136;
   display: none; }
@@ -729,7 +762,8 @@ blockquote {
   margin: 0; }
   #mobile-nav .row .one-third-col {
     padding-right: 0;
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
 
 #mobile-nav .selected {
   width: 100%;
@@ -756,16 +790,10 @@ blockquote {
 .main-nav > ul {
   margin: 0;
   padding: 0;
-  float: left;
-  list-style: none;
-  width: 100%;
-  float: left;
-  padding-left: 0.83333%;
-  padding-right: 0.83333%; }
+  list-style: none; }
 
 .main-nav > ul > li {
-  display: inline;
-  float: left;
+  display: inline-block;
   padding: 1em 0.2em;
   -moz-transition: background 0.2s;
   -o-transition: background 0.2s;
@@ -775,7 +803,7 @@ blockquote {
     background: #fff;
     margin-right: 1em; }
     .main-nav > ul > li:first-of-type a {
-      padding: 1em; }
+      padding: 0 1em 1em 1em; }
 
 .main-nav > ul > li > a:hover {
   color: #075889;
@@ -798,8 +826,6 @@ blockquote {
 
 .submenu {
   margin: 0;
-  width: auto;
-  margin-left: -2em;
   padding: 1em 2em 1em 2em;
   position: absolute;
   list-style: none;
@@ -811,17 +837,20 @@ blockquote {
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0s;
   transition: opacity 0.4s 0s, visibility 0s 0s;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.3);
-  z-index: 1; }
+  z-index: 9999;
+  display: inline-block; }
   .submenu li {
     margin-bottom: 0.5em; }
   .submenu a:hover {
-    color: #075889; }
+    color: #075889;
+    text-decoration: underline; }
   .submenu .row {
     width: 100%;
     margin: 0.5em 0; }
   .submenu .one-third-col {
     width: auto;
-    padding-right: 4em; }
+    margin-right: 4em;
+    padding: 0; }
 
 .main-nav .material-icons {
   font-size: 18px;

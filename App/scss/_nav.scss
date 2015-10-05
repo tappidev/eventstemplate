@@ -63,6 +63,8 @@
 
 .tappi-menu {
     overflow: hidden;
+    margin-top: 1em;
+
     ul {
         list-style: none;
     }
@@ -73,7 +75,7 @@
     height: 70px;
     background: $primary-color;
     color: #fff;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     z-index: 999;
     position: relative;
@@ -87,10 +89,14 @@
 
     span {
         vertical-align: middle;
+        float: right;
     }
 
     img{
-        width:20px;
+        width:50px;
+        float: left;
+        position:relative;
+        top: -12px;
     }
 }
 
@@ -101,7 +107,9 @@
 
 .mobile-nav {
     width: 100%;
+    position: relative;
     right: 0;
+    top: 45px;
     z-index: 9999;
     background: #2c3136;
     display: none;
@@ -159,12 +167,14 @@
 }
 
 #mobile-nav {
+
     .row {
         margin: 0;
 
         .one-third-col {
             padding-right: 0;
             width: 100%;
+            text-align: center;
         }
     }
 
@@ -202,14 +212,11 @@
   .main-nav > ul {
         margin: 0;
         padding: 0;
-        float: left;
         list-style: none;
-        @include span(12 of 12);
     }
 
   .main-nav > ul > li {
-      display: inline;
-      float: left;
+      display: inline-block;
       padding: 1em 0.2em;
       @include transition(background 0.2s);
 
@@ -218,7 +225,7 @@
           margin-right: 1em;
 
           a {
-              padding: 1em;
+              padding: 0 1em 1em 1em;
           }
       }
   }
@@ -241,8 +248,7 @@
 
   .submenu {
       margin: 0;
-      width: auto;
-      margin-left: -2em;
+      //width: 500px;
       padding: 1em 2em 1em 2em;
       position: absolute;
       list-style: none;
@@ -251,7 +257,8 @@
       border-top: 2px solid $primary-color;
       @include transition(opacity .4s 0s, visibility 0s 0s);
       @include box-shadow(0px, 3px, 8px, 0px, rgba(0,0,0,.3), false);
-      z-index: 1;
+      z-index: 9999;
+      display: inline-block;
 
       li {
           margin-bottom: 0.5em;
@@ -259,6 +266,7 @@
 
       a:hover {
           color: $primary-color;
+          text-decoration: underline;
       }
 
       .row {
@@ -268,7 +276,8 @@
 
       .one-third-col {
           width: auto;
-          padding-right: 4em;
+          margin-right: 4em;
+          padding: 0;
       }
   }
 
@@ -328,5 +337,9 @@
      li {
          display: inline;
          margin: 0.5em 0 0.5em 0.5em;
+     }
+
+     a {
+
      }
  }

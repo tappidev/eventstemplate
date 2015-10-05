@@ -80,6 +80,26 @@
 
        // make fixed if not visible
 
+    var newsItems = $('.news-item');
+
+    $(function () {
+
+        var startIndex = 0;
+        var endIndex = newsItems.length;
+        $('.news a:first').fadeIn(1000).delay(1000);
+ 
+        window.setInterval(function () {
+            $('.news a:eq(' + startIndex + ')').fadeOut(1000);
+            startIndex++;
+            $('.news a:eq(' + startIndex + ')').delay(1500).fadeIn(1000).delay(1500);
+
+            if (endIndex == startIndex) {
+                startIndex = -1;
+            }
+        }, (4000));
+
+    });
+       
     
     
    }); // document

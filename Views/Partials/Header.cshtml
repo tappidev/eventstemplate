@@ -4,17 +4,22 @@
 
     var rootNode = CurrentPage.AncestorOrSelf(1);
     //var logo = Umbraco.Media(rootNode.logo);
+    char[] splitChar = { ',' };
+    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
 }
 
 <div class="mobile-nav-wrapper">
     <div class="mobile-target">
         @{
-            var logo = Umbraco.Media(rootNode.logo);
-            <img src="@logo.Url" alt="" />
+
+            var mainLogo = Umbraco.Media(ids[0]);
+            <a class="mobile-logo" href="@rootNode.Url"><img src="@mainLogo.umbracoFile" alt="@rootNode.Name" /></a>
 
         }
-        <i class="material-icons">menu</i>
-        <span>MENU</span>
+        <span>
+            <i class="material-icons">menu</i>
+            MENU
+        </span>
     </div>
     <div class="mobile-nav" id="mobile-nav">
 
@@ -26,8 +31,6 @@
         <h1 class="logo">
             <a href="@rootNode.Url">
                 @{
-                    char[] splitChar = { ',' };
-                    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
 
                     foreach (string id in ids)
                     {

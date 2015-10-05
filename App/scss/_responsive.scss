@@ -108,3 +108,17 @@ header {
         width: 100% !important;
     }
 }
+
+@include breakpoint($desktop) {
+
+    div.news {
+        height: 82px;
+        text-align: center;
+    }
+
+    .title-wrap {
+        width: 100% !important;
+        float: none;
+    }
+
+}
