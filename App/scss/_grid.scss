@@ -67,6 +67,9 @@ div.banner {
     .four-col {
         @include span(3);
     }
+    .three-fourth-col {
+        @include span(9);
+    }
 
 } // .row
 
@@ -199,7 +202,7 @@ div.banner {
 
 .child-body {
     .content {
-        @include box-shadow();
+        //@include box-shadow();
         margin-top: -6em; 
         background: #fff;
 
@@ -212,6 +215,7 @@ div.banner {
 
 .page-head {
     margin: 3em 0 8em;
+    padding: 1em 0 0 2em;
 }
 
 // Footer

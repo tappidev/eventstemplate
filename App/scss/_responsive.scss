@@ -122,3 +122,15 @@ header {
     }
 
 }
+
+@include breakpoint($tablet) {
+
+    .content {
+        //width: 100% !important;
+    }
+
+    main {
+        padding: 0 !important;
+    }
+
+}

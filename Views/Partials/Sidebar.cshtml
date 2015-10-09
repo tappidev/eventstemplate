@@ -1,0 +1,34 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    char[] splitChar = { ',' };
+    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+}
+
+<nav class="sidebar" id="sidebar">
+    @if (Model.Content.Children.Count() > 0)
+    {
+        <h6>In This Section</h6>
+        <ul>
+            @foreach (var childPage in CurrentPage.Children)
+            {
+                <li><a href="@childPage.Url">@childPage.Name</a></li>
+            }
+        </ul>
+    }
+
+    @if (CurrentPage.Parent.Name != rootNode.Name) 
+    {
+        <h6>@CurrentPage.Parent.Name</h6>
+        <ul>
+            @foreach (var page in CurrentPage.Parent.Children)
+            {
+                <li><a href="@page.Url">@page.Name</a></li>
+            }
+        </ul>
+    }
+    <a class="btn btn-action btn-lg" href="@rootNode.Field("registerButton")" target="_blank">Register Now!</a>
+
+</nav>

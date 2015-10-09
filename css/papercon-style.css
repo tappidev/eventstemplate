@@ -109,6 +109,10 @@
     width: 100% !important;
     float: none; } }
 
+@media (max-width: 790px) {
+  main {
+    padding: 0 !important; } }
+
 .btn,
 button {
   text-decoration: none;
@@ -318,6 +322,11 @@ div.banner {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
+  .row .three-fourth-col {
+    width: 75%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%; }
 
 main {
   margin: 1em;
@@ -421,7 +430,6 @@ main {
   margin-top: 3em; }
 
 .child-body .content {
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
   margin-top: -6em;
   background: #fff; }
   .child-body .content .row {
@@ -429,7 +437,8 @@ main {
     margin: 0; }
 
 .page-head {
-  margin: 3em 0 8em; }
+  margin: 3em 0 8em;
+  padding: 1em 0 0 2em; }
 
 footer {
   width: 100%;
@@ -689,6 +698,17 @@ blockquote {
   margin-top: 1em; }
   .tappi-menu ul {
     list-style: none; }
+  .tappi-menu .events li,
+  .tappi-menu .divisions li {
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0.8em 1em; }
+    .tappi-menu .events li:first-of-type,
+    .tappi-menu .divisions li:first-of-type {
+      border-bottom: 1px solid #c5c5c5; }
+    .tappi-menu .events li a,
+    .tappi-menu .divisions li a {
+      padding: 1em 5em; }
 
 .mobile-target {
   padding: 1.5em;
@@ -881,6 +901,25 @@ a.selected {
   top: 0;
   background: #fff;
   z-index: 999; }
+
+.sidebar {
+  width: 100%;
+  margin-right: 2em;
+  padding-top: 1em;
+  background: #fff;
+  font-size: 0.9rem; }
+  .sidebar ul {
+    list-style: none;
+    padding: 0.5em 0 1em 0;
+    margin: 0; }
+  .sidebar li {
+    padding: 0.5em 2em 0.5em 2em;
+    border-bottom: 1px solid #ebebeb; }
+  .sidebar h6 {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+    border-bottom: 1px solid #d7d7d7; }
 
 footer ul {
   list-style: none;

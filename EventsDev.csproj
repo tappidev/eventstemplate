@@ -2270,6 +2270,7 @@
     <Content Include="scripts\jquery-2.1.4.min.js" />
     <Content Include="scripts\navigation.js" />
     <None Include="scripts\_references.js" />
+    <Content Include="Views\Partials\news.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -4467,6 +4468,8 @@
     <Content Include="Views\Partials\navigation.cshtml" />
     <Content Include="Views\Partials\Header.cshtml" />
     <Content Include="Views\Partials\Footer.cshtml" />
+    <Content Include="Views\Partials\Sidebar1.cshtml" />
+    <Content Include="Views\Partials\Sidebar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

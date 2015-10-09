@@ -3,6 +3,10 @@
     Layout = "Master.cshtml";
 }
 
+@{
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+}
+
     <div class="hero">
         @{
             if (CurrentPage.HasValue("heroImage"))
@@ -62,11 +66,18 @@
 <main role="main" class="row child-body">
 
     <div class="content">
+        <div class="four-col">
+            @Html.Partial("Sidebar")
+        </div>
 
-        <section class="row">
-            <div class="one-col">
+        <section class="row">   
+            <div class="three-fourth-col">
                 @Umbraco.Field("mainContent")
+                @Model.Content.GetGridHtml("additionalContent", "Bootstrap2")
+
             </div>
+
+
          </section>
 
         <!--    <section class="row child-bg">
@@ -185,8 +196,6 @@
                     </article>
                 </div>
              </section> -->
-
-          @Model.Content.GetGridHtml("additionalContent", "Bootstrap2")
 
       <!--       <section class="row">
                 <div class="one-third-col">
