@@ -1,20 +1,28 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using RJP.MultiUrlPicker;
+
 @{
     Layout = null;
 
     var rootNode = CurrentPage.AncestorOrSelf(1);
     char[] splitChar = { ',' };
-    string[] ids = CurrentPage.AncestorOrSelf(1).logo.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+    string[] docs = CurrentPage.documents.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+
+    var multiUrlPicker = CurrentPage.multiLink;
 }
 
 <nav class="sidebar" id="sidebar">
-    @if (Model.Content.Children.Count() > 0)
+    @if (Model.Content.Children.Count() > 0 || multiUrlPicker.Any())
     {
-        <h6>In This Section</h6>
+        <h6>Important Links</h6>
         <ul>
             @foreach (var childPage in CurrentPage.Children)
             {
                 <li><a href="@childPage.Url">@childPage.Name</a></li>
+            }
+            @foreach (var item in multiUrlPicker)
+            {
+                <li><a href="@item.Url" target="@item.Target">@item.Name</a></li>
             }
         </ul>
     }

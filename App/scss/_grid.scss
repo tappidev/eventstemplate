@@ -35,7 +35,6 @@ header {
     width: 100%;
     height: 360px;
     color: #fff;
-    //border-radius: 6px;
     overflow: hidden;
     @include text-shadow();
 }
@@ -207,7 +206,7 @@ div.banner {
         background: #fff;
 
         .row {
-            padding: 1em 2em;
+            padding: 1em;
             margin: 0;
         }
     }

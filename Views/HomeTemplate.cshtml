@@ -55,29 +55,23 @@
 
 @Model.Content.GetGridHtml("UICards")
 
-<div class="row">
+@*<div class="row">
     <div class="content-block sign-up">
         <h4>Sign up for important updates</h4>
         <form>
             <div class="form-group">
-                @*<label for="fullName">Full Name</label>*@
+                <label for="fullName">Full Name</label>
                 <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
             </div>
             <div class="form-group">
-                @*<label for="validEmail">Email</label>*@
+                <label for="validEmail">Email</label>
                 <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
             </div>
             <button type="submit" class="btn">Send It!</button>
         </form>
     </div>
 </div>
-@*<div class="row">
-    <div class="one-col">
-        <h3>@Umbraco.Field("introHeader")</h3>
-        <h5 class="subtitle">@Umbraco.Field("introSubheader")</h5>
-        <p>@Umbraco.Field("mainIntroContent")</p>
-    </div>
-</div>*@
+**@
 
 <div class="row home-bg">
     <div class="headline"><h3>Location</h3></div>
@@ -92,10 +86,12 @@
 </div>
 
 
-
-<div class="row home-bg-white">
-    <div class="headline"><h3>Sponsors</h3></div>
-    <div class="sponsors">
-        @Umbraco.Field("sponsorsField")
+@if (CurrentPage.HasValue("sponsorsField"))
+{
+    <div class="row home-bg-white">
+        <div class="headline"><h3>Sponsors</h3></div>
+        <div class="sponsors">
+            @Umbraco.Field("sponsorsField")
+        </div>
     </div>
-</div>
+}
