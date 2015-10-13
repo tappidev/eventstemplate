@@ -238,14 +238,6 @@
       padding: 1em 0.2em;
       @include transition(background 0.2s);
 
-      &:first-of-type {
-          background: #fff;
-          margin-right: 1em;
-
-          a {
-              padding: 0 1em 1em 1em;
-          }
-      }
   }
   .main-nav > ul > li > a:hover {
       //background: #e5e5e5;
@@ -255,18 +247,20 @@
 
     .main-nav > ul > li > a {
       width: 100%;
-      padding: 1em 2.5em 1em 0;
-      @include transition(color 0.2s); 
+      padding: 1em 1em 1em 1em;
+      @include transition(color 0.2s);
+      @include transition(background 0.2s);  
       cursor: pointer;
       font-size: 1.05rem;
-  }
 
-    .submenu:first-of-type {
-        margin-left: 0;
-    }
+      i {
+          padding: 0 1em 0 0;
+      }
+  }
 
   .submenu {
       margin: 0;
+      margin-left: -5px;
       padding: 1.5em 2em 1em 2em;
       position: absolute;
       list-style: none;
@@ -316,6 +310,7 @@
 
   a.selected {
        color: $primary-color;
+       background: #fff;
   }
 
 
