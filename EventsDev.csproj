@@ -4468,8 +4468,8 @@
     <Content Include="Views\Partials\navigation.cshtml" />
     <Content Include="Views\Partials\Header.cshtml" />
     <Content Include="Views\Partials\Footer.cshtml" />
-    <Content Include="Views\Partials\Sidebar1.cshtml" />
     <Content Include="Views\Partials\Sidebar.cshtml" />
+    <Content Include="Views\Partials\Program.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

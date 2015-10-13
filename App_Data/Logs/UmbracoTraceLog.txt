@@ -2788,3 +2788,20 @@ System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedConten
 System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
    at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
    at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-13 16:59:18,906 [6] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P13244/T61/D9] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledTasks] Terminating
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledTasks] Waiting for tasks to complete
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [KeepAlive] Terminating
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [KeepAlive] Waiting for tasks to complete
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledPublishing] Terminating
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledPublishing] Waiting for tasks to complete
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [LogScrubber] Terminating
+2015-10-13 17:16:55,537 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [LogScrubber] Waiting for tasks to complete
+2015-10-13 17:16:55,544 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledTasks] Tasks completed, terminated
+2015-10-13 17:16:55,544 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [KeepAlive] Tasks completed, terminated
+2015-10-13 17:16:55,545 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [LogScrubber] Tasks completed, terminated
+2015-10-13 17:16:55,545 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P13244/T61/D9] [ScheduledPublishing] Tasks completed, terminated
+2015-10-13 17:17:25,565 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [P13244/T61/D9] Application shutdown. Reason: ConfigurationChange
