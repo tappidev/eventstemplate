@@ -833,7 +833,8 @@ blockquote {
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
   cursor: pointer;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase; }
   .main-nav > ul > li > a i {
     padding: 0 1em 0 0; }
 
