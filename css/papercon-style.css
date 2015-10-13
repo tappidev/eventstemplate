@@ -5,12 +5,12 @@
 .logo-row {
   margin-top: 0 !important; }
   .logo-row img:first-of-type {
+    width: 350px; }
+  .logo-row img:nth-of-type(2) {
     position: absolute;
     z-index: -5;
     left: -1%;
     top: 10em; }
-  .logo-row img:nth-of-type(2) {
-    width: 350px; }
 
 /*
     DEPENDENCY IMPORTS

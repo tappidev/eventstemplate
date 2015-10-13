@@ -7,14 +7,14 @@
     margin-top: 0 !important;
     
     img:first-of-type {
+        width: 350px;
+    }
+
+    img:nth-of-type(2) {
         position: absolute;
         z-index: -5;
         left: -1%;
         top: 10em;
-    }
-
-    img:nth-of-type(2) {
-        width: 350px;
     }
 }
 
