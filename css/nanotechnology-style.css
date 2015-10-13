@@ -788,7 +788,8 @@ blockquote {
 
 #mobile-nav .selected {
   width: 100%;
-  color: #fff; }
+  color: #fff;
+  background: #2c3136; }
 
 .main-nav {
   max-width: 1140px;
