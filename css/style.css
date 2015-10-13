@@ -771,6 +771,7 @@ blockquote {
   margin: 0; }
   #mobile-nav .row .one-third-col {
     padding-right: 0;
+    padding-left: 0;
     width: 100%;
     text-align: center; }
 
@@ -828,7 +829,8 @@ blockquote {
   -o-transition: color 0.2s;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 1.05rem; }
 
 .submenu:first-of-type {
   margin-left: 0; }

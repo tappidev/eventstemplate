@@ -190,6 +190,7 @@
 
         .one-third-col {
             padding-right: 0;
+            padding-left: 0;
             width: 100%;
             text-align: center;
         }
@@ -257,6 +258,7 @@
       padding: 1em 2.5em 1em 0;
       @include transition(color 0.2s); 
       cursor: pointer;
+      font-size: 1.05rem;
   }
 
     .submenu:first-of-type {
