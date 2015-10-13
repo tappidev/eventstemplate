@@ -21,7 +21,9 @@
     </ul>
 *@
 
-@{ var selection = CurrentPage.Site().Children.Where("Visible"); }
+@{ dynamic selection = CurrentPage.Site().Children.Where("Visible");
+     }
+
 
 <nav class="main-nav" id="main-nav">
     <ul>

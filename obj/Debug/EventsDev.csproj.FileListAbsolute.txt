@@ -78,5 +78,4 @@ C:\Sites\EventsDev\EventsDev\bin\Umbraco.Web.UI.xml
 C:\Sites\EventsDev\EventsDev\bin\UmbracoExamine.xml
 C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.dll
 C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.pdb
-C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.csprojResolveAssemblyReference.cache
 C:\Sites\EventsDev\EventsDev\bin\EventsDev.dll.config
