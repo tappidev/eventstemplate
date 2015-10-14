@@ -397,13 +397,13 @@ main {
 
 .home-bg:before {
   content: "";
-  background: #0977ba;
+  background: #546065;
   position: absolute;
   height: 100%;
   width: 4000px;
   left: -2000px;
   z-index: -1;
-  border-top: 2px solid #075889; }
+  border-top: 2px solid #fff; }
 
 .home-bg-white {
   height: 100%;
@@ -417,7 +417,7 @@ main {
   width: 4000px;
   left: -2000px;
   z-index: -1;
-  border-top: 2px solid #075889; }
+  border-top: 2px solid #fff; }
 
 .home-bg h3,
 .home-bg-white h3 {

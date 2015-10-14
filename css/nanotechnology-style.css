@@ -4,8 +4,15 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Quattrocento+Sans:400,400italic,700,700italic);
 .logo {
   margin-top: 0.5em; }
-  .logo img {
+  .logo img:first-of-type {
     width: 180px; }
+  .logo img:nth-of-type(2) {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -999;
+    top: 0;
+    opacity: 0.3; }
 
 /*
     DEPENDENCY IMPORTS
@@ -303,13 +310,13 @@ main {
 
 .home-bg:before {
   content: "";
-  background: #00c65c;
+  background: #546065;
   position: absolute;
   height: 100%;
   width: 4000px;
   left: -2000px;
   z-index: -1;
-  border-top: 2px solid #009344; }
+  border-top: 2px solid #fff; }
 
 .home-bg-white {
   height: 100%;
@@ -323,7 +330,7 @@ main {
   width: 4000px;
   left: -2000px;
   z-index: -1;
-  border-top: 2px solid #009344; }
+  border-top: 2px solid #fff; }
 
 .home-bg h3,
 .home-bg-white h3 {
