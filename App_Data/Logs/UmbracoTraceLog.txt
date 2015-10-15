@@ -1777,3 +1777,97 @@ System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedConten
 System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
    at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
    at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:42:58,231 [178] INFO  Umbraco.Core.PluginManager - [P9776/T161/D40] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-10-15 16:42:58,231 [178] INFO  Umbraco.Core.PluginManager - [P9776/T161/D40] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-10-15 16:45:02,914 [178] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D40] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:45:05,880 [178] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D40] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:45:48,368 [178] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P9776/T161/D40] Content 'NetInc' with Id '1256' has been published.
+2015-10-15 16:45:52,533 [178] INFO  umbraco.content - [P9776/T161/D40] Save Xml to file...
+2015-10-15 16:45:52,544 [178] INFO  umbraco.content - [P9776/T161/D40] Saved Xml to file.
+2015-10-15 16:46:48,982 [178] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D40] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:48:04,463 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledPublishing] Terminating
+2015-10-15 16:48:04,463 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledPublishing] Waiting for tasks to complete
+2015-10-15 16:48:04,463 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledPublishing] Tasks completed, terminated
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [LogScrubber] Terminating
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [LogScrubber] Waiting for tasks to complete
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [KeepAlive] Terminating
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [KeepAlive] Waiting for tasks to complete
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledTasks] Terminating
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledTasks] Waiting for tasks to complete
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [KeepAlive] Tasks completed, terminated
+2015-10-15 16:48:05,973 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [LogScrubber] Tasks completed, terminated
+2015-10-15 16:48:05,974 [178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9776/T161/D40] [ScheduledTasks] Tasks completed, terminated
+2015-10-15 16:48:25,083 [218] INFO  Umbraco.Core.CoreBootManager - [P9776/T161/D41] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-10-15 16:48:25,102 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Determining hash of code files on disk
+2015-10-15 16:48:25,107 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Hash determined (took 4ms)
+2015-10-15 16:48:25,109 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-10-15 16:48:25,112 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 2ms)
+2015-10-15 16:48:25,147 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-10-15 16:48:25,148 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-10-15 16:48:25,148 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-10-15 16:48:25,148 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 0ms)
+2015-10-15 16:48:25,152 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-10-15 16:48:25,152 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-10-15 16:48:25,152 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-10-15 16:48:25,154 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 1ms)
+2015-10-15 16:48:25,169 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-10-15 16:48:25,169 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-10-15 16:48:25,169 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-10-15 16:48:25,170 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-10-15 16:48:25,447 [218] INFO  Umbraco.Core.DatabaseContext - [P9776/T161/D41] CanConnect = True
+2015-10-15 16:48:25,454 [218] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P9776/T161/D41] Initializing Umbraco internal event handlers for cache refreshing
+2015-10-15 16:48:25,460 [218] INFO  Umbraco.Web.Search.ExamineEvents - [P9776/T161/D41] Initializing Examine and binding to business logic events
+2015-10-15 16:48:25,481 [218] INFO  Umbraco.Web.Search.ExamineEvents - [P9776/T161/D41] Adding examine event handlers for index providers: 3
+2015-10-15 16:48:25,484 [218] INFO  Umbraco.Core.CoreBootManager - [P9776/T161/D41] Umbraco application startup complete (took 393ms)
+2015-10-15 16:48:25,703 [218] INFO  Umbraco.Core.ApplicationContext - [P9776/T161/D41] ApplicationUrl: http://localhost:5488/umbraco (UmbracoModule request)
+2015-10-15 16:48:35,988 [178] INFO  Umbraco.Core.UmbracoApplicationBase - [P9776/T161/D40] Application shutdown. Reason: ConfigurationChange
+2015-10-15 16:49:04,582 [218] INFO  umbraco.content - [P9776/T161/D41] Load Xml from file...
+2015-10-15 16:49:04,584 [218] INFO  umbraco.content - [P9776/T161/D41] Loaded Xml from file.
+2015-10-15 16:49:04,849 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-10-15 16:49:04,850 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-10-15 16:49:05,102 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-10-15 16:49:05,103 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-10-15 16:49:05,677 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-10-15 16:49:05,678 [218] INFO  Umbraco.Core.PluginManager - [P9776/T161/D41] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-10-15 16:49:08,327 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:49:25,910 [218] INFO  umbraco.BusinessLogic.Log - [P9776/T161/D41] Log scrubbed.  Removed all items older than 2015-08-16 16:49:25
+2015-10-15 16:50:16,741 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:51:50,213 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:53:51,383 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:54:19,817 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:54:22,449 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:54:29,234 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
+2015-10-15 16:55:57,875 [218] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [P9776/T161/D41] An error occurred finding and executing extension method "Field" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.Field' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes)
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
