@@ -122,10 +122,12 @@
       <Private>True</Private>
       <HintPath>..\packages\UmbracoCms.Core.7.2.8\lib\System.Data.SqlServerCe.Entity.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -192,6 +194,10 @@
     </Reference>
     <Reference Include="umbraco.providers">
       <HintPath>..\packages\UmbracoCms.Core.7.2.8\lib\umbraco.providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.RelationEditor, Version=1.1.5550.28992, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Umbraco.RelationEditor.1.1.5550.28992\lib\net45\Umbraco.RelationEditor.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Umbraco.Web.UI">
       <HintPath>..\packages\UmbracoCms.Core.7.2.8\lib\Umbraco.Web.UI.dll</HintPath>
@@ -2250,6 +2256,7 @@
     <Content Include="App_Data\NuGetBackup\20150812-135819\Config\grid.editors.config.js" />
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
+    <Content Include="Config\log4net.config" />
     <Content Include="css\nanotechnology-style.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\papercon-style.css" />
@@ -2262,6 +2269,7 @@
     <Content Include="App\scss\variables\_supercorr.scss" />
     <Content Include="App\scss\variables\_nano.scss" />
     <Content Include="App\scss\nano.scss" />
+    <Content Include="Config\relationeditor.config" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\SuperCorrExpo-GoogleMapsConfig.js" />
@@ -2290,7 +2298,6 @@
     </Content>
     <Content Include="Config\scripting.config" />
     <Content Include="Config\metablogConfig.config" />
-    <Content Include="Config\log4net.config" />
     <Content Include="Config\FileSystemProviders.config" />
     <Content Include="Config\feedProxy.config" />
     <Content Include="Config\ExamineSettings.config" />
@@ -4470,6 +4477,7 @@
     <Content Include="Views\Partials\Footer.cshtml" />
     <Content Include="Views\Partials\Sidebar.cshtml" />
     <Content Include="Views\Partials\Program.cshtml" />
+    <Content Include="Views\SharedContent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
