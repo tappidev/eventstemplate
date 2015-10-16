@@ -2252,24 +2252,27 @@
     <Content Include="App\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone-stats\test.js" />
     <Content Include="App\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone\clone.js" />
     <Content Include="App\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone\test.js" />
+    <Content Include="App\scss\papercon.scss" />
+    <Content Include="App\scss\variables\_papercon.scss" />
     <Content Include="App_Data\Logs\UmbracoTraceLog.txt" />
     <Content Include="App_Data\NuGetBackup\20150812-135819\Config\grid.editors.config.js" />
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="Config\log4net.config" />
     <Content Include="css\nanotechnology-style.css" />
+    <Content Include="css\netinc-style.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\papercon-style.css" />
     <Content Include="css\style.css" />
     <Content Include="css\supercorrexpo-style.css" />
     <Content Include="packages.config" />
-    <Content Include="App\scss\papercon.scss" />
-    <Content Include="App\scss\variables\_papercon.scss" />
     <Content Include="App\scss\supercorr.scss" />
     <Content Include="App\scss\variables\_supercorr.scss" />
     <Content Include="App\scss\variables\_nano.scss" />
     <Content Include="App\scss\nano.scss" />
     <Content Include="Config\relationeditor.config" />
+    <Content Include="App\scss\variables\_netinc.scss" />
+    <Content Include="App\scss\netinc.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\SuperCorrExpo-GoogleMapsConfig.js" />
@@ -2279,6 +2282,7 @@
     <Content Include="scripts\navigation.js" />
     <None Include="scripts\_references.js" />
     <Content Include="Views\Partials\news.cshtml" />
+    <Content Include="Views\SharedContent.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -4477,7 +4481,6 @@
     <Content Include="Views\Partials\Footer.cshtml" />
     <Content Include="Views\Partials\Sidebar.cshtml" />
     <Content Include="Views\Partials\Program.cshtml" />
-    <Content Include="Views\SharedContent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

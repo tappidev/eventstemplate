@@ -24,6 +24,18 @@ p {
     margin-bottom: 1.3em;
 }
 
+.main-nav > ul > li > a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main-nav {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+.submenu {
+    font-size: 0.9rem;
+}
+
 a {
     color: $primary-color;
     @include transition(color 0.2s);

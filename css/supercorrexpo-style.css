@@ -581,6 +581,17 @@ body {
 p {
   margin-bottom: 1.3em; }
 
+.main-nav > ul > li > a {
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.main-nav {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300; }
+
+.submenu {
+  font-size: 0.9rem; }
+
 a {
   color: #0272bb;
   -moz-transition: color 0.2s;
@@ -838,9 +849,7 @@ blockquote {
   -o-transition: background 0.2s;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
-  cursor: pointer;
-  font-weight: 700;
-  text-transform: uppercase; }
+  cursor: pointer; }
   .main-nav > ul > li > a i {
     padding: 0 1em 0 0; }
 
