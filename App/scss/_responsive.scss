@@ -28,7 +28,8 @@ html {
 
 .one-third-col,
 .two-third-col,
-.two-col-even {
+.two-col-even,
+.three-fourth-col {
     @include breakpoint($tablet) {
         width: 100% !important;
 
@@ -127,6 +128,10 @@ header {
 
     .content {
         //width: 100% !important;
+    }
+
+    .sidebar {
+        display: none !important;
     }
 
     main {

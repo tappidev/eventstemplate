@@ -462,11 +462,13 @@ form {
 @media (max-width: 790px) {
   .one-third-col,
   .two-third-col,
-  .two-col-even {
+  .two-col-even,
+  .three-fourth-col {
     width: 100% !important; }
     .one-third-col .card-title-image,
     .two-third-col .card-title-image,
-    .two-col-even .card-title-image {
+    .two-col-even .card-title-image,
+    .three-fourth-col .card-title-image {
       height: 0 !important;
       border-top: 2px solid #2a3b8f; } }
 
@@ -529,6 +531,8 @@ form {
     float: none; } }
 
 @media (max-width: 790px) {
+  .sidebar {
+    display: none !important; }
   main {
     padding: 0 !important; } }
 
@@ -952,8 +956,7 @@ a.selected {
     padding: 0.5em 0 1em 0;
     margin: 0; }
   .sidebar li {
-    padding: 0.5em 2em 0.5em 2em;
-    border-bottom: 1px solid #ebebeb; }
+    padding: 0.5em 2em 0.5em 2em; }
   .sidebar h6 {
     padding-left: 1em;
     padding-bottom: 1em;
