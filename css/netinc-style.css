@@ -5,13 +5,8 @@
 .logo-row {
   margin-top: 0 !important;
   padding-bottom: 1em; }
-  .logo-row img:first-of-type {
-    width: 420px; }
   .logo-row img:nth-of-type(2) {
-    position: absolute;
-    z-index: -5;
-    left: -1%;
-    top: 10em; }
+    display: none; }
 
 .mobile-target img {
   width: 220px !important;
@@ -30,11 +25,11 @@
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: rgba(108, 166, 165, 0.6); }
+  background: rgba(143, 42, 110, 0.6); }
 
 ::selection {
   color: #fff;
-  background: rgba(108, 166, 165, 0.6); }
+  background: rgba(143, 42, 110, 0.6); }
 
 @media (max-width: 1140px) {
   html {
@@ -59,7 +54,7 @@
     .two-col-even .card-title-image,
     .three-fourth-col .card-title-image {
       height: 0 !important;
-      border-top: 2px solid #f5dc05; } }
+      border-top: 2px solid #d9a93a; } }
 
 @media (max-width: 1140px) {
   header {
@@ -127,7 +122,7 @@
 button {
   text-decoration: none;
   color: #fff;
-  background: #075889;
+  background: #8f2a6e;
   text-align: center;
   vertical-align: middle;
   border: none;
@@ -144,7 +139,7 @@ button {
 .btn:hover, .btn:focus,
 button:hover, button:focus {
   color: #fff;
-  background: #0977ba;
+  background: #b6368c;
   text-decoration: none; }
 
 .btn-raised {
@@ -154,10 +149,10 @@ button:hover, button:focus {
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); }
 
 .btn-action {
-  background: #f5dc05; }
+  background: #d9a93a; }
 
 .btn-action:hover, .btn-action:focus {
-  background: #fbe632; }
+  background: #e1bc65; }
 
 .btn-lg {
   width: 100%;
@@ -196,7 +191,7 @@ button:hover, button:focus {
     text-decoration: underline; }
   .card h4 {
     margin: 0 0 0.5em 0;
-    color: #075889; }
+    color: #8f2a6e; }
   .card p {
     font-size: 0.95rem; }
   .card .card-title {
@@ -349,7 +344,7 @@ main {
   margin-bottom: 1em; }
   .content-block h4 {
     margin: 0 0 0.7em 1em;
-    color: #075889; }
+    color: #8f2a6e; }
   .content-block .news-title {
     text-transform: uppercase;
     font-weight: 700;
@@ -375,14 +370,14 @@ main {
   padding: 0.2em; }
 
 .child-bg {
-  background: #f5dc05;
+  background: #d9a93a;
   color: #fff;
   height: 100%;
   position: relative; }
 
 .child-bg:before {
   content: "";
-  background: #f5dc05;
+  background: #d9a93a;
   opacity: 0.6;
   position: absolute;
   height: 100%;
@@ -608,7 +603,7 @@ p {
   font-size: 0.9rem; }
 
 a {
-  color: #075889;
+  color: #8f2a6e;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   -webkit-transition: color 0.2s;
@@ -672,7 +667,7 @@ h5 {
   font-size: 1.212em; }
 
 .subtitle {
-  color: #053958; }
+  color: #681e50; }
 
 h6 {
   font-size: 1.099em; }
@@ -683,7 +678,7 @@ h6 {
 blockquote {
   margin: 1em 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #0977ba; }
+  border-left: 5px solid #b6368c; }
 
 .tab-container {
   width: 100%;
@@ -715,7 +710,7 @@ blockquote {
     .tappi-menu-tab .tab-target i {
       padding-top: 10px; }
   .tappi-menu-tab .tab-target:hover i, .tappi-menu-tab tab-target:focus i {
-    color: #075889; }
+    color: #8f2a6e; }
 
 .tappi-menu-wrapper {
   width: 100%;
@@ -750,7 +745,7 @@ blockquote {
 .mobile-target {
   padding: 1.5em;
   height: 70px;
-  background: #075889;
+  background: #8f2a6e;
   color: #fff;
   text-align: center;
   cursor: pointer;
@@ -860,7 +855,7 @@ blockquote {
   transition: background 0.2s; }
 
 .main-nav > ul > li > a:hover {
-  color: #075889;
+  color: #8f2a6e;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   -webkit-transition: color 0.2s;
@@ -899,7 +894,7 @@ blockquote {
   .submenu li {
     margin-bottom: 0.5em; }
   .submenu a:hover {
-    color: #075889;
+    color: #8f2a6e;
     text-decoration: underline; }
   .submenu .row {
     width: 100%;
@@ -923,7 +918,7 @@ blockquote {
   font-weight: bold; }
 
 a.selected {
-  color: #075889;
+  color: #8f2a6e;
   background: #fff; }
 
 .submenu-is-active {

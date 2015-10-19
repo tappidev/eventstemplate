@@ -26,10 +26,10 @@
             {
                 <ul class="submenu is-hidden">
                     <div class="row">
-                        @if (item.Children.Where("Visible").Count() > 5)
+                        @if (item.Children.Where("Visible").Count() > 3)
                         { 
 
-                           foreach (var navGroup in item.Children.InGroupsOf(5))
+                           foreach (var navGroup in item.Children.InGroupsOf(4))
                            {
                                 <div class="one-third-col">
                                     @foreach (var child in navGroup)
