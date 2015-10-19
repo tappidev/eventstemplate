@@ -26,15 +26,29 @@
             {
                 <ul class="submenu is-hidden">
                     <div class="row">
-                        @if (item.Children.Where("Visible").Count() > 4)
+                        @if (item.Children.Where("Visible").Count() > 5)
                         { 
 
-                           foreach (var navGroup in item.Children.InGroupsOf(4))
+                           foreach (var navGroup in item.Children.InGroupsOf(5))
                            {
                                 <div class="one-third-col">
                                     @foreach (var child in navGroup)
                                     {
-                                        <li><a href="@child.Url">@child.Name</a></li>
+
+                                        var extLink = child.linkInfo;
+                                        if (child.DocumentTypeAlias == "ExternalLink")
+                                        {
+                                            foreach (var linkItem in extLink)
+                                            {
+                                                <li><a href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
+                                            }
+
+
+                                        }
+                                        else
+                                        {
+                                            <li><a href="@child.Url">@child.Name</a></li>
+                                        }
                                     }
                                 </div>
 						   } 
@@ -46,7 +60,20 @@
 							   <div class="one-third-col">
                                     @foreach (var children in item.Children.Where("Visible"))
                                     {
-                                        <li><a href="@children.Url">@children.Name</a></li>
+
+                                        if (children.DocumentTypeAlias == "ExternalLink")
+                                        {
+                                            var extLink = children.linkInfo;
+                                            foreach (var linkItem in extLink)
+                                            {
+                                                <li><a href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <li><a href="@children.Url">@children.Name</a></li>
+                                        }
+
                                     }
                                 </div>
 							   
@@ -57,5 +84,6 @@
             }
         </li>
     }
+
     </ul>
 </nav>

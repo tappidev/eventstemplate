@@ -25,9 +25,6 @@
                     .logo-row {
                         margin-bottom: 0; 
                     }
-                    .logo-row img:nth-of-type(2) {
-                        display: none;
-                    }
                     .logo {
                     margin: 0.5em 0 0 0 !important;
                     }
@@ -79,9 +76,9 @@
                 @Model.Content.GetGridHtml("UICards")
 
             </div>
-
-
          </section>
+
+        @Model.Content.GetGridHtml("auxContent", "Bootstrap2")
 
           @*<section class="row child-bg">
                 <div class="one-col">

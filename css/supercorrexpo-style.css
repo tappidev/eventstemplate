@@ -897,10 +897,11 @@ blockquote {
     width: auto;
     border-right: 1px solid #ccc;
     padding: 0;
-    padding-left: 2em; }
+    padding: 0 2em; }
   .submenu .one-third-col:last-of-type {
     margin: 0;
-    border: none; }
+    border: none;
+    padding-right: 0; }
   .submenu .one-third-col:first-of-type {
     padding: 0;
     padding-right: 2em; }
