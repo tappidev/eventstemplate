@@ -211,7 +211,10 @@ button:hover, button:focus {
     height: 125px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    -webkit-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
+    box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36); }
     .card .card-title-image img {
       width: 100%;
       min-height: 125px;
