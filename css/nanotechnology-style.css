@@ -125,10 +125,7 @@ button:hover, button:focus {
     height: 125px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 1em;
-    -webkit-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
-    -moz-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
-    box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36); }
+    margin-bottom: 1em; }
     .card .card-title-image img {
       width: 100%;
       min-height: 125px;
@@ -137,7 +134,10 @@ button:hover, button:focus {
       right: 0;
       top: 0;
       padding: 0;
-      border-radius: 0; }
+      border-radius: 0;
+      -webkit-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
+      -moz-box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36);
+      box-shadow: inset 0px 10px 12px -5px rgba(0, 0, 0, 0.36); }
   .card i {
     padding-right: 0.3em;
     max-width: 1.1em;
