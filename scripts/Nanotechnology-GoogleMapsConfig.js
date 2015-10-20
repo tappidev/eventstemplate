@@ -15,7 +15,7 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById('location'), {
         zoom: 14,
-        center: { lat: 45.186343, lng: 5.732451 },  // Grenoble, France
+        center: { lat: 45.191929, lng: 5.713132 },  // Grenoble, France
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
         }

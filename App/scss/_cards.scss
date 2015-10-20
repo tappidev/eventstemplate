@@ -65,8 +65,8 @@
 
 
         img {
-            @include span(12 of 12);
-            min-height: 180px;
+            width: 100%;
+            min-height: 125px;
             position: relative;
             left: 0;
             right: 0;

@@ -128,10 +128,7 @@ button:hover, button:focus {
     margin-bottom: 1em; }
     .card .card-title-image img {
       width: 100%;
-      float: left;
-      margin-left: 0;
-      margin-right: 0;
-      min-height: 180px;
+      min-height: 125px;
       position: relative;
       left: 0;
       right: 0;
