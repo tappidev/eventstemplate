@@ -858,6 +858,11 @@ blockquote {
   -o-transition: background 0.2s;
   -webkit-transition: background 0.2s;
   transition: background 0.2s; }
+  .main-nav > ul > li .hidden {
+    color: lightgray;
+    pointer-events: none; }
+  .main-nav > ul > li .hidden:hover {
+    color: lightgray; }
 
 .main-nav > ul > li > a:hover {
   color: #075889;

@@ -239,6 +239,14 @@
       padding: 1em 0.2em;
       @include transition(background 0.2s);
 
+      .hidden {
+          color: lightgray;
+          pointer-events: none;
+      }
+      .hidden:hover {
+          color: lightgray;
+      }
+
   }
   .main-nav > ul > li > a:hover {
       //background: #e5e5e5;
