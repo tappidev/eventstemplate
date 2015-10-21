@@ -343,10 +343,14 @@ main {
 
 .child-body .content {
   margin-top: -6em;
-  background: #fff; }
+  background: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3); }
   .child-body .content .row {
     padding: 1em;
     margin: 0; }
+
+.child-body .three-fourth-col {
+  padding: 0; }
 
 .page-head {
   margin: 3em 0 8em;
@@ -614,6 +618,25 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   font-weight: inherit;
   line-height: 1.2; }
+
+.content p {
+  padding: 0 2em; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  padding: 0 1em; }
+
+.content h3 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #0a77b9; }
+
+.content h4 {
+  color: #0a77b9; }
+
+.content h5 {
+  text-transform: uppercase;
+  padding-left: 1.5em; }
 
 h1 {
   margin-top: 0;
@@ -945,11 +968,10 @@ a.selected {
   z-index: 999; }
 
 .sidebar {
-  width: 100%;
-  margin-right: 2em;
-  padding-top: 1em;
+  padding: 1em;
   background: #fff;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3); }
   .sidebar ul {
     list-style: none;
     padding: 0.5em 0 1em 0;
