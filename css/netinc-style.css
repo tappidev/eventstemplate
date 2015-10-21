@@ -362,7 +362,21 @@ main {
     margin-left: 2em; }
 
 .sign-up {
-  text-align: center; }
+  text-align: center;
+  padding: 2em;
+  height: 100%;
+  background: #fff;
+  position: relative; }
+
+.sign-up::before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  height: 150px;
+  top: 0;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1; }
 
 .logo-row {
   margin-bottom: 0; }
@@ -398,19 +412,25 @@ main {
   text-align: center; }
 
 .home-bg {
-  color: #fff;
   height: 100%;
-  position: relative; }
+  position: relative;
+  text-align: center; }
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; }
 
 .home-bg:before {
   content: "";
-  background: #546065;
+  background: #ebebeb;
   position: absolute;
   height: 100%;
   width: 4000px;
   left: -2000px;
-  z-index: -1;
-  border-top: 2px solid #fff; }
+  z-index: -1; }
 
 .home-bg-white {
   height: 100%;
@@ -542,7 +562,6 @@ input {
   border: 1px solid #ccc; }
 
 form {
-  border-top: 1px solid #ccc;
   padding-top: 1em; }
 
 .event-program {

@@ -73,15 +73,26 @@
 </div>
 **@
 
+<div class="row sign-up">
+    <form>
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
+        </div>
+        <div class="form-group">
+            <label for="validEmail">Email</label>
+            <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
+        </div>
+        <button type="submit" class="btn">Send It!</button>
+    </form>
+</div>
+
 <div class="row home-bg">
-    <div class="headline"><h3>Location</h3></div>
-    <div class="one-col" id="location">
-    </div>
-    <div class="two-col-even">
+    <div class="one-col">
         @Umbraco.Field("hotelInfo")
     </div>
-    <div class="two-col-even">
-        @Umbraco.Field("moreHotelInfo")
+    <img class="bg-img" src="~/App/img/location-bg.png" />
+    <div class="one-col" id="location">
     </div>
 </div>
 
