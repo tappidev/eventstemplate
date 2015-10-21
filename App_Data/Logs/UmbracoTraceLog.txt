@@ -58,3 +58,4 @@
 2015-10-21 10:19:29,890 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4344/T1/D2] Content 'Mill Registration' with Id '1140' has been published.
 2015-10-21 10:19:34,075 [6] INFO  umbraco.content - [P4344/T1/D2] Save Xml to file...
 2015-10-21 10:19:34,081 [6] INFO  umbraco.content - [P4344/T1/D2] Saved Xml to file.
+2015-10-21 13:17:53,070 [6] INFO  umbraco.BusinessLogic.Log - [P4344/T1/D2] Log scrubbed.  Removed all items older than 2015-08-22 13:17:53

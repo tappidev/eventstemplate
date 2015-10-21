@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         h1, h2, h3, h4, h5, h6 {
             padding: 0 1em;
+            margin-bottom: 0.5em;
         }
 
         h3 {
@@ -69,10 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 
         h4 {
             color: $primary-color;
+            padding-left: 1.5em;
         }
         h5 {
             text-transform: uppercase;
-            padding-left: 1.5em;
+            padding-left: 2em;
         }
 }
 
@@ -94,8 +96,9 @@ h1 {
 }
 
 .page-head {
-    margin-top: 0;
+    margin-top: 1em;
     padding-top: 3em;
+    text-align: center;
 }
 
 .hero-gradient {
