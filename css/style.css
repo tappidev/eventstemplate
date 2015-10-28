@@ -314,6 +314,8 @@ main {
   height: 100%;
   position: relative;
   text-align: center; }
+  .home-bg li {
+    list-style-type: none; }
 
 .bg-img {
   position: absolute;

@@ -1,0 +1,108 @@
+﻿/*
+    SuperCorrExpo Styles
+*/
+
+// Logo
+
+.logo {
+    margin-top: 0;
+    img:first-of-type {
+        width: 200px;
+        position: relative;
+        left: 40%;
+        right: 40%;
+    }
+
+    img:nth-of-type(2) {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: -999;
+        top: 0;
+        opacity: 0.3;
+    }
+}
+
+.mobile-target img {
+    width: 160px !important;
+    top: 0 !important;
+}
+
+/*
+    DEPENDENCY IMPORTS
+*/
+
+@import "../bower_components/susy/sass/susy"; // Susy grid
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"; // Breakpoints
+
+
+/*
+    STYLESHEET IMPORTS
+*/
+
+@import "variables/_place.scss"; 
+@import "prefixes";
+@import "buttons";
+@import "cards";
+@import "collections";
+@import "grid";
+@import "helpers";
+@import "media";
+@import "responsive";
+@import "tables";
+@import "type"; 
+@import "nav"; 
+
+/* 
+    GLOBAL STYLES
+*/
+
+body {
+    background: $body-bg;
+    overflow-x: hidden;
+}
+
+header::before {
+  content: '';
+  @include shape(triangle, 40px, $off-base);
+  @include rotate(180);
+  width: 100%;
+  position: absolute;
+  left: -16em;
+  top: -8em;
+  z-index: -1;
+}
+
+.main-nav {
+    background: rgba(255,255,255, 0.7);
+    max-width: 100% !important; 
+    margin: 0;
+    border-top: 1px solid #fff;
+
+    .submenu {
+        margin-left: -68px !important;
+    }
+}
+.main-nav > ul {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+header::after {
+    content: '';
+    @include shape(triangle, 40px, $complimentary-base-color);
+    @include rotate(180);
+    width: 100%;
+    position: absolute;
+    left: 30em;
+    top: -5em;
+    z-index: -2;
+}
+
+.logo-row {
+    margin-bottom: 3em;
+}

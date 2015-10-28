@@ -214,6 +214,7 @@
     <Content Include="App\bower_components\susy\LICENSE.txt" />
     <Content Include="App\gulpfile.js" />
     <Content Include="App\img\hero.jpg" />
+    <Content Include="App\img\location-bg.png" />
     <Content Include="App\img\speaker1.jpg" />
     <Content Include="App\img\TAPPI_logo.png" />
     <Content Include="App\js\GoogleMapsConfig.js" />

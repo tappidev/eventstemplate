@@ -72,7 +72,9 @@
     </div>
 
     <div class="content three-fourth-col">
-        @Umbraco.Field("mainContent")
+        @if (CurrentPage.mainContent != null) {
+            @CurrentPage.mainContent
+        }
         @Model.Content.GetGridHtml("additionalContent", "Bootstrap2")
         @Model.Content.GetGridHtml("UICards")
 

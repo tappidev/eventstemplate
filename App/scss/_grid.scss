@@ -156,6 +156,10 @@ div.banner {
         height: 100%;
         position: relative;
         text-align: center;
+
+        li {
+            list-style-type: none;
+        }
     }
     .bg-img {
         position: absolute;
