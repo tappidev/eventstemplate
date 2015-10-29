@@ -29,6 +29,7 @@ $susy: (
 
 header {
     margin-top: 0 !important;
+    position: relative;
 }
 
 .hero {
@@ -133,10 +134,11 @@ div.banner {
         padding: 0.2em;
     }
     .child-bg {
-        background: $complimentary-color;
-        color: #fff;
+        //background: $complimentary-color;
         height: 100%;
         position: relative;
+        width: 100%;
+        border-top: 1px solid #ccc;
     }
     .child-bg:before {
         content: ""; 
@@ -228,22 +230,20 @@ div.banner {
         //@include box-shadow();
         margin-top: -6em; 
         background: #fff;
+        padding: 45px;
         @include box-shadow();
+
 
         .row {
             padding: 1em;
             margin: 0;
         }
     }
-
-    .three-fourth-col {
-            padding: 0;
-        }
 }
 
 .page-head {
-    margin: 3em 0 8em;
-    padding: 1em 0 0 0;
+    padding: 3em 0 0 0;
+    margin: 0 0 8em;
 }
 
 // Footer

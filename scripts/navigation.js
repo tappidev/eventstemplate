@@ -30,12 +30,12 @@
     });
 
     $(window).resize(function () {
-        if ($(window).width() > 1140) {
+        if ($(window).width() > 790) {
             $('#mobile-nav').hide();
         }
     });
 
-    if($(window).width() > 1140) {
+    if($(window).width() > 790) {
         $('#mobile-nav').hide();
      }
 

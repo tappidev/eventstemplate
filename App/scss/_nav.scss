@@ -210,7 +210,6 @@
 
 .main-nav {
     @include container(1140px);
-    margin: 0 auto;
 
     a {
         color: $font-color;

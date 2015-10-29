@@ -44,6 +44,26 @@ html {
 
 header {
     @include breakpoint($desktop) {
+        width: 100%;
+
+        .main-nav {
+            width: 100%;
+        }
+        .main-nav > ul > li > a {
+            font-size:1.55vw;
+            padding: 1em 0.5em;
+        }
+        .main-nav > ul > li {
+            padding: 1em 0;
+        }
+        .submenu {
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    @include breakpoint($tablet) {
         display: none !important;
     }
 }
@@ -54,6 +74,10 @@ header {
         background-size: cover !important;
         border-radius: 0 !important;
         position: relative !important;
+    }
+
+    @include breakpoint($tablet) {
+        margin-top: 2em;
     }
 }
 
@@ -81,7 +105,7 @@ header {
 }
 
 .tab-target {
-    @include breakpoint($desktop) {
+    @include breakpoint($tablet) {
         right: 0 !important;
         padding: 0.5em !important;
         top: 0;
@@ -94,7 +118,7 @@ header {
 }
 
 .tappi-menu-wrapper {
-    @include breakpoint($break2) {
+    @include breakpoint($tablet) {
         right: 0 !important;
         @include span(12);
         float: right;
@@ -104,7 +128,7 @@ header {
 }
 
 .mobile-target {
-    @include breakpoint($break2) {
+    @include breakpoint($tablet) {
         display: block !important;
         width: 100% !important;
     }
