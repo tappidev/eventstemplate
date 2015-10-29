@@ -329,7 +329,20 @@
                 </ul>
             </section> -->
         <div style="clear: both;">
-            @Model.Content.GetGridHtml("auxContent", "Bootstrap2")
+            @*@Model.Content.GetGridHtml("auxContent", "Bootstrap2")*@
+
+            @{ 
+                char[] splitChar = { ',' };
+                string[] strings = CurrentPage.programUpload.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+            }
+            <div class="child-bg">
+                <ul>
+                    @foreach (var field in CurrentPage.programUpload)
+                    {
+                        <li>@field</li>
+                    }
+                </ul>
+            </div>
         </div>
         </div>
     
