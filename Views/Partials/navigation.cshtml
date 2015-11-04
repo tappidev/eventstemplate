@@ -20,6 +20,7 @@
             <a 
                @(item.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "")
                @(item.Children.Where("Visible").Any() ? "" : "href=" + item.Url + "")>
+
                 @item.Name @if (item.Children.Where("Visible").Any())
                 {
                     <i class="material-icons">keyboard_arrow_down</i>
@@ -43,14 +44,14 @@
                                         {
                                             foreach (var linkItem in extLink)
                                             {
-                                                <li><a href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
+                                                <li><a @(child.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
                                             }
 
 
                                         }
                                         else
                                         {
-                                            <li><a href="@child.Url">@child.Name</a></li>
+                                            <li><a @(child.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@child.Url">@child.Name</a></li>
                                         }
                                     }
                                 </div>
@@ -69,12 +70,12 @@
                                             var extLink = children.linkInfo;
                                             foreach (var linkItem in extLink)
                                             {
-                                                <li><a href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
+                                                <li><a @(children.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@linkItem.Url" target="@linkItem.Target">@linkItem.Name</a></li>
                                             }
                                         }
                                         else
                                         {
-                                            <li><a href="@children.Url">@children.Name</a></li>
+                                            <li><a @(children.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@children.Url">@children.Name</a></li>
                                         }
 
                                     }
