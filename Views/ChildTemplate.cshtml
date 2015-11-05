@@ -8,6 +8,7 @@
 }
 
     <div class="hero">
+        <span id="top"></span>
         @{
             if (CurrentPage.HasValue("heroImage"))
             {
@@ -43,6 +44,9 @@
                         border-radius: 0;
                         z-index: -999;
                     }
+                    .PaperCon-scheme .logo-row img:nth-of-type(2) {
+                        display: none;
+                    }
                 </style>
             }
             else
@@ -50,6 +54,9 @@
                 <style>
                     .hero {
                         background: #02995c;
+                    }
+                    .PaperCon-scheme .logo-row img:nth-of-type(2) {
+                        display: none;
                     }
                 </style>
             }
@@ -72,7 +79,7 @@
     </div>
 
     <div class="content three-fourth-col">
-        <span id="top"></span>
+
         @if (CurrentPage.mainContent != null) {
             @CurrentPage.mainContent
         }
