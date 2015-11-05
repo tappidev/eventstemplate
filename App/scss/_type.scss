@@ -54,20 +54,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .content {
     p {
-            margin-bottom: 1.3em;
-        }
-     h1 {
-  margin-top: 0;
-  font-size: 2.074em;
-}
+        margin-bottom: 1.3em;
+    }
 
-h2 {font-size: 1.728em;}
+    h1 {
+        margin-top: 0;
+        font-size: 2.074em;
+    }
 
-h3 {font-size: 1.44em; text-transform: uppercase;}
+    h2 {
+        font-size: 1.728em;
+    }
 
-h4 {font-size: 1.2em;}
+    h3 {
+        font-size: 1.44em;
+        text-transform: uppercase;
+    }
 
-small, .font-small {font-size: 0.8em;}
+    h4 {
+        font-size: 1.2em;
+    }
+
+    small, .font-small {
+        font-size: 0.8em;
+    }
 }
 
 .card small {
