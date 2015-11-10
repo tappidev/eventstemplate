@@ -79,7 +79,10 @@
     </div>
 
     <div class="content three-fourth-col">
-
+        @if(CurrentPage.hiddenNavEl.ToString() == "Hidden")
+        {
+            <h2>No information yet! Please check back for updates.</h2>
+        }
         @if (CurrentPage.mainContent != null) {
             @CurrentPage.mainContent
         }
