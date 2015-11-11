@@ -73,6 +73,29 @@ div.banner {
 
 } // .row
 
+  .one-col {
+        @include span(12);
+    }
+
+    .two-col-even {
+        @include span(6);
+    }
+
+    .one-third-col {
+        @include span(4);
+    }
+
+    .two-third-col {
+        @include span(8);
+    }
+
+    .four-col {
+        @include span(3);
+    }
+    .three-fourth-col {
+        @include span(9);
+    }
+
   main {
       margin: 1em;
       padding: 1em;
@@ -201,6 +224,21 @@ div.banner {
             padding-top: 1em;
             margin-top: 0;
         }
+    }
+
+    .video-bg {
+        height: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .video-bg:before {
+        content: ""; 
+        background: #000;
+        position:absolute;
+        height: 100%;
+        width: 4000px;
+        left: -2000px;
+        z-index: -1;
     }
 
 // ADS

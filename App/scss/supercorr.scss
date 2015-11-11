@@ -6,6 +6,51 @@
 
 .logo img {
     width: 15%;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 0.9em;
+}
+
+// Video
+
+video {
+    width: 100%;
+    margin-bottom: -0.5em;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
+}
+
+.main-nav {
+    height:59.5938px;
+}
+
+.main-nav > ul {
+    position: relative;
+    left: 10%;
+    right: 10%;
+}
+
+.hero {
+    height: 500px;
+    h3 {font-size: 1rem;}
+    h1 {font-size: 3rem;}
+    .two-col-even {
+        padding: 0;
+    }
+    .one-third-col,
+    .two-third-col {
+        padding:0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .hero-content {
+        //background: rgba(67,68,68, 0.5);
+        padding: 0 2em;
+        h1, h3 {
+            text-align: left;
+        }
+    }
 }
 
 /*

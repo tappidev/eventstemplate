@@ -361,6 +361,42 @@ div.banner {
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
 
+.one-col {
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+.two-col-even {
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+.one-third-col {
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+.two-third-col {
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+.four-col {
+  width: 25%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+.three-fourth-col {
+  width: 75%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
 main {
   margin: 1em;
   padding: 1em; }
@@ -474,6 +510,20 @@ main {
   padding-top: 1em;
   margin-top: 0; }
 
+.video-bg {
+  height: 100%;
+  position: relative;
+  text-align: center; }
+
+.video-bg:before {
+  content: "";
+  background: #000;
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1; }
+
 .ad-style-right {
   float: right;
   margin: 0 0 0em 2em;
@@ -528,6 +578,15 @@ footer {
     display: none; }
   .news .title-wrap {
     float: left; }
+
+.info-coming {
+  text-align: center; }
+  .info-coming h2, .info-coming p {
+    font-size: 1.5em; }
+  .info-coming form {
+    padding: 2em 0;
+    border: 1px solid #ccc;
+    border-radius: 3px; }
 
 a, i {
   vertical-align: middle; }

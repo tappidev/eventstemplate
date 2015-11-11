@@ -79,9 +79,25 @@
     </div>
 
     <div class="content three-fourth-col">
-        @if(CurrentPage.hiddenNavEl.ToString() == "Hidden")
+        @if (CurrentPage.hiddenNavEl.ToString() == "Hidden")
         {
-            <h2>No information yet! Please check back for updates.</h2>
+            <div class="info-coming">
+                <a href="http://www.tappi.org/" target="_blank"><img src="~/App/img/TAPPI_logo.png" width="180" /></a>
+                <h2><i class="fa fa-exclamation-circle"></i> Information coming soon...</h2>
+                <p>We're sorry! TAPPI is working to deliver this information soon. Check back often! Sign up below to get the latest updates!</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="validEmail">Email</label>
+                        <input type="text" name="Email" id="validEmail" placeholder="Enter Email" />
+                    </div>
+                    <button type="submit" class="btn">Send It!</button>
+                </form>
+            </div>
         }
         @if (CurrentPage.mainContent != null) {
             @CurrentPage.mainContent

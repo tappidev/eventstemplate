@@ -22,9 +22,28 @@
             }
         }
 
-        <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
-        <h3 class="subHeroText">@Umbraco.Field("heroImageTagline")</h3>
-    </div>
+                @if (CurrentPage.HasValue("uploadVideo"))
+            {
+                    <video autoplay>
+                        <source src="@Umbraco.Media(CurrentPage.uploadVideo).Url" type="video/mp4">
+                        <source src="@Umbraco.Media(CurrentPage.uploadVideoOgg).Url" type="video/ogg">
+                        <source src="@Umbraco.Media(CurrentPage.uploadVideoWebm).Url" type="video/webm">
+                        Your browser does not support HTML5 video.
+                    </video>
+                }
+                else
+                {
+                    <div class="two-third-col">
+                        <div class="hero-content">
+                            <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
+                            <h3 class="subHeroText">@Umbraco.Field("heroImageTagline")</h3>
+                        </div>
+
+                    </div>
+                }
+            </div>
+       
+        </div>
 </div>
 
 <main class="row">
@@ -78,6 +97,17 @@
     </div>
 </div>
 
+@if (CurrentPage.HasValue("uploadVideo"))
+{
+    <div class="row video-bg">
+        <video controls>
+            <source src="@Umbraco.Media(CurrentPage.uploadVideo).Url" type="video/mp4">
+            <source src="@Umbraco.Media(CurrentPage.uploadVideoOgg).Url" type="video/ogg">
+            <source src="@Umbraco.Media(CurrentPage.uploadVideoWebm).Url" type="video/webm">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+}
 
 @if (CurrentPage.HasValue("sponsorsField"))
 {
