@@ -52,3 +52,21 @@
 2015-11-12 12:37:11,096 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
 2015-11-12 14:03:11,604 [290] INFO  umbraco.BusinessLogic.Log - [P5968/T1/D7] Log scrubbed.  Removed all items older than 2015-09-13 14:03:11
 2015-11-12 15:09:08,029 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
+2015-11-12 15:48:00,882 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
+2015-11-12 15:48:40,069 [290] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P5968/T1/D7] Login attempt succeeded for username cmcfadden@tappi.org from IP address ::1
+2015-11-12 15:48:40,109 [290] INFO  Umbraco.Web.Security.WebSecurity - [P5968/T1/D7] User Id: 0 logged in
+2015-11-12 15:48:40,182 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-12 15:48:40,186 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 4ms)
+2015-11-12 15:48:40,238 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-12 15:48:40,238 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-11-12 15:48:40,307 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of umbraco.interfaces.ITree
+2015-11-12 15:48:40,308 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-11-12 15:48:40,321 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-12 15:48:40,321 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-11-12 15:48:40,322 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of umbraco.interfaces.ITree
+2015-11-12 15:48:40,323 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-11-12 15:48:47,751 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-11-12 15:48:47,752 [290] INFO  Umbraco.Core.PluginManager - [P5968/T1/D7] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2015-11-12 15:48:47,762 [290] INFO  umbraco.content - [P5968/T1/D7] Loading content from database...
+2015-11-12 15:48:51,881 [290] INFO  umbraco.content - [P5968/T1/D7] Save Xml to file...
+2015-11-12 15:48:51,891 [290] INFO  umbraco.content - [P5968/T1/D7] Saved Xml to file.
