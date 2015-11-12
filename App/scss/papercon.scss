@@ -20,9 +20,10 @@
 
     img:nth-of-type(3) {
         position: absolute;
-        left: -1%;
         top: 185px;
         right: 10%;
+        width: 40%;
+        z-index: 1;
     }
 }
 
@@ -33,7 +34,7 @@
 }
 
 .hero {
-    height: 280px;
+    height: 300px;
 }
 
 
