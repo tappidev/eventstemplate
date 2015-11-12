@@ -24,7 +24,7 @@
 
                 @if (CurrentPage.HasValue("uploadVideo"))
             {
-                    <video autoplay>
+                    <video autoplay loop muted>
                         <source src="@Umbraco.Media(CurrentPage.uploadVideo).Url" type="video/mp4">
                         <source src="@Umbraco.Media(CurrentPage.uploadVideoOgg).Url" type="video/ogg">
                         <source src="@Umbraco.Media(CurrentPage.uploadVideoWebm).Url" type="video/webm">
@@ -96,18 +96,6 @@
     <div class="one-col" id="location">
     </div>
 </div>
-
-@if (CurrentPage.HasValue("uploadVideo"))
-{
-    <div class="row video-bg">
-        <video controls>
-            <source src="@Umbraco.Media(CurrentPage.uploadVideo).Url" type="video/mp4">
-            <source src="@Umbraco.Media(CurrentPage.uploadVideoOgg).Url" type="video/ogg">
-            <source src="@Umbraco.Media(CurrentPage.uploadVideoWebm).Url" type="video/webm">
-            Your browser does not support HTML5 video.
-        </video>
-    </div>
-}
 
 @if (CurrentPage.HasValue("sponsorsField"))
 {

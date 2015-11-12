@@ -15,7 +15,7 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById('location'), {
         zoom: 14,
-        center: { lat: 39.1, lng: -84.514 },  // Cincinnati
+        center: { lat: 28.431433, lng: -81.462621 },  // Orlando
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
         }

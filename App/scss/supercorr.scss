@@ -2,25 +2,47 @@
     SuperCorrExpo Styles
 */
 
+@import "../bower_components/susy/sass/susy"; // Susy grid
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"; // Breakpoints
+@import "variables/_supercorr.scss"; 
+@import "responsive";
+
+h1.logo {
+    margin: 0;
+}
+
 // Logo
 
 .logo img {
-    width: 15%;
     position: absolute;
-    left: 40%;
-    right: 40%;
-    top: 0.9em;
+    left: 38%;
+    right: 35%;
+    z-index: 999;
+    padding-top: 0.5em;
+    background: #fff;
+}
+
+// tappi tab
+.tab-target {
+    padding: 0;
+    text-align: center;
+    border-radius: 2px;
+
+    img {
+        width: 125px !important;
+    }
 }
 
 // Video
 
 video {
-    width: 100%;
     margin-bottom: -0.5em;
-    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    width: 100%;
 }
 
 .main-nav {
+    display: none;
     height:59.5938px;
 }
 
@@ -31,7 +53,8 @@ video {
 }
 
 .hero {
-    height: 500px;
+    height: 450px;
+    position: relative;
     h3 {font-size: 1rem;}
     h1 {font-size: 3rem;}
     .two-col-even {
@@ -51,21 +74,17 @@ video {
             text-align: left;
         }
     }
+
+    @include breakpoint($tablet) {
+        height: 100%;
+    }
 }
-
-/*
-    DEPENDENCY IMPORTS
-*/
-
-@import "../bower_components/susy/sass/susy"; // Susy grid
-@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"; // Breakpoints
 
 
 /*
     STYLESHEET IMPORTS
 */
 
-@import "variables/_supercorr.scss"; 
 @import "prefixes";
 @import "buttons";
 @import "cards";
@@ -73,7 +92,6 @@ video {
 @import "grid";
 @import "helpers";
 @import "media";
-@import "responsive";
 @import "tables";
 @import "type"; 
 @import "nav"; 

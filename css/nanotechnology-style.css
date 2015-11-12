@@ -846,10 +846,11 @@ blockquote {
     position: absolute;
     top: 0;
     right: 15%;
-    background: #e5e5e5;
-    padding: 1em; }
+    background: #e5e5e5; }
     .tappi-menu-tab .tab-target img {
-      vertical-align: middle; }
+      vertical-align: middle;
+      padding: 0.5em;
+      width: 100px; }
     .tappi-menu-tab .tab-target i {
       padding-top: 10px; }
   .tappi-menu-tab .tab-target:hover i, .tappi-menu-tab tab-target:focus i {
@@ -865,7 +866,6 @@ blockquote {
   top: 0;
   font-size: 0.8rem;
   z-index: 9999;
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
   position: fixed; }
 
 .tappi-menu {

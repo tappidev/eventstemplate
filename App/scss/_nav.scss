@@ -33,10 +33,11 @@
         top: 0;
         right: 15%;
         background: #e5e5e5;
-        padding: 1em;
         
         img {
             vertical-align: middle;
+            padding: 0.5em;
+            width: 100px;
         }
 
         i {
@@ -57,7 +58,6 @@
     top: 0;
     font-size: 0.8rem;
     z-index: 9999;
-    @include box-shadow();
     position: fixed;
 }
 
