@@ -50,3 +50,5 @@
 2015-11-12 10:03:11,719 [290] INFO  umbraco.BusinessLogic.Log - [P5968/T1/D7] Log scrubbed.  Removed all items older than 2015-09-13 10:03:11
 2015-11-12 12:07:00,832 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
 2015-11-12 12:37:11,096 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
+2015-11-12 14:03:11,604 [290] INFO  umbraco.BusinessLogic.Log - [P5968/T1/D7] Log scrubbed.  Removed all items older than 2015-09-13 14:03:11
+2015-11-12 15:09:08,029 [290] WARN  umbraco.cms.businesslogic.web.Domain - [P5968/T1/D7] Domain already exists in list (localhost:5488/papercon)
