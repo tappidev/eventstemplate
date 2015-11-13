@@ -1,1 +1,11 @@
 media/
+App_Data/Logs
+App_Data/NuGetBackup
+App_Data/TEMP/FileUploads
+App_Data/preview
+App/bower_components
+App/node_modules
+App/scss
+App/bower.json
+App/gulpfile.js
+App/package.json

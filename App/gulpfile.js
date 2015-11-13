@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
+var minifyCss = require('gulp-minify-css');
 var sourcemaps = require('gulp-sourcemaps');
 
 // sass task
@@ -15,6 +16,7 @@ gulp.task('sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
         .pipe(concat('style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -26,6 +28,7 @@ gulp.task('papercon-sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss()) 
         .pipe(concat('papercon-style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -37,6 +40,7 @@ gulp.task('netinc-sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
         .pipe(concat('netinc-style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -48,6 +52,7 @@ gulp.task('supercorr-sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
         .pipe(concat('supercorrexpo-style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -59,6 +64,7 @@ gulp.task('nano-sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
         .pipe(concat('nanotechnology-style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -70,6 +76,7 @@ gulp.task('place-sass', function () {
             errLogToConsole: true
         }))
         //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
         .pipe(concat('place-style.css'))
         .pipe(gulp.dest('../css/'));
 });
@@ -108,6 +115,12 @@ gulp.task('place-watch', function () {
 // Combine all tasks
 gulp.task('all', ['sass', 'papercon-sass', 'supercorr-sass', 'nano-sass', 'netinc-sass', 'place-sass']);
 gulp.task('watch-all', ['watch', 'papercon-watch', 'supercorr-watch', 'nano-watch', 'netinc-watch', 'place-watch']);
+
+// MINIFY task
+
+
+
+
 
 // create default task
 

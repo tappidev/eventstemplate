@@ -33,3 +33,4 @@
 2015-11-13 08:00:47,097 [14] INFO  Umbraco.Core.PluginManager - [P7684/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
 2015-11-13 08:00:47,098 [14] INFO  Umbraco.Core.PluginManager - [P7684/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
 2015-11-13 08:01:47,475 [14] INFO  umbraco.BusinessLogic.Log - [P7684/T1/D2] Log scrubbed.  Removed all items older than 2015-09-14 08:01:47
+2015-11-13 08:36:12,141 [14] WARN  umbraco.cms.businesslogic.web.Domain - [P7684/T1/D2] Domain already exists in list (localhost:5488/papercon)
