@@ -16,6 +16,7 @@
         z-index: -5;
         left: -1%;
         top: 10em;
+        pointer-events: none;
     }
 
     img:nth-of-type(3) {
@@ -24,6 +25,7 @@
         right: 10%;
         width: 40%;
         z-index: 1;
+        pointer-events: none;
     }
 }
 

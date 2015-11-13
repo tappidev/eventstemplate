@@ -945,7 +945,8 @@ blockquote {
     background: #1c1f22;
     margin-top: 1em;
     border: none;
-    padding-bottom: 1em; }
+    padding-bottom: 1em;
+    text-align: left; }
     .mobile-nav .submenu li {
       padding: 0;
       margin: 0;
