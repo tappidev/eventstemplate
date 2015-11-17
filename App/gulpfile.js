@@ -81,6 +81,18 @@ gulp.task('place-sass', function () {
         .pipe(gulp.dest('../css/'));
 });
 
+gulp.task('srw-sass', function () {
+    gulp.src('scss/srw.scss')
+        //.pipe(sourcemaps.init())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
+        //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
+        .pipe(concat('srw-style.css'))
+        .pipe(gulp.dest('../css/'));
+});
+
 // watch tasks
 
 gulp.task('watch', function () {
@@ -107,26 +119,22 @@ gulp.task('nano-watch', function () {
     gulp.watch('scss/**/*.scss', ['nano-sass'])
 });
 
-// nano watch task
+// place watch task
 gulp.task('place-watch', function () {
     gulp.watch('scss/**/*.scss', ['place-sass'])
 });
 
+// srw watch task
+gulp.task('srw-watch', function () {
+    gulp.watch('scss/**/*.scss', ['srw-sass'])
+});
+
 // Combine all tasks
-gulp.task('all', ['sass', 'papercon-sass', 'supercorr-sass', 'nano-sass', 'netinc-sass', 'place-sass']);
-gulp.task('watch-all', ['watch', 'papercon-watch', 'supercorr-watch', 'nano-watch', 'netinc-watch', 'place-watch']);
-
-// MINIFY task
-
-
-
+gulp.task('all', ['sass', 'papercon-sass', 'supercorr-sass', 'nano-sass', 'netinc-sass', 'place-sass', 'srw-sass']);
+gulp.task('watch-all', ['watch', 'papercon-watch', 'supercorr-watch', 'nano-watch', 'netinc-watch', 'place-watch', 'srw-watch']);
 
 
 // create default task
 
-/*gulp.task('default', ['sass', 'watch']);
-gulp.task('papercon', ['papercon-sass', 'papercon-watch']);
-gulp.task('supercorr', ['supercorr-sass', 'supercorr-watch']);
-gulp.task('nano', ['nano-sass', 'nano-watch']);*/
 
 gulp.task('default', ['all', 'watch-all']);

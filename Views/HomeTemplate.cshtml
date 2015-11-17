@@ -33,13 +33,10 @@
                 }
                 else
                 {
-                    <div class="two-third-col">
                         <div class="hero-content">
                             <h1 class="heroText">@Umbraco.Field("heroImageTitle")</h1>
                             <h3 class="subHeroText">@Umbraco.Field("heroImageTagline")</h3>
                         </div>
-
-                    </div>
                 }
             </div>
        
@@ -54,6 +51,8 @@
     //</div>
       }
 
+@if (Model.Content.GetProperty("homeLinkScroller").HasValue)
+{
     <div class="two-third-col">
         @Html.Partial("news")
     </div>
@@ -70,11 +69,27 @@
         }
 
     </div>
+}
+else
+{
+    <div class="one-col">
+
+        @if (Model.Content.GetProperty("registerButton").HasValue)
+        {
+            <a class="btn btn-action btn-lg" href="@Umbraco.Field("registerButton")" target="_blank">Register Now!</a>
+        }
+        else
+        {
+            <a class="btn btn-disable btn-lg">Registration Opening Soon</a>
+        }
+
+    </div>
+}
 </main>
 
 @Model.Content.GetGridHtml("UICards")
 
-<div class="row sign-up">
+@*<div class="row sign-up">
     <form>
         <div class="form-group">
             <label for="fullName">Full Name</label>
@@ -86,7 +101,7 @@
         </div>
         <button type="submit" class="btn">Send It!</button>
     </form>
-</div>
+</div>*@
 
 <div class="row home-bg">
     <div class="one-col">

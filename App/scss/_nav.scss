@@ -44,11 +44,6 @@
             padding-top: 10px;
         }
     }
-    .tab-target:hover, tab-target:focus {
-        i {
-            color: $primary-color;
-        }
-    }
 }
 
 .tappi-menu-wrapper {
@@ -90,13 +85,13 @@
 .mobile-target {
     padding: 1.5em;
     height: 70px;
-    background: $primary-color;
+    background: #565656;
     color: #fff;
     text-align: center;
     cursor: pointer;
     z-index: 999;
     position: relative;
-    top: 46px;
+    top: 40px;
     right:0;
     display: none;
 
@@ -110,10 +105,16 @@
     }
 
     img{
-        width:50px;
-        float: left;
-        position:relative;
-        top: -12px;
+        //width:50px;
+        //float: left;
+        //position:relative;
+        //top: -12px;
+    }
+
+    .mobile-logo {
+        position: absolute;
+        left: 10%;
+        top: 10%;
     }
 }
 
@@ -126,7 +127,7 @@
     width: 100%;
     position: relative;
     right: 0;
-    top: 45px;
+    top: 40px;
     z-index: 9999;
     background: #2c3136;
     display: none;
