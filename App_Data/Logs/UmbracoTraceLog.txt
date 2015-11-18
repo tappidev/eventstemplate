@@ -298,3 +298,96 @@
 2015-11-17 16:01:18,935 [44] INFO  Umbraco.Core.PluginManager - [P4992/T20/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
 2015-11-17 16:01:18,936 [44] INFO  Umbraco.Core.PluginManager - [P4992/T20/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
 2015-11-17 16:03:48,990 [44] WARN  umbraco.cms.businesslogic.web.Domain - [P4992/T20/D6] Domain already exists in list (localhost:5488/papercon)
+2015-11-17 16:15:26,581 [44] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P4992/T20/D6] Login attempt succeeded for username cmcfadden@tappi.org from IP address ::1
+2015-11-17 16:15:26,601 [44] INFO  Umbraco.Web.Security.WebSecurity - [P4992/T20/D6] User Id: 0 logged in
+2015-11-17 16:15:59,118 [44] WARN  umbraco.cms.businesslogic.web.Domain - [P4992/T20/D6] Domain already exists in list (localhost:5488/papercon)
+2015-11-17 16:16:02,853 [44] WARN  umbraco.cms.businesslogic.web.Domain - [P4992/T20/D6] Domain already exists in list (localhost:5488/papercon)
+2015-11-17 16:17:11,289 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T20/D6] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:17:16,048 [44] INFO  umbraco.content - [P4992/T20/D6] Save Xml to file...
+2015-11-17 16:17:16,057 [44] INFO  umbraco.content - [P4992/T20/D6] Saved Xml to file.
+2015-11-17 16:18:27,831 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T20/D6] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:18:32,408 [44] INFO  umbraco.content - [P4992/T20/D6] Save Xml to file...
+2015-11-17 16:18:32,436 [44] INFO  umbraco.content - [P4992/T20/D6] Saved Xml to file.
+2015-11-17 16:18:49,734 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T20/D6] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:18:53,932 [44] INFO  umbraco.content - [P4992/T20/D6] Save Xml to file...
+2015-11-17 16:18:53,948 [44] INFO  umbraco.content - [P4992/T20/D6] Saved Xml to file.
+2015-11-17 16:20:52,823 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T20/D6] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:20:57,026 [44] INFO  umbraco.content - [P4992/T20/D6] Save Xml to file...
+2015-11-17 16:20:57,033 [44] INFO  umbraco.content - [P4992/T20/D6] Saved Xml to file.
+2015-11-17 16:24:38,609 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T20/D6] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:24:45,118 [44] INFO  umbraco.content - [P4992/T20/D6] Save Xml to file...
+2015-11-17 16:24:45,145 [44] INFO  umbraco.content - [P4992/T20/D6] Saved Xml to file.
+2015-11-17 16:27:28,718 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledTasks] Terminating
+2015-11-17 16:27:28,718 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledTasks] Waiting for tasks to complete
+2015-11-17 16:27:28,718 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [KeepAlive] Terminating
+2015-11-17 16:27:28,718 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [KeepAlive] Waiting for tasks to complete
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledPublishing] Terminating
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledPublishing] Waiting for tasks to complete
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [LogScrubber] Terminating
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [LogScrubber] Waiting for tasks to complete
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [KeepAlive] Tasks completed, terminated
+2015-11-17 16:27:28,720 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [LogScrubber] Tasks completed, terminated
+2015-11-17 16:27:28,721 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledPublishing] Tasks completed, terminated
+2015-11-17 16:27:28,724 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P4992/T20/D6] [ScheduledTasks] Tasks completed, terminated
+2015-11-17 16:27:39,082 [54] INFO  Umbraco.Core.CoreBootManager - [P4992/T73/D7] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-11-17 16:27:39,111 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Determining hash of code files on disk
+2015-11-17 16:27:39,117 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Hash determined (took 4ms)
+2015-11-17 16:27:39,122 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-17 16:27:39,276 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 153ms)
+2015-11-17 16:27:39,322 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-17 16:27:39,329 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2015-11-17 16:27:39,329 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-11-17 16:27:39,334 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 5ms)
+2015-11-17 16:27:39,343 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-17 16:27:39,349 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 6ms)
+2015-11-17 16:27:39,350 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-17 16:27:39,355 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 5ms)
+2015-11-17 16:27:39,374 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-17 16:27:39,378 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2015-11-17 16:27:39,379 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-17 16:27:39,383 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2015-11-17 16:27:39,848 [54] INFO  Umbraco.Core.DatabaseContext - [P4992/T73/D7] CanConnect = True
+2015-11-17 16:27:39,853 [54] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P4992/T73/D7] Initializing Umbraco internal event handlers for cache refreshing
+2015-11-17 16:27:39,864 [54] INFO  Umbraco.Web.Search.ExamineEvents - [P4992/T73/D7] Initializing Examine and binding to business logic events
+2015-11-17 16:27:39,898 [54] INFO  Umbraco.Web.Search.ExamineEvents - [P4992/T73/D7] Adding examine event handlers for index providers: 3
+2015-11-17 16:27:39,903 [54] INFO  Umbraco.Core.CoreBootManager - [P4992/T73/D7] Umbraco application startup complete (took 808ms)
+2015-11-17 16:27:40,052 [54] INFO  Umbraco.Core.ApplicationContext - [P4992/T73/D7] ApplicationUrl: http://localhost:5488/umbraco (UmbracoModule request)
+2015-11-17 16:27:40,938 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-17 16:27:40,954 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 16ms)
+2015-11-17 16:27:41,654 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-17 16:27:41,660 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 6ms)
+2015-11-17 16:27:41,675 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.interfaces.ITree
+2015-11-17 16:27:41,681 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 6ms)
+2015-11-17 16:27:41,687 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-17 16:27:41,688 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-11-17 16:27:41,690 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.interfaces.ITree
+2015-11-17 16:27:41,699 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 8ms)
+2015-11-17 16:27:41,709 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-17 16:27:41,716 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2015-11-17 16:27:41,845 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-17 16:27:41,852 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 7ms)
+2015-11-17 16:27:42,252 [54] INFO  umbraco.content - [P4992/T73/D7] Load Xml from file...
+2015-11-17 16:27:42,254 [54] INFO  umbraco.content - [P4992/T73/D7] Loaded Xml from file.
+2015-11-17 16:27:42,354 [54] WARN  umbraco.cms.businesslogic.web.Domain - [P4992/T73/D7] Domain already exists in list (localhost:5488/papercon)
+2015-11-17 16:28:00,244 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [P4992/T20/D6] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-11-17 16:28:07,930 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T73/D7] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:28:08,118 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-11-17 16:28:08,137 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 19ms)
+2015-11-17 16:28:12,248 [54] INFO  umbraco.content - [P4992/T73/D7] Save Xml to file...
+2015-11-17 16:28:12,257 [54] INFO  umbraco.content - [P4992/T73/D7] Saved Xml to file.
+2015-11-17 16:28:12,879 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-17 16:28:12,885 [54] INFO  Umbraco.Core.PluginManager - [P4992/T73/D7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2015-11-17 16:28:40,690 [54] INFO  umbraco.BusinessLogic.Log - [P4992/T73/D7] Log scrubbed.  Removed all items older than 2015-09-18 16:28:40
+2015-11-17 16:31:46,742 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T73/D7] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:31:51,460 [54] INFO  umbraco.content - [P4992/T73/D7] Save Xml to file...
+2015-11-17 16:31:51,466 [54] INFO  umbraco.content - [P4992/T73/D7] Saved Xml to file.
+2015-11-17 16:37:14,736 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T73/D7] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:37:19,092 [54] INFO  umbraco.content - [P4992/T73/D7] Save Xml to file...
+2015-11-17 16:37:19,099 [54] INFO  umbraco.content - [P4992/T73/D7] Saved Xml to file.
+2015-11-17 16:41:00,570 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T73/D7] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:41:04,763 [54] INFO  umbraco.content - [P4992/T73/D7] Save Xml to file...
+2015-11-17 16:41:04,789 [54] INFO  umbraco.content - [P4992/T73/D7] Saved Xml to file.
+2015-11-17 16:41:54,261 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P4992/T73/D7] Content 'Program' with Id '1454' has been published.
+2015-11-17 16:41:58,815 [54] INFO  umbraco.content - [P4992/T73/D7] Save Xml to file...
+2015-11-17 16:41:58,845 [54] INFO  umbraco.content - [P4992/T73/D7] Saved Xml to file.
+2015-11-17 16:59:25,183 [54] WARN  umbraco.cms.businesslogic.web.Domain - [P4992/T73/D7] Domain already exists in list (localhost:5488/papercon)

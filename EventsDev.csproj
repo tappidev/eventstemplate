@@ -2255,8 +2255,10 @@
     <Content Include="App\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone\test.js" />
     <Content Include="App\scss\nano.scss" />
     <Content Include="App\scss\papercon.scss" />
+    <Content Include="App\scss\style.scss" />
     <Content Include="App\scss\variables\_nano.scss" />
     <Content Include="App\scss\variables\_papercon.scss" />
+    <Content Include="App\scss\variables\_variables.scss" />
     <Content Include="App_Data\Logs\UmbracoTraceLog.txt" />
     <Content Include="App_Data\NuGetBackup\20150812-135819\Config\grid.editors.config.js" />
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
@@ -2276,6 +2278,8 @@
     <Content Include="App\scss\netinc.scss" />
     <Content Include="App\scss\variables\_place.scss" />
     <Content Include="App\scss\place.scss" />
+    <Content Include="App\scss\srw.scss" />
+    <Content Include="App\scss\variables\_srw.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\PLACE-GoogleMapsConfig.js" />
@@ -2284,7 +2288,7 @@
     <Content Include="scripts\jquery-2.1.4.min.js" />
     <Content Include="scripts\navigation.js" />
     <None Include="scripts\_references.js" />
-    <Content Include="scripts\SuperCorrExpo-GoogleMapsConfig.js" />
+    <Content Include="scripts\SRW-GoogleMapsConfig.js" />
     <Content Include="Views\Partials\news.cshtml" />
     <Content Include="Views\SharedContent.cshtml" />
     <Content Include="Views\Web.config" />
@@ -4458,11 +4462,9 @@
     <Content Include="App\node_modules\gulp\node_modules\vinyl-fs\README.md" />
     <Content Include="App\node_modules\gulp\package.json" />
     <Content Include="App\node_modules\gulp\README.md" />
-    <Content Include="App\scss\style.scss" />
     <Content Include="App\scss\_grid.scss" />
     <Content Include="App\scss\_helpers.scss" />
     <Content Include="App\scss\_media.scss" />
-    <Content Include="App\scss\variables\_variables.scss" />
     <Content Include="App\scss\_responsive.scss" />
     <Content Include="App\scss\_prefixes.scss" />
     <Content Include="App\scss\_tables.scss" />

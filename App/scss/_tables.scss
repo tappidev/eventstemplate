@@ -29,6 +29,7 @@
             overflow: hidden;
             padding: 1em;
             border-bottom: 1px solid #d7d7d7;
+            background: #dddddd;
 
             &:nth-child(even) {
                 background: #f1f1f1;
@@ -43,6 +44,12 @@
         .day time {
             font-size: 1.3rem;
             font-weight: 700;
+        }
+
+        .day {
+            background: #B7B7B7;
+            font-family: Montserrat, sans-serif;
+            text-align: center;
         }
 
         .session-description {
