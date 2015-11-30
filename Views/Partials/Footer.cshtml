@@ -11,6 +11,31 @@
                 <p>We are a not for profit, volunteer-led association that is built around a community comprised of thousands of member engineers, managers, scientists, academics, suppliers and others from around the world.</p>
             </div>
             <div class="two-third-col">
+                <section class="social-media">
+                    @{
+                        if (CurrentPage.AncestorOrSelf(1).twitter != "")
+                        {
+                            <a href="@CurrentPage.AncestorOrSelf(1).twitter.ToString()" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+                        }
+
+
+                        if (CurrentPage.AncestorOrSelf(1).facebook != "")
+                        {
+                            <a href="@CurrentPage.AncestorOrSelf(1).facebook.ToString()" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+                        }
+
+
+                        if (CurrentPage.AncestorOrSelf(1).linkedin != "")
+                        {
+                            <a href="@CurrentPage.AncestorOrSelf(1).linkedin.ToString()" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+                        }
+
+                        if (CurrentPage.AncestorOrSelf(1).googlePlus != "")
+                        {
+                            <a href="@CurrentPage.AncestorOrSelf(1).googlePlus.ToString()" target="_blank"><i class="fa fa-2x fa-google-plus"></i></a>
+                        }
+                    }
+                </section>
             </div>
         </div>
         <div class="row">

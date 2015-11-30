@@ -14,6 +14,25 @@ i {
     //margin: 0;
 }
 
+// Footer social media icons
+
+.social-media {
+    vertical-align: middle;
+    margin: 1em 0.5em;
+    text-align: right;
+}
+
+footer i.fa-2x {
+    font-size: 3rem;
+    width: 2em;
+    vertical-align: middle;
+
+    &:hover {
+        color: #ebebeb;
+    }
+}
+
+
 // Images
 
 img {
