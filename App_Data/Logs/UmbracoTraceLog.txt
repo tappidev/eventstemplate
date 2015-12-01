@@ -160,3 +160,4 @@ Error Number:64,State:0,Class:20
 2015-12-01 08:25:18,767 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
 2015-12-01 08:26:21,081 [232] INFO  umbraco.BusinessLogic.Log - [P12424/T177/D4] Log scrubbed.  Removed all items older than 2015-10-02 08:26:21
 2015-12-01 09:08:27,972 [232] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T177/D4] Domain already exists in list (localhost:5488/papercon)
+2015-12-01 10:00:50,659 [232] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T177/D4] Domain already exists in list (localhost:5488/papercon)
