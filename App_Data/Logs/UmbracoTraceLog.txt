@@ -1,105 +1,161 @@
-﻿2015-11-30 15:14:45,953 [6] INFO  Umbraco.Core.CoreBootManager - [P12424/T1/D2] Umbraco 7.2.8 application starting on GB1BCZ1
-2015-11-30 15:14:45,991 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Determining hash of code files on disk
-2015-11-30 15:14:46,000 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Hash determined (took 7ms)
-2015-11-30 15:14:46,003 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2015-11-30 15:14:46,012 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 8ms)
-2015-11-30 15:14:46,065 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2015-11-30 15:14:46,065 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
-2015-11-30 15:14:46,066 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
-2015-11-30 15:14:46,066 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 0ms)
-2015-11-30 15:14:46,076 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2015-11-30 15:14:46,077 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
-2015-11-30 15:14:46,077 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2015-11-30 15:14:46,079 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 1ms)
-2015-11-30 15:14:46,101 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2015-11-30 15:14:46,101 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
-2015-11-30 15:14:46,101 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2015-11-30 15:14:46,102 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
-2015-11-30 15:14:46,528 [6] INFO  Umbraco.Core.DatabaseContext - [P12424/T1/D2] CanConnect = True
-2015-11-30 15:14:46,538 [6] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12424/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
-2015-11-30 15:14:46,551 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T1/D2] Initializing Examine and binding to business logic events
-2015-11-30 15:14:46,587 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T1/D2] Adding examine event handlers for index providers: 3
-2015-11-30 15:14:46,594 [6] INFO  Umbraco.Core.CoreBootManager - [P12424/T1/D2] Umbraco application startup complete (took 628ms)
-2015-11-30 15:14:46,928 [6] INFO  Umbraco.Core.ApplicationContext - [P12424/T1/D2] ApplicationUrl: http://localhost:5488/umbraco (UmbracoModule request)
-2015-11-30 15:14:47,015 [6] INFO  umbraco.content - [P12424/T1/D2] Load Xml from file...
-2015-11-30 15:14:47,024 [6] INFO  umbraco.content - [P12424/T1/D2] Loaded Xml from file.
-2015-11-30 15:14:47,570 [6] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T1/D2] Domain already exists in list (localhost:5488/papercon)
-2015-11-30 15:14:47,626 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2015-11-30 15:14:47,627 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
-2015-11-30 15:14:47,971 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-11-30 15:14:47,972 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
-2015-11-30 15:14:50,208 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-11-30 15:14:50,208 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
-2015-11-30 15:14:50,223 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
-2015-11-30 15:14:50,224 [6] INFO  Umbraco.Core.PluginManager - [P12424/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
-2015-11-30 15:15:20,191 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [KeepAlive] Terminating
-2015-11-30 15:15:20,191 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [KeepAlive] Waiting for tasks to complete
-2015-11-30 15:15:20,194 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [KeepAlive] Tasks completed, terminated
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [LogScrubber] Terminating
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [LogScrubber] Waiting for tasks to complete
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledTasks] Terminating
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledTasks] Waiting for tasks to complete
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledPublishing] Terminating
-2015-11-30 15:15:20,195 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
-2015-11-30 15:15:20,196 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [LogScrubber] Tasks completed, terminated
-2015-11-30 15:15:20,196 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledTasks] Tasks completed, terminated
-2015-11-30 15:15:20,196 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T1/D2] [ScheduledPublishing] Tasks completed, terminated
-2015-11-30 15:15:50,224 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [P12424/T1/D2] Application shutdown. Reason: ConfigurationChange
-2015-11-30 15:18:22,529 [30] INFO  Umbraco.Core.CoreBootManager - [P12424/T29/D3] Umbraco 7.2.8 application starting on GB1BCZ1
-2015-11-30 15:18:22,556 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Determining hash of code files on disk
-2015-11-30 15:18:22,561 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Hash determined (took 4ms)
-2015-11-30 15:18:22,565 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2015-11-30 15:18:22,574 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 8ms)
-2015-11-30 15:18:22,624 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2015-11-30 15:18:22,624 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
-2015-11-30 15:18:22,625 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
-2015-11-30 15:18:22,625 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 0ms)
-2015-11-30 15:18:22,633 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2015-11-30 15:18:22,634 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
-2015-11-30 15:18:22,634 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2015-11-30 15:18:22,636 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 1ms)
-2015-11-30 15:18:22,655 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2015-11-30 15:18:22,656 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
-2015-11-30 15:18:22,656 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2015-11-30 15:18:22,656 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
-2015-11-30 15:18:23,033 [30] INFO  Umbraco.Core.DatabaseContext - [P12424/T29/D3] CanConnect = True
-2015-11-30 15:18:23,042 [30] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12424/T29/D3] Initializing Umbraco internal event handlers for cache refreshing
-2015-11-30 15:18:23,054 [30] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T29/D3] Initializing Examine and binding to business logic events
-2015-11-30 15:18:23,086 [30] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T29/D3] Adding examine event handlers for index providers: 3
-2015-11-30 15:18:23,091 [30] INFO  Umbraco.Core.CoreBootManager - [P12424/T29/D3] Umbraco application startup complete (took 551ms)
-2015-11-30 15:18:23,343 [30] INFO  Umbraco.Core.ApplicationContext - [P12424/T29/D3] ApplicationUrl: http://localhost:5488/umbraco (UmbracoModule request)
-2015-11-30 15:18:23,376 [30] INFO  umbraco.content - [P12424/T29/D3] Load Xml from file...
-2015-11-30 15:18:23,378 [30] INFO  umbraco.content - [P12424/T29/D3] Loaded Xml from file.
-2015-11-30 15:18:23,676 [30] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T29/D3] Domain already exists in list (localhost:5488/papercon)
-2015-11-30 15:18:23,722 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2015-11-30 15:18:23,723 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
-2015-11-30 15:18:24,205 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-11-30 15:18:24,205 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
-2015-11-30 15:18:24,788 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-11-30 15:18:24,788 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
-2015-11-30 15:18:24,802 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
-2015-11-30 15:18:24,803 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
-2015-11-30 15:19:25,795 [30] INFO  umbraco.BusinessLogic.Log - [P12424/T29/D3] Log scrubbed.  Removed all items older than 2015-10-01 15:19:25
-2015-11-30 15:27:17,251 [30] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P12424/T29/D3] Login attempt succeeded for username cmcfadden@tappi.org from IP address ::1
-2015-11-30 15:27:17,293 [30] INFO  Umbraco.Web.Security.WebSecurity - [P12424/T29/D3] User Id: 0 logged in
-2015-11-30 15:27:17,406 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-11-30 15:27:17,407 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 1ms)
-2015-11-30 15:27:17,462 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.interfaces.IApplication
-2015-11-30 15:27:17,462 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
-2015-11-30 15:27:17,512 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.interfaces.ITree
-2015-11-30 15:27:17,513 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
-2015-11-30 15:27:17,523 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-11-30 15:27:17,523 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
-2015-11-30 15:27:17,525 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.interfaces.ITree
-2015-11-30 15:27:17,525 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
-2015-11-30 15:28:09,044 [30] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P12424/T29/D3] Content 'SuperCorrExpo' with Id '1053' has been published.
-2015-11-30 15:28:09,294 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
-2015-11-30 15:28:09,297 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 2ms)
-2015-11-30 15:28:13,423 [30] INFO  umbraco.content - [P12424/T29/D3] Save Xml to file...
-2015-11-30 15:28:13,433 [30] INFO  umbraco.content - [P12424/T29/D3] Saved Xml to file.
-2015-11-30 15:30:02,082 [30] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P12424/T29/D3] Content 'SuperCorrExpo' with Id '1053' has been published.
-2015-11-30 15:30:06,288 [30] INFO  umbraco.content - [P12424/T29/D3] Save Xml to file...
-2015-11-30 15:30:06,295 [30] INFO  umbraco.content - [P12424/T29/D3] Saved Xml to file.
-2015-11-30 15:37:26,843 [30] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P12424/T29/D3] Content 'SuperCorrExpo' with Id '1053' has been published.
-2015-11-30 15:37:31,409 [30] INFO  umbraco.content - [P12424/T29/D3] Save Xml to file...
-2015-11-30 15:37:31,415 [30] INFO  umbraco.content - [P12424/T29/D3] Saved Xml to file.
+﻿2015-12-01 06:57:41,238 [30] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [P12424/T29/D3]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-12-01 06:57:41,239 [30] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [P12424/T29/D3] Failed (at "http://localhost:5488/umbraco").
+System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.) ---> System.ComponentModel.Win32Exception (0x80004005): The specified network name is no longer available
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2,TRet](Func`3 cb, Sql sql)
+   at Umbraco.Core.Persistence.Repositories.UserRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Services.UserService.GetUserById(Int32 id)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthHeaderVal(ApplicationContext appContext)
+   at Umbraco.Web.Mvc.AdminTokenAuthorizeAttribute.GetAuthenticationHeaderValue(ApplicationContext appContext)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__5.MoveNext()
+ClientConnectionId:fa8cc35a-deef-4e63-9d65-6fda13c389f9
+Error Number:64,State:0,Class:20
+2015-12-01 06:57:44,129 [30] INFO  umbraco.BusinessLogic.Log - [P12424/T29/D3] Log scrubbed.  Removed all items older than 2015-10-02 06:57:41
+2015-12-01 07:54:11,852 [30] ERROR Umbraco.Web.WebServices.ScheduledPublishController - [P12424/T29/D3] Error executing scheduled task
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The specified network name is no longer available
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2,T3,T4](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.ContentRepository.ProcessQuery(Sql sql)
+   at Umbraco.Core.Persistence.Repositories.ContentRepository.PerformGetByQuery(IQuery`1 query)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.GetByQuery(IQuery`1 query)
+   at Umbraco.Core.Services.ContentService.GetContentForRelease()
+   at Umbraco.Core.Publishing.ScheduledPublisher.CheckPendingAndProcess()
+   at Umbraco.Web.WebServices.ScheduledPublishController.Index()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:64,State:0,Class:20
+2015-12-01 08:02:56,877 [30] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T29/D3] Domain already exists in list (localhost:5488/papercon)
+2015-12-01 08:03:33,016 [30] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P12424/T29/D3] Login attempt succeeded for username cmcfadden@tappi.org from IP address ::1
+2015-12-01 08:03:33,041 [30] INFO  Umbraco.Web.Security.WebSecurity - [P12424/T29/D3] User Id: 0 logged in
+2015-12-01 08:03:33,058 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 08:03:33,059 [30] INFO  Umbraco.Core.PluginManager - [P12424/T29/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 08:03:39,935 [30] INFO  umbraco.content - [P12424/T29/D3] Loading content from database...
+2015-12-01 08:03:44,556 [30] INFO  umbraco.content - [P12424/T29/D3] Save Xml to file...
+2015-12-01 08:03:44,564 [30] INFO  umbraco.content - [P12424/T29/D3] Saved Xml to file.
+2015-12-01 08:24:02,827 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledPublishing] Terminating
+2015-12-01 08:24:02,827 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledPublishing] Waiting for tasks to complete
+2015-12-01 08:24:02,829 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledPublishing] Tasks completed, terminated
+2015-12-01 08:24:04,336 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [KeepAlive] Terminating
+2015-12-01 08:24:04,336 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [KeepAlive] Waiting for tasks to complete
+2015-12-01 08:24:04,336 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledTasks] Terminating
+2015-12-01 08:24:04,336 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledTasks] Waiting for tasks to complete
+2015-12-01 08:24:04,337 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [KeepAlive] Tasks completed, terminated
+2015-12-01 08:24:04,337 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [ScheduledTasks] Tasks completed, terminated
+2015-12-01 08:24:04,340 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [LogScrubber] Terminating
+2015-12-01 08:24:04,340 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [LogScrubber] Waiting for tasks to complete
+2015-12-01 08:24:04,340 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12424/T29/D3] [LogScrubber] Tasks completed, terminated
+2015-12-01 08:24:34,355 [30] INFO  Umbraco.Core.UmbracoApplicationBase - [P12424/T29/D3] Application shutdown. Reason: BuildManagerChange
+2015-12-01 08:25:14,909 [232] INFO  Umbraco.Core.CoreBootManager - [P12424/T177/D4] Umbraco 7.2.8 application starting on GB1BCZ1
+2015-12-01 08:25:14,942 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Determining hash of code files on disk
+2015-12-01 08:25:14,948 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Hash determined (took 5ms)
+2015-12-01 08:25:14,952 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-12-01 08:25:14,962 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 9ms)
+2015-12-01 08:25:15,016 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-12-01 08:25:15,017 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-12-01 08:25:15,017 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-12-01 08:25:15,018 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 0ms)
+2015-12-01 08:25:15,027 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-12-01 08:25:15,028 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 1ms)
+2015-12-01 08:25:15,028 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-12-01 08:25:15,030 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 1ms)
+2015-12-01 08:25:15,049 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-12-01 08:25:15,050 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-12-01 08:25:15,050 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-12-01 08:25:15,050 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-12-01 08:25:15,449 [232] INFO  Umbraco.Core.DatabaseContext - [P12424/T177/D4] CanConnect = True
+2015-12-01 08:25:15,458 [232] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12424/T177/D4] Initializing Umbraco internal event handlers for cache refreshing
+2015-12-01 08:25:15,470 [232] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T177/D4] Initializing Examine and binding to business logic events
+2015-12-01 08:25:15,504 [232] INFO  Umbraco.Web.Search.ExamineEvents - [P12424/T177/D4] Adding examine event handlers for index providers: 3
+2015-12-01 08:25:15,511 [232] INFO  Umbraco.Core.CoreBootManager - [P12424/T177/D4] Umbraco application startup complete (took 590ms)
+2015-12-01 08:25:15,760 [232] INFO  Umbraco.Core.ApplicationContext - [P12424/T177/D4] ApplicationUrl: http://localhost:5488/umbraco (UmbracoModule request)
+2015-12-01 08:25:15,794 [232] INFO  umbraco.content - [P12424/T177/D4] Load Xml from file...
+2015-12-01 08:25:15,796 [232] INFO  umbraco.content - [P12424/T177/D4] Loaded Xml from file.
+2015-12-01 08:25:15,912 [232] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T177/D4] Domain already exists in list (localhost:5488/papercon)
+2015-12-01 08:25:15,965 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-12-01 08:25:15,966 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-12-01 08:25:16,264 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-01 08:25:16,265 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-12-01 08:25:18,750 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-01 08:25:18,750 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-12-01 08:25:18,766 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-12-01 08:25:18,767 [232] INFO  Umbraco.Core.PluginManager - [P12424/T177/D4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2015-12-01 08:26:21,081 [232] INFO  umbraco.BusinessLogic.Log - [P12424/T177/D4] Log scrubbed.  Removed all items older than 2015-10-02 08:26:21

@@ -211,6 +211,7 @@
 
 .main-nav {
     @include container(1140px);
+    position: relative;
 
     a {
         color: $font-color;
@@ -229,13 +230,17 @@
 // Parent Navigation
 
   .main-nav > ul {
-        margin: 0;
+        margin: auto;
+        max-width: 1140px;
         padding: 0;
         list-style: none;
+        text-align: center;
+       
     }
 
   .main-nav > ul > li {
       display: inline-block;
+      position: static;
       padding: 1em 0.2em;
       @include transition(background 0.2s);
 
@@ -267,17 +272,19 @@
   }
 
   .submenu {
-      margin: 0;
-      margin-left: -5px;
       padding: 1.5em 2em 1em 2em;
       position: absolute;
+      left: 0;
+      right: 0;
       list-style: none;
-      margin-top: 14px;
+      margin-top: 10px;
       background: #fff;
       @include transition(opacity .4s 0s, visibility 0s 0s);
       @include box-shadow(0px, 6px, 8px, 0px, rgba(0,0,0,.3), false);
       z-index: 9999;
       display: inline-block;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
 
       li {
           margin-bottom: 0.5em;
@@ -289,8 +296,8 @@
       }
 
       .row {
-          width: 100%;
           margin: 0.5em 0;
+          display: inline-block;
       }
 
       .one-third-col {
@@ -298,6 +305,7 @@
           border-right: 1px solid #ccc;
           padding: 0;
           padding: 0 2em;
+          text-align: left;
       }
 
       .one-third-col:last-of-type {
