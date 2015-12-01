@@ -75,6 +75,20 @@ header::before {
 .main-nav {
     background: rgba(255,255,255, 0.6);
     border-top: 1px solid #fff;
+
+    a.selected {
+        background: $complimentary-color;
+        border-top-left-radius: 5px;
+        color: #fff;
+    }
+}
+
+.submenu {
+    background: $complimentary-color;
+    
+    a {
+        color: #fff !important;
+    }
 }
 
 
