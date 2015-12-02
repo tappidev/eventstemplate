@@ -161,3 +161,4 @@ Error Number:64,State:0,Class:20
 2015-12-01 08:26:21,081 [232] INFO  umbraco.BusinessLogic.Log - [P12424/T177/D4] Log scrubbed.  Removed all items older than 2015-10-02 08:26:21
 2015-12-01 09:08:27,972 [232] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T177/D4] Domain already exists in list (localhost:5488/papercon)
 2015-12-01 10:00:50,659 [232] WARN  umbraco.cms.businesslogic.web.Domain - [P12424/T177/D4] Domain already exists in list (localhost:5488/papercon)
+2015-12-01 12:26:21,081 [232] INFO  umbraco.BusinessLogic.Log - [P12424/T177/D4] Log scrubbed.  Removed all items older than 2015-10-02 12:26:21

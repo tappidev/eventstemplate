@@ -2268,6 +2268,8 @@
     <Content Include="css\netinc-style.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\papercon-style.css" />
+    <Content Include="css\place-style.css" />
+    <Content Include="css\srw-style.css" />
     <Content Include="css\style.css" />
     <Content Include="css\supercorrexpo-style.css" />
     <Content Include="packages.config" />
@@ -2288,6 +2290,7 @@
     <Content Include="scripts\jquery-2.1.4.min.js" />
     <Content Include="scripts\navigation.js" />
     <None Include="scripts\_references.js" />
+    <Content Include="scripts\social-media.js" />
     <Content Include="scripts\SRW-GoogleMapsConfig.js" />
     <Content Include="Views\Partials\news.cshtml" />
     <Content Include="Views\SharedContent.cshtml" />
