@@ -216,6 +216,7 @@
     <Content Include="App\img\hero.jpg" />
     <Content Include="App\img\location-bg.png" />
     <Content Include="App\img\speaker1.jpg" />
+    <Content Include="App\img\stockholm-hero.jpg" />
     <Content Include="App\img\TAPPI_logo.png" />
     <Content Include="App\js\GoogleMapsConfig.js" />
     <Content Include="App\js\navigation.js" />
@@ -2270,6 +2271,7 @@
     <Content Include="css\papercon-style.css" />
     <Content Include="css\place-style.css" />
     <Content Include="css\srw-style.css" />
+    <Content Include="css\std-style.css" />
     <Content Include="css\style.css" />
     <Content Include="css\supercorrexpo-style.css" />
     <Content Include="packages.config" />
@@ -2282,6 +2284,7 @@
     <Content Include="App\scss\place.scss" />
     <Content Include="App\scss\srw.scss" />
     <Content Include="App\scss\variables\_srw.scss" />
+    <Content Include="App\scss\savethedate.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\PLACE-GoogleMapsConfig.js" />
@@ -2292,6 +2295,8 @@
     <None Include="scripts\_references.js" />
     <Content Include="scripts\social-media.js" />
     <Content Include="scripts\SRW-GoogleMapsConfig.js" />
+    <Content Include="Views\HomeTemplate.cshtml" />
+    <Content Include="Views\Master.cshtml" />
     <Content Include="Views\Partials\news.cshtml" />
     <Content Include="Views\SharedContent.cshtml" />
     <Content Include="Views\Web.config" />
@@ -4476,13 +4481,11 @@
     <Content Include="App\scss\_cards.scss" />
     <Content Include="App\scss\_collections.scss" />
     <Content Include="App\package.json" />
-    <Content Include="Views\HomeTemplate.cshtml" />
     <Content Include="App\scss\_nav.scss" />
     <Content Include="Views\ChildTemplate.cshtml" />
     <Content Include="scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\MacroPartials\UiCardMacro.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3bak.cshtml" />
-    <Content Include="Views\Master.cshtml" />
     <Content Include="Views\MacroPartials\TappiTab.cshtml" />
     <Content Include="Views\MacroPartials\Logo.cshtml" />
     <Content Include="Views\Partials\navigation.cshtml" />
@@ -4490,6 +4493,8 @@
     <Content Include="Views\Partials\Footer.cshtml" />
     <Content Include="Views\Partials\Sidebar.cshtml" />
     <Content Include="Views\Partials\Program.cshtml" />
+    <Content Include="Views\SaveTheDateMaster.cshtml" />
+    <Content Include="Views\SaveTheDateHomeTemplate.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

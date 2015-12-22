@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "SaveTheDateMaster.cshtml";
+}
+
+@{
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+    var multiButtons = CurrentPage.buttons;
+}
+@{
+    if(CurrentPage.HasValue("heroImage")) {
+        var hero = Umbraco.Media(CurrentPage.heroImage);
+        <style>
+            .container {
+                background: url(@hero.umbracoFile) no-repeat;
+            }
+        </style>
+    }
+}
+
+<main>
+    <section class="main-content col-md-8">
+        <h2 class="header-lbl">@Umbraco.Field("announcementLabel")</h2>
+        <h1 class="headline">@Umbraco.Field("Headline")</h1>
+        @Umbraco.Field("eventSnippet")
+    </section>
+    <aside class="col-md-4">
+        <h3 class="event-name">@Umbraco.Field("eventName")</h3>
+        <h4 class="event-info">@Umbraco.Field("eventLocation")</h4>
+        <h4 class="event-info">@Umbraco.Field("eventDate")</h4>
+
+        @foreach(var item in multiButtons) {
+            <a href="@item.Url" target="@item.Target">
+                <button class="btn-action">
+                    <span class="button-text">@item.Name</span>
+                    <span class="button-arrow">&#10095;</span>
+                </button>
+            </a>
+        }
+
+        
+    </aside>
+</main>

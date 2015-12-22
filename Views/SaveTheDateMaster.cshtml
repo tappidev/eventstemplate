@@ -1,0 +1,62 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+@{
+    var rootNode = CurrentPage.AncestorOrSelf(1);
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <title>Advanced Coating Symposium</title>
+
+    <!-- Styles & Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/std-style.css">
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <script src="~/scripts/social-media.js"></script>
+</head>
+<body class="">
+    <!----------------------->
+    <div class="container">
+        <section class="nav-container">
+            <ul class="nav">
+                <li><a class="logo" href="http://www.tappi.org/" target="_blank"><img src="~/App/img/TAPPI_logo.png" width="100" /></a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn-action dropdown-toggle" type="button" id="sitesDropdown" data-toggle="dropdown" aria-haspopup="true">
+                            Other TAPPI Websites
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="sitesDropdown">
+                            <li><span class="dropdown-title">Events</span></li>
+                            <li><a href="/media/1049/2016-calendar-of-events.pdf" target="_blank">TAPPI Event Calendar (PDF)</a></li>
+                            <li><a href="http://www.papercon.org/" target="_blank">PaperCon 2016</a></li>
+                            <li><a href="http://www.supercorrexpo.org/" target="_blank">SuperCorrExpo 2016</a></li>
+                            <li><a href="http://events.tappiplace.org/" target="_blank">PLACE 2016</a></li>
+                            <li><a href="http://www.tappisrw.org/" target="_blank">SRW Workshop 2016</a></li>
+                            <li><a href="http://conference.tappinano.org/" target="_blank">International Conference on Nanotechnology 2016</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        @RenderBody()
+    </div>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap" async defer></script>
+    <script src="~/scripts/navigation.js"></script>
+</body>
+</html>

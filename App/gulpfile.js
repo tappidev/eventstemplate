@@ -6,8 +6,7 @@ var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
 var sourcemaps = require('gulp-sourcemaps');
 
-// sass task
-
+// sass tasks
 
 gulp.task('sass', function () {
     gulp.src('scss/style.scss')
@@ -136,5 +135,27 @@ gulp.task('watch-all', ['watch', 'papercon-watch', 'supercorr-watch', 'nano-watc
 
 // create default task
 
-
 gulp.task('default', ['all', 'watch-all']);
+
+/////////////////////////////////////////////////////
+
+// Save the date task
+
+gulp.task('std', function () {
+    gulp.src('scss/savethedate.scss')
+        //.pipe(sourcemaps.init())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
+        //.pipe(sourcemaps.write())
+        .pipe(minifyCss())
+        .pipe(concat('std-style.css'))
+        .pipe(gulp.dest('../css/'));
+});
+
+gulp.task('std-watch', function () {
+    gulp.watch('scss/**/*.scss', ['std'])
+});
+
+gulp.task('watch-std', ['std-watch']);
+gulp.task('std-task', ['std-watch', 'watch-std']);
