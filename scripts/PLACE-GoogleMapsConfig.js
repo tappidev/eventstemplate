@@ -15,7 +15,7 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById('location'), {
         zoom: 14,
-        center: { lat: 39.1, lng: -84.514 },  // Cincinnati
+        center: { lat: 32.756216, lng: -97.331813 },  // Cincinnati
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
         }

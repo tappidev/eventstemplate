@@ -4,7 +4,13 @@
 }
 
 @{
+    Layout = null;
+
     var rootNode = CurrentPage.AncestorOrSelf(1);
+    char[] splitChar = { ',' };
+    string[] docs = CurrentPage.documents.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
+
+    var multiUrlPicker = CurrentPage.multiLink;
 }
 
     <div class="hero">
@@ -91,7 +97,42 @@
 <main role="main" class="row child-body">
 
     <div class="four-col">
-        @Html.Partial("Sidebar")
+        <nav class="sidebar" id="sidebar">
+            @if (Model.Content.Children.Count() > 0 || multiUrlPicker.Any())
+            {
+                <h6>Important Links</h6>
+                <ul>
+                    @foreach (var childPage in CurrentPage.Children)
+                    {
+                        <li><a href="@childPage.Url">@childPage.Name</a></li>
+                    }
+                    @foreach (var item in multiUrlPicker)
+                    {
+                        <li><a href="@item.Url" target="@item.Target">@item.Name</a></li>
+                    }
+                </ul>
+            }
+
+            @if (CurrentPage.Parent.Name != rootNode.Name)
+            {
+                <h6>@CurrentPage.Parent.Name</h6>
+                <ul>
+                    @foreach (var page in CurrentPage.Parent.Children)
+                    {
+                        <li><a @(page.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@page.Url">@page.Name</a></li>
+                    }
+                </ul>
+            }
+            @if (rootNode.HasValue("registerButton"))
+            {
+                <a class="btn btn-action btn-lg" href="@Umbraco.Field("registerButton", recursive: true)" target="_blank">Register Now!</a>
+            }
+            else
+            {
+                <a class="btn btn-disable btn-lg">Registration Opening Soon</a>
+            }
+
+        </nav>
     </div>
 
     <div class="content three-fourth-col">

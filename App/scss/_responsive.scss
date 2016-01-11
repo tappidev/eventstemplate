@@ -75,10 +75,6 @@ header {
         border-radius: 0 !important;
         position: relative !important;
     }
-
-    @include breakpoint($tablet) {
-        margin-top: 2em;
-    }
 }
 
 @include breakpoint($desktop) {
@@ -104,16 +100,9 @@ header {
     }
 }
 
-.tab-target {
+ul.nav {
     @include breakpoint($tablet) {
-        right: 0 !important;
-        padding: 0.5em !important;
-        top: 0;
-        width: 100% !important;
-
-        img {
-            width: 70px !important;
-        }
+        display: none;
     }
 }
 

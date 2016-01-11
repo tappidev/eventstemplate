@@ -2264,6 +2264,8 @@
     <Content Include="App_Data\NuGetBackup\20150812-135819\Config\grid.editors.config.js" />
     <Content Include="App_Data\TEMP\ClientDependency\GB1BCZ1-b11133f5eb2401eadeab849c3da11e92-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
+    <Content Include="App_Plugins\MacroDataTypes\texteditor.controller.js" />
+    <Content Include="App_Plugins\MacroDataTypes\texteditor.html" />
     <Content Include="App_Plugins\RJP.MultiUrlPicker\MultiUrlPicker.html" />
     <Content Include="App_Plugins\RJP.MultiUrlPicker\MultiUrlPicker.js" />
     <Content Include="Config\log4net.config" />
@@ -2271,6 +2273,7 @@
     <Content Include="css\netinc-style.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\papercon-style.css" />
+    <Content Include="css\peers-style.css" />
     <Content Include="css\place-style.css" />
     <Content Include="css\srw-style.css" />
     <Content Include="css\std-style.css" />
@@ -2288,6 +2291,9 @@
     <Content Include="App\scss\variables\_srw.scss" />
     <Content Include="App\scss\savethedate.scss" />
     <Content Include="App_Plugins\RJP.MultiUrlPicker\package.manifest" />
+    <Content Include="App_Plugins\MacroDataTypes\package.manifest" />
+    <Content Include="App\scss\peers.scss" />
+    <Content Include="App\scss\variables\_peers.scss" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\PLACE-GoogleMapsConfig.js" />
@@ -4499,6 +4505,7 @@
     <Content Include="Views\Partials\Program.cshtml" />
     <Content Include="Views\SaveTheDateMaster.cshtml" />
     <Content Include="Views\SaveTheDateHomeTemplate.cshtml" />
+    <Content Include="Views\MacroPartials\ProgramUpload.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4523,9 +4530,7 @@
     <Folder Include="App_Data\packages\created\" />
     <Folder Include="App_Data\preview\" />
     <Folder Include="App_Data\TEMP\Install\" />
-    <Folder Include="App_Plugins\TAPPI.ProgramUpload\" />
     <Folder Include="media\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

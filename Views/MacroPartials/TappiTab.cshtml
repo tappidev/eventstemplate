@@ -1,38 +1,24 @@
 ﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
 
-<div class="tappi-menu-wrapper">
-    <div class="tappi-container global-nav-is-hidden">
-        <nav class="tappi-menu row">
-            <ul class="one-third-col tab-news">
-                <li><h4>TAPPI News</h4></li>
-                <li><img src="~/App/img/speaker1.jpg" width="75%" /></li>
-                <li><p>Visit TAPPI for more information on how you can benefit from our services. TAPPI is known for one-of-a-kind service and a vibrant community keen on learning more.</p></li>
-                <li><a class="btn btn-lg" href="http://www.tappi.org/" target="_blank">Visit TAPPI.org</a></li>
-                <li><a href="#"></a></li>
-            </ul>
-            <ul class="one-third-col divisions">
-                <li><h4>TAPPI Divisions</h4></li>
-                <li><a href="#">Nanotechnology</a></li>
-                <li><a href="#">Corrugated</a></li>
-                <li><a href="#">Pulp and Paper</a></li>
-                <li><a href="#">TAPPISAFE</a></li>
-                <li><a href="#">TAPPI Trees</a></li>
-            </ul>
-            <ul class="one-third-col events">
-                <li><h4>TAPPI Events</h4></li>
-                <li><a href="#">PaperCon</a></li>
-                <li><a href="#">Nanotechnology</a></li>
-                <li><a href="#">PEERS/IBBC</a></li>
-                <li><a href="#">CorrExpo</a></li>
-                <li><a href="#">SuperCorrExpo</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="tab-container">
-        <div class="tappi-menu-tab">
-            <div class="tab-target">
-                <img src="~/App/img/TAPPI_logo.png"/>
+<section class="nav-container">
+    <ul class="nav tab-nav">
+        <li><a class="tab-logo" href="http://www.tappi.org/" target="_blank"><img src="~/App/img/TAPPI_logo.png" width="100" /></a></li>
+        <li>
+            <div class="dropdown">
+                <button class="btn-action dropdown-toggle" type="button" id="sitesDropdown" data-toggle="dropdown" aria-haspopup="true">
+                    Other TAPPI Websites
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="sitesDropdown">
+                    <li><span class="dropdown-title">Events</span></li>
+                    <li><a href="/media/1049/2016-calendar-of-events.pdf" target="_blank">TAPPI Event Calendar (PDF)</a></li>
+                    <li><a href="http://www.papercon.org/" target="_blank">PaperCon 2016</a></li>
+                    <li><a href="http://www.supercorrexpo.org/" target="_blank">SuperCorrExpo 2016</a></li>
+                    <li><a href="http://events.tappiplace.org/" target="_blank">PLACE 2016</a></li>
+                    <li><a href="http://www.tappisrw.org/" target="_blank">SRW Workshop 2016</a></li>
+                    <li><a href="http://conference.tappinano.org/" target="_blank">International Conference on Nanotechnology 2016</a></li>
+                </ul>
             </div>
-        </div>
-    </div>
-</div>
+        </li>
+    </ul>
+</section>
