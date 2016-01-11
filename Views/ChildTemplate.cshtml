@@ -4,8 +4,6 @@
 }
 
 @{
-    Layout = null;
-
     var rootNode = CurrentPage.AncestorOrSelf(1);
     char[] splitChar = { ',' };
     string[] docs = CurrentPage.documents.ToString().Split(splitChar, StringSplitOptions.RemoveEmptyEntries);
