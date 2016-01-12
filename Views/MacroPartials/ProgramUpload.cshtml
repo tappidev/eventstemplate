@@ -6,7 +6,7 @@
     var programUrl = programData.umbracoFile.ToString();
     string jsonData;
 
-    jsonData = System.IO.File.ReadAllText(@"c:\sites\EventsDev\EventsDev\" + programUrl);
+    jsonData = System.IO.File.ReadAllText(@"c:\inetpub\Events\" + programUrl);
     JArray data = JArray.Parse(jsonData);
     int length = data.Count;
     int count = 0;
