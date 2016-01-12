@@ -9,7 +9,6 @@
     jsonData = System.IO.File.ReadAllText(@"c:\inetpub\Events\" + programUrl);
     JArray data = JArray.Parse(jsonData);
     int length = data.Count;
-    int count = 0;
 }
 
 <div class="row child-bg">
@@ -19,16 +18,19 @@
                 <ol class="sessions">
                     @foreach (var array in data)
                     {
-
+                        @* Get array of objects for the "topic" key array *@
                         JArray items = (JArray)array["topic"];
                         int tLength = items.Count;
-
+                        
+                        @* IF the day field has a value, create a new day heading *@
                         if (array["day"].ToString() != "")
                         {
                             <li class="single-session day">
                                 <time class="day-start">@array["day"], @array["date"]</time>
                             </li>
                         }
+                        @* ELSE, just... *@
+
 
                         <li class="single-session">
                             <time>@array["time"]</time>
@@ -51,10 +53,6 @@
                                     }
 
                                 }
-
-
-
-
                             </div>
                         </li>
                     }
