@@ -2266,6 +2266,8 @@
     <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="App_Plugins\MacroDataTypes\texteditor.controller.js" />
     <Content Include="App_Plugins\MacroDataTypes\texteditor.html" />
+    <Content Include="App_Plugins\ProgramUpload\ProgramUpload.controller.js" />
+    <Content Include="App_Plugins\ProgramUpload\ProgramUpload.html" />
     <Content Include="App_Plugins\RJP.MultiUrlPicker\MultiUrlPicker.html" />
     <Content Include="App_Plugins\RJP.MultiUrlPicker\MultiUrlPicker.js" />
     <Content Include="Config\log4net.config" />
@@ -2294,6 +2296,7 @@
     <Content Include="App_Plugins\MacroDataTypes\package.manifest" />
     <Content Include="App\scss\peers.scss" />
     <Content Include="App\scss\variables\_peers.scss" />
+    <Content Include="App_Plugins\ProgramUpload\package.manifest" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\Nanotechnology-GoogleMapsConfig.js" />
     <Content Include="scripts\PLACE-GoogleMapsConfig.js" />

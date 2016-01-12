@@ -1,9 +1,66 @@
-﻿@model EventsDev.Models.ProgramUploadModel
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
 @{
+    dynamic programData = Umbraco.Media(Model.MacroParameters["DocData"]);
+    var programUrl = programData.umbracoFile.ToString();
+    string jsonData;
+
+    jsonData = System.IO.File.ReadAllText(@"c:\sites\EventsDev\EventsDev\" + programUrl);
+    JArray data = JArray.Parse(jsonData);
+    int length = data.Count;
+    int count = 0;
 }
 
-            <div class="row">
-                <div class="page-head">
-                    <p>@Model.section2</p>
-                </div>
+<div class="row child-bg">
+    <div class="one-col">
+        <div role="article">
+            <div class="event-program">
+                <ol class="sessions">
+                    @foreach (var array in data)
+                    {
+
+                        JArray items = (JArray)array["topic"];
+                        int tLength = items.Count;
+
+                        if (array["day"].ToString() != "")
+                        {
+                            <li class="single-session day">
+                                <time class="day-start">@array["day"], @array["date"]</time>
+                            </li>
+                        }
+
+                        <li class="single-session">
+                            <time>@array["time"]</time>
+                            <div class="session-description">
+                                <h6>@array["session"] @array["session_title"]</h6>
+                                @if (array["session_chair"].ToString() != "")
+                                {
+                                    <p><strong>Session Chair:</strong> @array["session_chair"]</p>
+                                }
+
+                                @for (int i = 0; i < tLength; i++)
+                                {
+
+                                    if (items[i]["description"].ToString() != "")
+                                    {
+                                        <div class="topic-group">
+                                            <span style="font-weight: 800; font-style: italic;">"@items[i]["description"]"</span><br />
+                                            <span>@items[i]["speaker"]</span>
+                                        </div>
+                                    }
+
+                                }
+
+
+
+
+                            </div>
+                        </li>
+                    }
+                </ol>
             </div>
+
+        </div>
+    </div>
+</div>

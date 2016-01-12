@@ -80,4 +80,3 @@ C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.dll
 C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.pdb
 C:\Sites\EventsDev\EventsDev\bin\EventsDev.dll.config
 C:\Sites\EventsDev\EventsDev\bin\Umbraco.RelationEditor.dll
-C:\Sites\EventsDev\EventsDev\obj\Debug\EventsDev.csprojResolveAssemblyReference.cache

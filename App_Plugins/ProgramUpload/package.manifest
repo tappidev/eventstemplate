@@ -1,0 +1,13 @@
+﻿{
+    propertyEditors: [{
+        alias: "ProgramUpload",
+        name: "Program Uploader",
+        isParameterEditor: true,
+        editor: {
+            view: "~/App_Plugins/ProgramUpload/ProgramUpload.html"
+        }
+    }],
+    javascript: [
+    "~/App_Plugins/ProgramUpload/ProgramUpload.controller.js"
+    ]
+}
