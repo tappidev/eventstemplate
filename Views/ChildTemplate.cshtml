@@ -117,7 +117,7 @@
                 <ul>
                     @foreach (var page in CurrentPage.Parent.Children)
                     {
-                        <li><a @(page.hiddenNavEl.ToString() == "Hidden" ? "class=hidden" : "") href="@page.Url">@page.Name</a></li>
+                        <li><a href="@page.Url">@page.Name</a></li>
                     }
                 </ul>
             }
